@@ -12,7 +12,7 @@ permalink: /getting-started/
 * [Already using SeqAn?](https://docs.seqan.de/seqan3.html)
 
   See the latest API Documentation
-* [Find un on Github](https://github.com/seqan)
+* [Find us on Github](https://github.com/seqan)
 
   Our code is all open source
 
