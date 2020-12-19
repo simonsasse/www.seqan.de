@@ -7,9 +7,9 @@ permalink: /people/
 {% for person in site.people %}
 # {{person.name}} - <small>{{person.position}}</small>
 
-{%- if person.avatar %}
+{% if person.avatar %}
 ![{{person.name}} Picture]({{person.avatar}})
-{% endif -%}
+{% endif %}
 
 ### Biography:
 {{ person.content | markdownify }}
