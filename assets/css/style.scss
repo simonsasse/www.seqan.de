@@ -2,15 +2,38 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$content-width: 1024px;
-
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
+$news-entry-sep: 1.5em !default;
+
 .site-logo {
     max-height: 44px;
     padding: 5px;
+}
+
+.site-footer {
+  background-color: $site-footer-background-color;
+
+  a {
+    color: $site-footer-link-base-color;
+    text-decoration: none;
+
+    &:visited {
+      color: $site-footer-link-visited-color;
+    }
+
+    &:hover {
+      color: $site-footer-link-hover-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-col-wrapper
+{
+  color: $site-footer-color;
 }
 
 // ====== Button Style ======
@@ -27,12 +50,12 @@ $content-width: 1024px;
   background: #eaeaea;
 }
 .button-lightgray:hover {
-  border: 1px solid #fede09;
-  background: #fede09;
+  border: 1px solid $seqan-color;
+  background: $seqan-color;
 }
 .button-lightgray:active, .button-lightgray:focus {
   border: 1px solid #eaeaea;
-  background: #fede09;
+  background: $seqan-color;
 }
 
 
@@ -45,7 +68,7 @@ $content-width: 1024px;
 .news-entries {
   display: flex;
   flex-flow: row wrap;
-  margin-left: -1.5em;
+  margin-left: -$news-entry-sep;
 }
 .news-entry, .news-body {
   display: flex;
@@ -56,17 +79,17 @@ $content-width: 1024px;
 }
 
 .news-entry {
-  border: 1px solid #fede09;
+  border: 1px solid $seqan-color;
 
   margin-top: 1em;
-  margin-left: 1.5em;
+  margin-left: $news-entry-sep;
 
   box-sizing: border-box;
 
-  max-width: calc(100% / 3 - 1.5em);
+  max-width: calc(100% / 3 - #{$news-entry-sep});
 
   @include media-query($on-laptop) {
-    max-width: calc(100% / 2 - 1.5em);
+    max-width: calc(100% / 2 - #{$news-entry-sep});
   }
 
   @include media-query($on-palm) {
@@ -80,7 +103,7 @@ $content-width: 1024px;
   margin-bottom: 1em;
 }
 .news-date-month-year {
-  background: #fede09;
+  background: $seqan-color;
   padding: 1em 0em;
 
   text-transform: uppercase;
