@@ -7,10 +7,10 @@ permalink: /people/
 # Team
 
 {% for person in site.people %}
-## {{person.name}} - <small>{{person.position}}</small>
+## {{ person.name }} - <small>{{ person.position }}</small>
 
 {% if person.avatar %}
-![{{person.name}} Picture]({{person.avatar}})
+![{{ person.name }} Picture]({{ person.avatar | relative_url }})
 {% endif %}
 
 ### Biography:
