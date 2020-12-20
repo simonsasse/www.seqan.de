@@ -20,5 +20,5 @@ in your academic work.
 ### Official
 
 {% for app in site.apps %}
-* [{{app.title}}]({{app.url}})
+* [{{ app.title }}]({{ app.url | relative_url }})
 {% endfor %}
