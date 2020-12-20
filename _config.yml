@@ -53,8 +53,13 @@ collections:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+- 01_news.md
+- 02_getting_started.md
+- 03_people.md
+- 04_applications.md
+- 05_publications.md
+- 06_contact.md
 
 # Build settings
 theme: minima
