@@ -13,6 +13,18 @@ $news-entry-sep: 1.5em !default;
     padding: 5px;
 }
 
+.site-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background: $background-color;
+  z-index: 99999;
+
+  @include media-query($on-palm) {
+    position: static;
+  }
+}
+
 .site-footer {
   background-color: $site-footer-background-color;
 
