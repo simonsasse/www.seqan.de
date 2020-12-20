@@ -2,12 +2,15 @@
 layout: post
 title: "SeqAn 3.0.2 released"
 categories: release
+excerpt_separator: <!--more-->
 ---
 
 Dear SeqAn users, supporters, and subscribers,
 
 today we present a new update of the SeqAn library. Hooray!!!
 The following highlights are present in the current release.
+
+<!--more-->
 
 ### General C++-20 support
 

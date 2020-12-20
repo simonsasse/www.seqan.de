@@ -16,27 +16,35 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
+<style>
+</style>
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+    <div class="news-entries">
       {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
+      <div class="news-entry">
+        <div class="news-header">
+          <div class="news-date-month-year">{{ post.date | date: "%B, %Y" }}</div>
+          <div class="news-date-day">{{ post.date | date: "%d" }}</div>
+        </div>
+        <div class="news-body">
+          <div class="news-title">{{ post.title | escape }}</div>
+
+          <div class="news-text">
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
+          </div>
+
+          <a class="button button-lightgray button-full-width" href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+      </div>
       {%- endfor -%}
-    </ul>
+    </div>
 
     {% if site.paginate %}
       <div class="pager">

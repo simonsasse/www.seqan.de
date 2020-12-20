@@ -2,12 +2,126 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$content-width: 1024px;
+
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-.site-logo
-{
+.site-logo {
     max-height: 44px;
     padding: 5px;
+}
+
+// ====== Button Style ======
+.button {
+  padding: 13px 19px;
+  text-align: center;
+}
+.button, .button:visited, .button:hover {
+  color: black;
+  text-decoration: none;
+}
+.button-lightgray {
+  border: 1px solid #eaeaea;
+  background: #eaeaea;
+}
+.button-lightgray:hover {
+  border: 1px solid #fede09;
+  background: #fede09;
+}
+.button-lightgray:active, .button-lightgray:focus {
+  border: 1px solid #eaeaea;
+  background: #fede09;
+}
+
+
+.button-full-width {
+  display: block;
+}
+
+// ====== News Style ======
+
+.news-entries {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: -1.5em;
+}
+.news-entry, .news-body {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.news-body, .news-text {
+  flex: auto;
+}
+
+.news-entry {
+  border: 1px solid #fede09;
+
+  margin-top: 1em;
+  margin-left: 1.5em;
+
+  box-sizing: border-box;
+
+  max-width: calc(100% / 3 - 1.5em);
+
+  @include media-query($on-laptop) {
+    max-width: calc(100% / 2 - 1.5em);
+  }
+
+  @include media-query($on-palm) {
+    max-width: none;
+  }
+}
+
+.news-header {
+  font-size: 1.25em;
+  color: white;
+  margin-bottom: 1em;
+}
+.news-date-month-year {
+  background: #fede09;
+  padding: 1em 0em;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+.news-date-day {
+  color: white;
+  font-size: 2.25em;
+  font-weight: bold;
+
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  line-height: 3.5em;
+  vertical-align: middle;
+  margin-top: -1.5em;
+  width: 2.5em;
+  height: 2.5em;
+}
+.news-date-day::before {
+  display: block;
+  content: "";
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 2.5em;
+  background: rgb(254, 222, 9);
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+}
+.news-body {
+  padding: 0em 0.75em 0.75em;
+}
+.news-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-bottom: 0.75em;
+}
+.news-text {
+  min-height: 150px;
 }
