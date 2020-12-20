@@ -48,6 +48,73 @@ $news-entry-sep: 1.5em !default;
   color: $site-footer-color;
 }
 
+// ====== Sticky back-to-top ======
+
+/* https://moderncss.dev/pure-css-smooth-scroll-back-to-top/ by Stephanie Eckles */
+
+$back-to-top-width: 48px;
+$back-to-top-height: 35px;
+
+main {
+  position: relative;
+}
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+.back-to-top-wrapper {
+  clip: rect(0px, $back-to-top-width, auto, 0);
+
+  // uncomment to visualize "track"
+  // outline: 1px solid red;
+  position: absolute;
+  top: 100vh;
+  right: $spacing-unit;
+  // Optional, extends the final link into the
+  // footer at the bottom of the page
+  // Set to `0` to stop at the end of `main`
+  bottom: -1px;
+  // Required for best support in browsers not supporting `sticky`
+  width: $back-to-top-width;
+  // Disable interaction with this element
+  pointer-events: none;
+}
+.back-to-top-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2em;
+  line-height: $back-to-top-height;
+  text-align: center;
+  width: $back-to-top-width;
+  height: $back-to-top-height;
+  border-radius: 6px 6px 0 0;
+  background-color: $site-footer-background-color;
+  /* emoji don't behave like regular fonts
+     so this helped position it correctly */
+  /*! padding: 0.25rem; */
+  // `fixed` is fallback when `sticky` not supported
+  position: fixed;
+  // preferred positioning, requires prefixing for most support, and not supported on Safari
+  // @link https://caniuse.com/#search=position%3A%20sticky
+  position: -webkit-sticky;
+  position: sticky;
+  // reinstate clicks
+  pointer-events: all;
+  // achieves desired positioning within the viewport
+  // relative to the top of the viewport once `sticky` takes over, or always if `fixed` fallback is used
+  top: calc(100vh - #{$back-to-top-height});
+  opacity: 0.9;
+
+  color: white !important;
+  text-decoration: none !important;
+  &:hover, &:focus
+  {
+    background-color: $seqan-color;
+  }
+}
+
 // ====== Button Style ======
 .button {
   padding: 13px 19px;
