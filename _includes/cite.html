@@ -1,7 +1,32 @@
-{% if include.cite == 'Holtgrewe:2015bna' %}
-Holtgrewe, Manuel, Leon Kuchenbecker, and Knut Reinert. <a
-href="http://bioinformatics.oxfordjournals.org/content/31/12/1904">“Methods for the detection and assembly of novel
-sequence in high-throughput sequencing data.”</a> Bioinformatics (2015) 31 (12): 1904-1912.
-{% else %}
+{%- assign cite = site.data.publications | where: "id", include.cite | first -%}
+{%- if cite -%}
+    {{ cite.author }}
+    {%- if cite.doi -%}
+    , <a href="https://doi.org/{{ cite.doi }}">“{{ cite.title }}”</a>
+    {%- else -%}
+    , “{{ cite.title }}”
+    {%- endif -%}
+
+    {%- if cite.journal -%}
+    , {{ cite.journal }}
+    {%- endif -%}
+
+    {%- if cite.volume -%}
+    , vol. {{ cite.volume }}
+    {%- endif -%}
+
+    {%- if cite.number -%}
+    , iss. {{ cite.number }}
+    {%- endif -%}
+
+    {%- if cite.pages -%}
+    , p. {{ cite.pages }}
+    {%- endif -%}
+
+    {%- if cite.year -%}
+    , {{ cite.year }}
+    {%- endif -%}
+    .
+{%- else -%}
 ERROR: no citation found
-{% endif %}
+{%- endif -%}

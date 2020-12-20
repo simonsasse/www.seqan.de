@@ -1,0 +1,17 @@
+- id: Holtgrewe:2015bna
+  author: M. Holtgrewe, L. Kuchenbecker, and K. Reinert
+  title: Methods for the detection and assembly of novel sequence in high-throughput sequencing data.
+  journal: Bioinformatics (Oxford, England)
+  year: 2015
+  volume: 31
+  number: 12
+  pages: 1904-1912
+  doi: 10.1093/bioinformatics/btv051
+- id: fu_mi_publications2103
+  author: K. Reinert, T. H. Dadi, M. Ehrhardt, H. Hauswedell, S. Mehringer, R. Rahn, J. Kim, C. Pockrandt, J. Winkler, E. Siragusa, G. Urgese, and D. Weese
+  title: "The SeqAn C++ template library for efficient sequence analysis: A resource for programmers"
+  journal: Journal of Biotechnology
+  year: 2017
+  volume: 261
+  pages: 157-168
+  doi: 10.1016/j.jbiotec.2017.07.017
