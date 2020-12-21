@@ -2,9 +2,12 @@
 layout: page
 title: Contact
 permalink: /contact/
+header:
+  openstreetmap:
+    bbox: 13.294473588466646,52.45494698166798,13.299719989299776,52.45700313231881
+    layer: mapnik
+    marker: 52.45597506899463,13.29709678888321
 ---
-
-<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=13.294473588466646%2C52.45494698166798%2C13.299719989299776%2C52.45700313231881&amp;layer=mapnik&amp;marker=52.45597506899463%2C13.29709678888321" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=52.45598&amp;mlon=13.29710#map=19/52.45598/13.29710">View Larger Map</a></small>
 
 # Contact Info
 
@@ -14,7 +17,7 @@ Freie Universität Berlin \\
 Institut für Informatik \\
 Algorithmische Bioinformatik
 
-Takustr. 9 14195 Berlin
+[Takustr. 9 14195 Berlin](https://www.openstreetmap.org/?mlat={{ page.header.openstreetmap.marker | split: "," | first }}&amp;mlon={{ page.header.openstreetmap.marker | split: "," | last }}#map=19/{{ page.header.openstreetmap.marker | split: "," | first }}/{{ page.header.openstreetmap.marker | split: "," | last }})
 
 * Phone: +49 (0)30 838-75237
 * Email: [seqan-dev@lists.fu-berlin.de](mailto:seqan-dev@lists.fu-berlin.de)
