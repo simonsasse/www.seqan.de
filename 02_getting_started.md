@@ -2,23 +2,26 @@
 layout: page
 title: Getting Started
 permalink: /getting-started/
+header:
+  overlay_image: http://www.seqan.de/wp-content/uploads/2015/12/getting_started.jpg
+headings:
+  - url: "https://docs.seqan.de/seqan/3-master-user/usergroup1.html"
+    title: New to SeqAn?
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: Step by step introduction to SeqAn
+  - url: "https://docs.seqan.de/seqan3.html"
+    title: Already using SeqAn?
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: See the latest API Documentation
+  - url: "https://github.com/seqan"
+    title: Find us on Github
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: Our code is all open source
 ---
 
 # Welcome to the SeqAn Library
 
-* [New to SeqAn?](https://docs.seqan.de/seqan/3-master-user/usergroup1.html)
-
-  Step by step introduction to SeqAn
-* [Already using SeqAn?](https://docs.seqan.de/seqan3.html)
-
-  See the latest API Documentation
-* [Find us on Github](https://github.com/seqan)
-
-  Our code is all open source
-
-{% comment %}
-TODO: add fancy big icons
-{% endcomment %}
+{% include headings.html %}
 
 # Do you have any specific question or issue?
 

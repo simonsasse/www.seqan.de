@@ -48,6 +48,18 @@ $news-entry-sep: 1.5em !default;
   color: $site-footer-color;
 }
 
+// ====== Hero page ======
+
+.page-header {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 434px;
+  height: 50vw;
+  min-height: 200px;
+  max-height: 434px;
+}
+
 // ====== Sticky back-to-top ======
 
 /* https://moderncss.dev/pure-css-smooth-scroll-back-to-top/ by Stephanie Eckles */
@@ -163,14 +175,14 @@ main {
 
   box-sizing: border-box;
 
-  max-width: calc(100% / 3 - #{$news-entry-sep});
+  width: calc(100% / 3 - #{$news-entry-sep});
 
   @include media-query($on-laptop) {
-    max-width: calc(100% / 2 - #{$news-entry-sep});
+    width: calc(100% / 2 - #{$news-entry-sep});
   }
 
   @include media-query($on-palm) {
-    max-width: none;
+    width: 100%;
   }
 }
 
@@ -232,14 +244,14 @@ main {
 
   box-sizing: border-box;
 
-  max-width: calc(100% / 3 - #{$news-entry-sep});
+  width: calc(100% / 3 - #{$news-entry-sep});
 
   @include media-query($on-laptop) {
-    max-width: calc(100% / 2 - #{$news-entry-sep});
+    width: calc(100% / 2 - #{$news-entry-sep});
   }
 
   @include media-query($on-palm) {
-    max-width: none;
+    width: 100%;
   }
 }
 .news-body {
