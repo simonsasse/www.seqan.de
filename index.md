@@ -7,6 +7,8 @@
 #
 layout: home
 title: null
+header:
+  overlay_image: http://www.seqan.de/wp-content/uploads/2014/11/header_c-scaled.jpg
 headings:
   - url: "./#data_structures"
     title: Data Structures
