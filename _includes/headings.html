@@ -1,0 +1,19 @@
+<div class="heading-entries">
+{% for heading in page.headings %}
+  <div class="heading-entry">
+    <div class="heading-header">
+      <a class="heading-link" href="{{ heading.url | relative_url }}">
+        <span class="heading-icon"><img alt="" src="{{ heading.image | relative_url }}" /></span>
+        <span class="heading-title">{{ heading.title | escape }}</span>
+      </a>
+    </div>
+    <div class="heading-body">
+      <div class="heading-text">
+      {%- if site.show_excerpts -%}
+        {{ heading.excerpt }}
+      {%- endif -%}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>

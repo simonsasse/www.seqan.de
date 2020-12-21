@@ -7,6 +7,42 @@
 #
 layout: home
 title: null
+headings:
+  - url: "./#data_structures"
+    title: Data Structures
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      SeqAn offers many data structures for sequence analysis. For example a unified interface for searching in string
+      indices or succinct data structures for pangenomics.
+  - url: "./#algorithms"
+    title: Algorithms
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      SeqAn offer many core algorithms for sequence analysis. For example, pairwise and multiple alignments, approximate
+      string searches and filter algorithms.
+  - url: "./#parallelization"
+    title: Parallelization
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core
+      algorithmic components.
+  - url: "./#input_and_output"
+    title: Input and Output
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      In times of large sequencing data fast I/O is crucial. Learn about SeqAn I/O modules and supported data formats.
+  - url: "./#apps"
+    title: Apps
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      Many efficient applications by different scientific groups and companies are based on SeqAn. Official applications
+      by SeqAn project members are presented here and also some third party apps.
+  - url: "./#workflows"
+    title: Workflows
+    image: /assets/images/icons/ico-structures.svg
+    excerpt: >
+      Often several applications are connected in involved scientific workflows. SeqAn supports easy integration of its
+      applications into workflows.
 ---
 
 # What is SeqAn?
@@ -16,33 +52,7 @@ focus on biological data. Our library applies a unique generic design that guara
 extensibility, and integration with other libraries. SeqAn is easy to use and simplifies the development of new software
 tools with a minimal loss of performance.
 
-* DATA STRUCTURES
-
-  SeqAn offers many data structures for sequence analysis. For example a unified interface for searching in string
-  indices or succinct data structures for pangenomics.
-* ALGORITHMS
-
-  SeqAn offer many core algorithms for sequence analysis. For example, pairwise and multiple alignments, approximate
-  string searches and filter algorithms.
-* PARALLELIZATION
-
-  SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core algorithmic
-  components.
-* Input and Output
-
-  In times of large sequencing data fast I/O is crucial. Learn about SeqAn I/O modules and supported data formats.
-* APPS
-
-  Many efficient applications by different scientific groups and companies are based on SeqAn. Official applications by
-  SeqAn project members are presented here and also some third party apps.
-* WORKFLOWS
-
-  Often several applications are connected in involved scientific workflows. SeqAn supports easy integration of its applications into workflows.
-
-{% comment %}
-TODO: fancy big icons
-TODO: and links
-{% endcomment %}
+{% include headings.html %}
 
 # Center for Integrative Bioinformatics
 
