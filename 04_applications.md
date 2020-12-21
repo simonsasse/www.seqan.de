@@ -2,6 +2,8 @@
 layout: page
 title: Applications
 permalink: /apps/
+header:
+  overlay_image: https://www.researchgate.net/publication/318738093/figure/fig1/AS:574227122057216@1513917822295/Workflow-for-the-identification-and-quantification-of-microorganisms-within-microbial.png
 ---
 
 SeqAn is the foundation of many modern bioinformatics applications. Some of them are developed by the SeqAn team, mostly

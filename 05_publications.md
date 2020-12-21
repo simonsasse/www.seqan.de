@@ -2,6 +2,8 @@
 layout: page
 title: Publications
 permalink: /publications/
+header:
+  overlay_image: http://www.seqan.de/wp-content/uploads/2016/02/apps.png
 ---
 
 On the left you have access to the archive of SeqAn-related publications. Please see [Google
