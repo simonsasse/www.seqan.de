@@ -1,5 +1,6 @@
 ---
 name: Knut Reinert
+category: Team
 position: Head of the group
 avatar: /assets/images/people/knut_reinert.jpg
 social_links:
