@@ -18,7 +18,7 @@
   abstract: "This proceedings volume contains papers presented at the 17th Workshop
     on Algorithms in Bioinformatics (WABI 2017), which was held in Boston, MA, USA
     in conjunction with the 8th ACM Conference on Bioinformatics, Computational Biology,
-    and Health Informatics (ACM BCB) from August 21–23, 2017.\r\nThe Workshop on Algorithms
+    and Health Informatics (ACM BCB) from August 21–23, 2017.The Workshop on Algorithms
     in Bioinformatics is an annual conference established in 2001 to cover all aspects
     of algorithmic work in bioinformatics, computational biology, and systems biology.
     The workshop is intended as a forum for discrete algorithms and machine-learning
@@ -26,29 +26,29 @@
     on sound models, that are computationally efficient, and that have been implemented
     and tested in simulations and on real datasets. The meeting’s focus is on recent
     research results, including significant work-in-progress, as well as identifying
-    and explore directions of future research.\r\nWABI 2017 is grateful for the support
+    and explore directions of future research.WABI 2017 is grateful for the support
     of ACM-BCB in allowing us to cohost the meetings, as well as to ACM-BCB’s sponsors:
-    the Association for Computing Machinery (ACM) and ACM’s SIGBIO.\r\nIn 2017, a
+    the Association for Computing Machinery (ACM) and ACM’s SIGBIO.In 2017, a
     total of 55 manuscripts were submitted to WABI from which 27 were selected for
     presentation at the conference. This year, WABI is adopting a new proceedings
     form, publishing the conference proceedings through the LIPIcs (Leibniz International
     Proceedings in Informatics) proceedings series. Extended versions of selected
     papers will be invited for publication in a thematic series in the journal Algorithms
-    for Molecular Biology (AMB), published by BioMed Central.\r\nThe 27 papers were
+    for Molecular Biology (AMB), published by BioMed Central.The 27 papers were
     selected based on a thorough peer review, involving at least three independent
     reviewers per submitted paper, followed by discussions among the WABI Program
     Committee members. The selected papers cover a wide range of topics, including
     statistical inference, phylogenetic studies, sequence and genome analysis, comparative
-    genomics, and mass spectrometry data analysis.\r\nWe thank all the authors of
+    genomics, and mass spectrometry data analysis.We thank all the authors of
     submitted papers and the members of the WABI Program Committee and their reviewers
     for their efforts that made this conference possible. We are also grateful to
     the WABI Steering Committee for their help and advice. We also thank all the conference
-    participants and speakers who contribute to a great scientific program. In\r\nparticular,
+    participants and speakers who contribute to a great scientific program. Inparticular,
     we are indebted to the keynote speaker of the conference, Tandy Warnow, for her
-    presentation. We also thank Christopher Pockrandt for setting up the WABI webpage\r\nand
+    presentation. We also thank Christopher Pockrandt for setting up the WABI webpageand
     Umit Acar for his help with coordinating the WABI and ACM-BCB pages. Finally,
     we thank the ACM-BCB Organizing Committee, especially Nurit Haspel and Lenore
-    Cowen,\r\nfor their hard work in making all of the local arrangements and working
+    Cowen,for their hard work in making all of the local arrangements and working
     closely with us to ensure a successful and exciting WABI and ACM-BCB."
   editors:
   - id:
@@ -108,28 +108,28 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/1143
   official_url: http://dx.plos.org/10.1371/journal.pone.0040656
   abstract: "Background: Proteases play an essential part in a variety of biological
-    processes. Beside their importance\r\nunder healthy conditions they are also known
-    to have a crucial role in complex diseases like cancer.\r\nIt was shown in the
-    last years that not only the fragments produced by proteases but also their dynamics,\r\nespecially
+    processes. Beside their importanceunder healthy conditions they are also known
+    to have a crucial role in complex diseases like cancer.It was shown in the
+    last years that not only the fragments produced by proteases but also their dynamics,especially
     ex vivo, can serve as biomarkers. But so far, only a few approaches were taken
-    to explicitly\r\nmodel the dynamics of proteolysis in the context of mass spectrometry.\r\n\r\nResults:
+    to explicitlymodel the dynamics of proteolysis in the context of mass spectrometry.Results:
     We introduce a new concept model proteolytic processes, the degradation graph.
-    The degra-\r\ndation graph is an extension of the cleavage graph, a data structure
-    to reconstruct and visualize the\r\nproteolytic process. In contrast to previous
-    approaches we extended the model to incorporate endoproteolytic\r\nprocesses and
-    present a method to construct a degradation graph from mass spectrometry\r\ntime-series
+    The degra-dation graph is an extension of the cleavage graph, a data structure
+    to reconstruct and visualize theproteolytic process. In contrast to previous
+    approaches we extended the model to incorporate endoproteolyticprocesses and
+    present a method to construct a degradation graph from mass spectrometrytime-series
     data. Based on a degradation graph and the intensities extracted from the mass
-    spectra it is\r\npossible to estimate reaction rates of the underlying processes.
-    We further suggest a score to rate different\r\ndegradation graphs in their ability
-    to explain the observed data. This score is used in an iterative\r\nheuristic
-    to improve the structure of the initially constructed degradation graph.\r\n\r\nConclusion:
-    We show that the proposed method is able to recover all degraded and generated\r\npeptides,
+    spectra it ispossible to estimate reaction rates of the underlying processes.
+    We further suggest a score to rate differentdegradation graphs in their ability
+    to explain the observed data. This score is used in an iterativeheuristic
+    to improve the structure of the initially constructed degradation graph.Conclusion:
+    We show that the proposed method is able to recover all degraded and generatedpeptides,
     the underlying reactions, and the reaction rates of proteolytic processes based
-    on mass spectrometry\r\ntime-series data. We use simulated and real data to demonstrate
-    that a given process can be\r\nreconstructed even in the presence of extensive
-    noise, isobaric signals and false identications. While the\r\nmodel is currently
+    on mass spectrometrytime-series data. We use simulated and real data to demonstrate
+    that a given process can bereconstructed even in the presence of extensive
+    noise, isobaric signals and false identications. While themodel is currently
     only validated on peptide data it is also applicable to proteins, as long as the
-    necessary\r\ntime series data can be produced."
+    necessarytime series data can be produced."
   status_changed: '2013-04-10 11:52:42'
   title: Inferring Proteolytic Processes from Mass Spectrometry Time Series Data Using
     Degradation Graphs
@@ -389,14 +389,14 @@
   dir: disk0/00/00/03/26
   eprint_status: archive
   uri: http://publications.imp.fu-berlin.de/id/eprint/326
-  event_title: "Proceedings of the 1st European Conference on Computational Biology\t(ECCB
+  event_title: "Proceedings of the 1st European Conference on Computational Biology(ECCB
     2002)"
   lastmod: '2017-03-03 14:40:13'
   ispublished: pub
   userid: 1
   type: conference_item
   rev_number: 3
-  title: "Multiple Sequence alignment with arbitrary gap costs: Computing an\toptimal
+  title: "Multiple Sequence alignment with arbitrary gap costs: Computing anoptimal
     solution using polyhedral combinatorics"
   status_changed: '2009-03-11 11:26:44'
   datestamp: '2017-03-03 14:40:13'
@@ -853,11 +853,11 @@
   type: monograph
   title: Approximating Minimum Spanning Sets in Hypergraphs and Polymatroids
   status_changed: '2009-03-11 11:26:46'
-  keywords: "Hypergraphs, set systems, and designs, Steiner trees, Approximation\talgorithms,
-    Colouring, packing and covering, Combinatorial optimization,\r\n\tGraph algorithms"
+  keywords: "Hypergraphs, set systems, and designs, Steiner trees, Approximationalgorithms,
+    Colouring, packing and covering, Combinatorial optimization,Graph algorithms"
   uri: http://publications.imp.fu-berlin.de/id/eprint/329
-  note: "This paper was already accepted for ICALP 2000 but we did not present\tit
-    since later we were informed that the main result had already\r\n\tbeen proven
+  note: "This paper was already accepted for ICALP 2000 but we did not presentit
+    since later we were informed that the main result had alreadybeen proven
     in a different way."
   lastmod: '2009-04-14 14:41:05'
   ispublished: pub
@@ -887,7 +887,7 @@
   eprintid: 331
   refereed: 'TRUE'
   status_changed: '2009-03-11 11:26:47'
-  title: "An Exact Mathematical Programming Approach to Multiple RNA Sequence-Structure\tAlignment."
+  title: "An Exact Mathematical Programming Approach to Multiple RNA Sequence-StructureAlignment."
   type: article
   rev_number: 3
   userid: 1
@@ -917,7 +917,7 @@
   rev_number: 3
   userid: 1
   status_changed: '2009-03-11 11:26:49'
-  title: "Fast and Accurate Structural RNA Alignment by Progressive Lagrangian\tRelaxation"
+  title: "Fast and Accurate Structural RNA Alignment by Progressive LagrangianRelaxation"
   datestamp: '2017-03-03 14:40:13'
   creators:
   - name:
@@ -936,7 +936,7 @@
       family: Reinert
       lineage:
   uri: http://publications.imp.fu-berlin.de/id/eprint/334
-  event_title: "Proceedings of the 1st International Symposium on Computational Life\tScience
+  event_title: "Proceedings of the 1st International Symposium on Computational LifeScience
     (CompLife-05)"
   lastmod: '2017-03-03 14:40:13'
   ispublished: pub
@@ -1008,7 +1008,7 @@
   - G400
   lastmod: '2017-03-03 14:40:13'
   ispublished: pub
-  event_title: "Proceedings of the 15th International Symposium, ISAAC 2004, Hong\tKong"
+  event_title: "Proceedings of the 15th International Symposium, ISAAC 2004, HongKong"
   uri: http://publications.imp.fu-berlin.de/id/eprint/330
   creators:
   - name:
@@ -1047,7 +1047,7 @@
   datestamp: '2017-03-03 14:40:13'
   publication: BMC Bioinformatics
   status_changed: '2009-03-11 11:26:48'
-  title: "Accurate multiple sequence-structure alignment of RNA sequences using\tcombinatorial
+  title: "Accurate multiple sequence-structure alignment of RNA sequences usingcombinatorial
     optimization."
   rev_number: 3
   type: article
@@ -1135,18 +1135,18 @@
   publication: Algorithms and Molecular Sciences
   status_changed: '2009-10-28 12:51:35'
   abstract: "This work presents a generalized approach for the fast structural alignment
-    \r\nof thousands of macromolecular structures. The method uses string representations
+    of thousands of macromolecular structures. The method uses string representations
     of a macromolecular structure and a hash table that stores n-grams of a certain
-    size for searching. \r\nTo this end, macromolecular structure-to-string translators
+    size for searching. To this end, macromolecular structure-to-string translators
     were implemented for protein and RNA structures. A query against the index is
     performed in two hierarchical steps to unite speed and precision. In the ﬁrst
     step the query structure is translated into n-grams, and all target structures
-    containing these n-grams are retrieved from the hash table. In the second \r\nstep
+    containing these n-grams are retrieved from the hash table. In the second step
     all corresponding n-grams of the query and each target structure are subsequently
     aligned, and after each alignment a score is calculated based on the matching
     n-grams of query and target. The extendable framework enables the user to query
     and structurally align thousands of protein and RNA structures on a commodity
-    machine and is available as \r\nopen source from http://la jolla.sf.net. "
+    machine and is available as open source from http://la jolla.sf.net. "
   title: Fast Structural Alignment of Biomolecules Using a Hash Table, N-Grams and
     String Descriptors
   type: article
@@ -1344,38 +1344,38 @@
   title: Quantification and Simulation of Liquid Chromatography-Mass Spectrometry
     Data
   abstract: "Computational mass spectrometry is a fast evolving field that has attracted
-    increased attention over the last couple of years.\r\nThe performance of software
+    increased attention over the last couple of years.The performance of software
     solutions determines the success of analysis to a great extent. New algorithms
     are required to reflect new experimental procedures and deal with new instrument
-    generations.\r\n\r\nOne essential component of algorithm development is the validation
-    (as well as comparison) of software on a broad range of\r\ndata sets. This requires
+    generations.One essential component of algorithm development is the validation
+    (as well as comparison) of software on a broad range ofdata sets. This requires
     a gold standard (or so-called ground truth), which is usually obtained by manual
-    annotation of a real data set.\r\nComprehensive manually annotated public data
+    annotation of a real data set.Comprehensive manually annotated public data
     sets for mass spectrometry data are labor-intensive to produce and their quality
-    strongly depends on \r\nthe skill of the human expert. Some parts of the data
-    may even be impossible to annotate due to high levels of noise or other ambiguities.\r\nFurthermore,
+    strongly depends on the skill of the human expert. Some parts of the data
+    may even be impossible to annotate due to high levels of noise or other ambiguities.Furthermore,
     manually annotated data is usually not available for all steps in a typical computational
-    analysis pipeline.\r\nWe thus developed the most comprehensive simulation software
-    to date, which allows to generate multiple levels of ground truth\r\nand features
-    a plethora of settings to reflect experimental conditions and instrument settings.\r\nThe
+    analysis pipeline.We thus developed the most comprehensive simulation software
+    to date, which allows to generate multiple levels of ground truthand features
+    a plethora of settings to reflect experimental conditions and instrument settings.The
     simulator is used to generate several distinct types of data. The data are subsequently
-    employed to evaluate existing algorithms.\r\nAdditionally, we employ simulation
+    employed to evaluate existing algorithms.Additionally, we employ simulation
     to determine the influence of instrument attributes and sample complexity on the
-    ability of\r\nalgorithms to recover information. The results give valuable hints
-    on how to optimize experimental setups.\r\n\r\nFurthermore, this thesis introduces
+    ability ofalgorithms to recover information. The results give valuable hints
+    on how to optimize experimental setups.Furthermore, this thesis introduces
     two quantitative approaches, namely a decharging algorithm based on integer linear
-    programming \r\nand a new workflow for identification of differentially expressed
-    proteins for a large in vitro study on toxic compounds.\r\nDecharging infers the
+    programming and a new workflow for identification of differentially expressed
+    proteins for a large in vitro study on toxic compounds.Decharging infers the
     uncharged mass of a peptide (or protein) by clustering all its charge variants.
-    The latter occur frequently under certain experimental conditions.\r\nWe employ
+    The latter occur frequently under certain experimental conditions.We employ
     simulation to show that decharging is robust against missing values even for high
-    complexity data and that the algorithm outperforms\r\nother solutions in terms
-    of mass accuracy and run time on real data.\r\nThe last part of this thesis deals
+    complexity data and that the algorithm outperformsother solutions in terms
+    of mass accuracy and run time on real data.The last part of this thesis deals
     with a new state-of-the-art workflow for protein quantification based on isobaric
-    tags for relative and absolute quantitation (iTRAQ). We devise\r\na new approach
+    tags for relative and absolute quantitation (iTRAQ). We devisea new approach
     to isotope correction, propose an experimental design, introduce new metrics of
-    iTRAQ data quality, and\r\nconfirm putative properties of iTRAQ data using a novel
-    approach.\r\n\r\nAll tools developed as part of this thesis are implemented in
+    iTRAQ data quality, andconfirm putative properties of iTRAQ data using a novel
+    approach.All tools developed as part of this thesis are implemented in
     OpenMS, a C++ library for computational mass spectrometry."
   status_changed: '2014-08-20 09:50:37'
   official_url: http://www.diss.fu-berlin.de/diss/receive/FUDISS_thesis_000000040013
@@ -1536,7 +1536,7 @@
 - userid: 1
   type: monograph
   rev_number: 3
-  title: "Efficient ordering of state variables and transition relation partitions\tin
+  title: "Efficient ordering of state variables and transition relation partitionsin
     symbolic model checking"
   status_changed: '2009-03-11 11:26:49'
   datestamp: '2009-04-14 14:44:15'
@@ -1570,8 +1570,8 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/335
   lastmod: '2009-04-14 14:44:15'
   ispublished: pub
-  keywords: "Randomized algorithms and probabilistic analysis, VLSI-Design and\tlayout,
-    Binary Decision Diagrams, Hardware verification, Local search\r\n\tand metaheuristics"
+  keywords: "Randomized algorithms and probabilistic analysis, VLSI-Design andlayout,
+    Binary Decision Diagrams, Hardware verification, Local searchand metaheuristics"
   divisions:
   - group_algbioinf
   subjects:
@@ -1600,7 +1600,7 @@
   pagerange: 15 pages
   date: 2007
   place_of_pub: Taormina
-  keywords: "Three-Connected Planar Graph, Cnet, Planar Graph, Enumeration, Random\tgraphs,
+  keywords: "Three-Connected Planar Graph, Cnet, Planar Graph, Enumeration, Randomgraphs,
     Random Generation, Dynamic Programming, Graph Theory"
   uri: http://publications.imp.fu-berlin.de/id/eprint/336
   lastmod: '2009-04-14 14:18:17'
@@ -1660,12 +1660,12 @@
   userid: 1
   type: conference_item
   rev_number: 3
-  keywords: "Three-Connected Planar Graph, Cnet, Planar Graph, Enumeration, Random\tgraphs,
+  keywords: "Three-Connected Planar Graph, Cnet, Planar Graph, Enumeration, Randomgraphs,
     Random Generation, Dynamic Programming, Graph Theory"
   ispublished: pub
   lastmod: '2009-04-14 14:32:56'
   uri: http://publications.imp.fu-berlin.de/id/eprint/337
-  event_title: "Proceedings of the 17th Annual International Conference on Formal\tPower
+  event_title: "Proceedings of the 17th Annual International Conference on FormalPower
     Series and Algebraic Combinatorics (FPSAC05)"
   eprint_status: archive
   dir: disk0/00/00/03/37
@@ -1682,22 +1682,22 @@
   full_text_status: none
 - title: Decomposing, Counting, and Generating Unlabeled Cubic Planar Graphs
   status_changed: '2009-03-11 11:26:53'
-  abstract: "We present an expected polynomial time algorithm to generate an unlabeled\tconnected
-    cubic planar graph uniformly at random. We first consider\r\n\trooted cubic planar
-    graphs, i.e., we count connected cubic planar\r\n\tgraphs up to isomorphisms that
-    fix a certain directed edge. Based\r\n\ton decompositions along the connectivity
-    structure, we derive recurrence\r\n\tformulas for counting the exact number of
-    rooted cubic planar graphs.\r\n\tThis leads to 3-connected planar graphs, which
-    have a unique embedding\r\n\ton the sphere; but special care has to be taken for
-    rooted graphs\r\n\tthat have a sense-reversing automorphism. Therefore we introduce\r\n\tthe
-    concept of colored networks, which stand in bijective correspondence\r\n\tto rooted
-    graphs with given symmetries. Colored networks can again\r\n\tbe decomposed along
-    their connectivity structure. For rooted 3-connected\r\n\tcubic planar graphs
-    embedded in the plane, we switch to the dual\r\n\tand count rooted triangulations.
-    All these numbers can be evaluated\r\n\tin polynomial time by dynamic programming.
-    We can use them to generate\r\n\trooted cubic planar graphs uniformly at random.
-    To generate connected\r\n\tcubic planar graphs without a root uniformly at random,
-    we apply\r\n\trejection sampling and obtain an expected polynomial time algorithm."
+  abstract: "We present an expected polynomial time algorithm to generate an unlabeledconnected
+    cubic planar graph uniformly at random. We first considerrooted cubic planar
+    graphs, i.e., we count connected cubic planargraphs up to isomorphisms that
+    fix a certain directed edge. Basedon decompositions along the connectivity
+    structure, we derive recurrenceformulas for counting the exact number of
+    rooted cubic planar graphs.This leads to 3-connected planar graphs, which
+    have a unique embeddingon the sphere; but special care has to be taken for
+    rooted graphsthat have a sense-reversing automorphism. Therefore we introducethe
+    concept of colored networks, which stand in bijective correspondenceto rooted
+    graphs with given symmetries. Colored networks can againbe decomposed along
+    their connectivity structure. For rooted 3-connectedcubic planar graphs
+    embedded in the plane, we switch to the dualand count rooted triangulations.
+    All these numbers can be evaluatedin polynomial time by dynamic programming.
+    We can use them to generaterooted cubic planar graphs uniformly at random.
+    To generate connectedcubic planar graphs without a root uniformly at random,
+    we applyrejection sampling and obtain an expected polynomial time algorithm."
   userid: 1
   type: conference_item
   rev_number: 3
@@ -1720,10 +1720,10 @@
   datestamp: '2009-04-14 14:36:27'
   lastmod: '2009-04-14 14:36:27'
   ispublished: pub
-  event_title: "European Conference on Combinatorics, Graph Theory, and Applications\tEUROCOMB'03
+  event_title: "European Conference on Combinatorics, Graph Theory, and ApplicationsEUROCOMB'03
     Prague"
   uri: http://publications.imp.fu-berlin.de/id/eprint/342
-  keywords: "Cubic Planar Graph, Planar Graph, Cubic Graph, Enumeration, Random\tgraphs,
+  keywords: "Cubic Planar Graph, Planar Graph, Cubic Graph, Enumeration, Randomgraphs,
     Random Generation, Dynamic Programming, Graph Theory"
   date: 2003
   divisions:
@@ -1752,7 +1752,7 @@
   volume: 379
   date: 2007
   pagerange: 377-386
-  keywords: "Labeled planar graph, Enumeration, Decomposition, Sampling algorithm,\tDynamic
+  keywords: "Labeled planar graph, Enumeration, Decomposition, Sampling algorithm,Dynamic
     programming, Graph theory"
   official_url: http://www.sciencedirect.com/science/article/B6V1G-4N4PY45-5/2 /4c06fbabe635c3a288cbf0427e0b395d
   uri: http://publications.imp.fu-berlin.de/id/eprint/339
@@ -1781,11 +1781,11 @@
   rev_number: 3
   title: Generating labeled planar graphs uniformly at random
   status_changed: '2009-03-11 11:26:52'
-  abstract: "We present a deterministic polynomial time algorithm to sample a labeled\tplanar
-    graph uniformly at random. Our approach uses recursive formulae\r\n\tfor the exact
-    number of labeled planar graphs with n vertices and\r\n\tm edges, based on a decomposition
-    into 1-, 2-, and 3-connected components.\r\n\tWe can then use known sampling algorithms
-    and counting formulae for\r\n\t3-connected planar graphs."
+  abstract: "We present a deterministic polynomial time algorithm to sample a labeledplanar
+    graph uniformly at random. Our approach uses recursive formulaefor the exact
+    number of labeled planar graphs with n vertices andm edges, based on a decomposition
+    into 1-, 2-, and 3-connected components.We can then use known sampling algorithms
+    and counting formulae for3-connected planar graphs."
 - datestamp: '2009-04-14 14:37:56'
   creators:
   - name:
@@ -1808,20 +1808,20 @@
   publisher: Springer Verlag
   type: conference_item
   title: Generating labeled planar graphs uniformly at random
-  abstract: "We present an expected polynomial time algorithm to generate a labeled\tplanar
-    graph uniformly at random. To generate the planar graphs,\r\n\twe derive recurrence
-    formulas that count all such graphs with n vertices\r\n\tand m edges, based on
-    a decomposition into 1-, 2-, and 3-connected\r\n\tcomponents. For 3-connected
-    graphs we apply a recent random generation\r\n\talgorithm by Schaeffer and a counting
+  abstract: "We present an expected polynomial time algorithm to generate a labeledplanar
+    graph uniformly at random. To generate the planar graphs,we derive recurrence
+    formulas that count all such graphs with n verticesand m edges, based on
+    a decomposition into 1-, 2-, and 3-connectedcomponents. For 3-connected
+    graphs we apply a recent random generationalgorithm by Schaeffer and a counting
     formula by Mullin and Schellenberg."
   status_changed: '2009-03-11 11:26:53'
-  keywords: "Planar Graph, Enumeration, Random graphs, Random Generation, Dynamic\tProgramming,
+  keywords: "Planar Graph, Enumeration, Random graphs, Random Generation, DynamicProgramming,
     Graph Theory"
   uri: http://publications.imp.fu-berlin.de/id/eprint/341
   event_title: Proceedings of ICALP 2003
-  note: "Appeared 2008 in Theoretical Computer Science. { The download is\tthe journal
-    submission &lt;br&gt; From time to time we receive requests\r\n\tfor source code,
-    so here it is: See the files BGK03b.README and GBK03b.tar.bz2\r\n\t}"
+  note: "Appeared 2008 in Theoretical Computer Science. { The download isthe journal
+    submission &lt;br&gt; From time to time we receive requestsfor source code,
+    so here it is: See the files BGK03b.README and GBK03b.tar.bz2}"
   lastmod: '2009-04-14 14:37:56'
   ispublished: pub
   dir: disk0/00/00/03/41
@@ -1844,23 +1844,23 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/338
   title: Generating unlabeled connected cubic planar graphs uniformly at random
   status_changed: '2009-03-11 11:26:51'
-  abstract: "We present an expected polynomial time algorithm to generate an unlabeled\tconnected
-    cubic planar graph uniformly at random. We first consider\r\n\trooted connected
-    cubic planar graphs, i.e., we count connected cubic\r\n\tplanar graphs up to isomorphisms
-    that fix a certain directed edge.\r\n\tBased on decompositions along the connectivity
-    structure, we derive\r\n\trecurrence formulas for the exact number of rooted cubic
-    planar graphs.\r\n\tThis leads to rooted 3-connected cubic planar graphs, which
-    have\r\n\ta unique embedding on the sphere. Special care has to be taken for\r\n\trooted
-    graphs that have a sense-reversing automorphism. Therefore\r\n\twe introduce the
-    concept of colored networks, which stand in bijective\r\n\tcorrespondence to rooted
-    3-connected cubic planar graphs with given\r\n\tsymmetries. Colored networks can
-    again be decomposed along the connectivity\r\n\tstructure. For rooted 3-connected
-    cubic planar graphs embedded in\r\n\tthe plane, we switch to the dual and count
-    rooted triangulations.\r\n\tSince all these numbers can be evaluated in polynomial
-    time using\r\n\tdynamic programming, rooted connected cubic planar graphs can
-    be\r\n\tgenerated uniformly at random in polynomial time by inverting the\r\n\tdecomposition
-    along the connectivity structure. To generate connected\r\n\tcubic planar graphs
-    without a root uniformly at random, we apply\r\n\trejection sampling and obtain
+  abstract: "We present an expected polynomial time algorithm to generate an unlabeledconnected
+    cubic planar graph uniformly at random. We first considerrooted connected
+    cubic planar graphs, i.e., we count connected cubicplanar graphs up to isomorphisms
+    that fix a certain directed edge.Based on decompositions along the connectivity
+    structure, we deriverecurrence formulas for the exact number of rooted cubic
+    planar graphs.This leads to rooted 3-connected cubic planar graphs, which
+    havea unique embedding on the sphere. Special care has to be taken forrooted
+    graphs that have a sense-reversing automorphism. Thereforewe introduce the
+    concept of colored networks, which stand in bijectivecorrespondence to rooted
+    3-connected cubic planar graphs with givensymmetries. Colored networks can
+    again be decomposed along the connectivitystructure. For rooted 3-connected
+    cubic planar graphs embedded inthe plane, we switch to the dual and count
+    rooted triangulations.Since all these numbers can be evaluated in polynomial
+    time usingdynamic programming, rooted connected cubic planar graphs can
+    begenerated uniformly at random in polynomial time by inverting thedecomposition
+    along the connectivity structure. To generate connectedcubic planar graphs
+    without a root uniformly at random, we applyrejection sampling and obtain
     an expected polynomial time algorithm"
   userid: 1
   rev_number: 3
@@ -1910,11 +1910,11 @@
   - group_algbioinf
   subjects:
   - G400
-  keywords: "Planar Graph, Enumeration, Random graphs, Random Generation, Graph\tTheory"
+  keywords: "Planar Graph, Enumeration, Random graphs, Random Generation, GraphTheory"
   ispublished: pub
   lastmod: '2010-09-01 13:43:09'
   uri: http://publications.imp.fu-berlin.de/id/eprint/340
-  event_title: "Proceedings of the 16th Annual International Symposium on Algorithms\tand
+  event_title: "Proceedings of the 16th Annual International Symposium on Algorithmsand
     Computation (ISAAC05)"
   creators:
   - name:
@@ -1955,7 +1955,7 @@
   userid: 1
   status_changed: '2009-03-11 11:26:54'
   title: Lower Bounds for Row Minima Searching
-  event_title: "Proceedings of the 23rd International Colloquium on Automata, Languages,\tand
+  event_title: "Proceedings of the 23rd International Colloquium on Automata, Languages,and
     Programming 1996 (ICALP-96), LNCS 1099"
   uri: http://publications.imp.fu-berlin.de/id/eprint/343
   ispublished: pub
@@ -2324,7 +2324,7 @@
   type: article
   title: 'DREAM-Yara: an exact read mapper for very large databases with short update
     time'
-  abstract: "Motivation\r\n\r\nMapping-based approaches have become limited in their
+  abstract: "MotivationMapping-based approaches have become limited in their
     application to very large sets of references since computing an FM-index for very
     large databases (e.g. >10 GB) has become a bottleneck. This affects many analyses
     that need such index as an essential step for approximate matching of the NGS
@@ -2333,7 +2333,7 @@
     full-text index on standard machines. Even on large memory machines, computing
     such index takes about 1 day of computing time. As a result, updates of indices
     are rarely performed. Hence, it is desirable to create an alternative way of indexing
-    while preserving fast search times.\r\n\r\nResults\r\n\r\nTo solve the index construction
+    while preserving fast search times.ResultsTo solve the index construction
     and update problem we propose the DREAM (Dynamic seaRchablE pArallel coMpressed
     index) framework and provide an implementation. The main contributions are the
     introduction of an approximate search distributor via a novel use of Bloom filters.
@@ -2342,8 +2342,8 @@
     cannot match. This allows us to keep the databases in several indices which can
     be easily rebuilt if parts are updated while maintaining a fast search time. The
     second main contribution is an implementation of DREAM-Yara a distributed version
-    of a fully sensitive read mapper under the DREAM framework.\r\n\r\nAvailability
-    and implementation: \r\nhttps://gitlab.com/pirovc/dream_yara/"
+    of a fully sensitive read mapper under the DREAM framework.Availability
+    and implementation: https://gitlab.com/pirovc/dream_yara/"
   status_changed: '2018-11-08 11:49:07'
   official_url: http://doi.org/10.1093/bioinformatics/bty567
   uri: http://publications.imp.fu-berlin.de/id/eprint/2282
@@ -2615,7 +2615,7 @@
   abstract: "Motivation: The reliable detection of genomic variation in resequencing
     data is still a major challenge, especially for variants larger than a few base
     pairs. Sequencing reads crossing boundaries of structural variation carry the
-    potential for their identification, but are difficult to map.\r\n\r\nResults:
+    potential for their identification, but are difficult to map.Results:
     Here we present a method for ‘split’ read mapping, where prefix and suffix match
     of a read may be interrupted by a longer gap in the read-to-reference alignment.
     We use this method to accurately detect medium-sized insertions and long deletions
@@ -2627,7 +2627,7 @@
     is a versatile tool applicable to unanchored or single-end as well as anchored
     paired-end reads. In addition, application of SplazerS to targeted resequencing
     data led to the interesting discovery of a complete, possibly functional gene
-    retrocopy variant.\r\n\r\nAvailability: SplazerS is available from http://www.seqan.de/projects/
+    retrocopy variant.Availability: SplazerS is available from http://www.seqan.de/projects/
     splazers."
   status_changed: '2012-09-12 08:40:15'
   eprintid: 1160
@@ -2691,17 +2691,17 @@
   publisher: Springer Verlag
   type: conference_item
   userid: 1
-  abstract: "Mass spectrometry (MS) is becoming a popular approach for quantifying\tthe
-    protein composition of complex samples. A great challenge for\r\n\tcomparative
-    proteomic profiling is to match corresponding peptide\r\n\tfeatures from different
-    experiments to ensure that the same protein\r\n\tintensities are correctly identified.
-    Multi-dimensional data acquisition\r\n\tfrom liquid-chromatography mass spectrometry
-    (LC-MS) makes the alignment\r\n\tproblem harder. We propose a general paradigm
-    for aligning peptide\r\n\tfeatures using a bounded error model. Our method is
-    tolerant of imperfect\r\n\tmeasurements, missing peaks, and extraneous peaks.
-    It can handle\r\n\tan arbitrary number of dimensions of separation, and is very
-    fast\r\n\tin practice even for large data sets. Finally, its parameters are\r\n\tintuitive
-    and we describe a heuristic for estimating them automatically.\r\n\tWe demonstrate
+  abstract: "Mass spectrometry (MS) is becoming a popular approach for quantifyingthe
+    protein composition of complex samples. A great challenge forcomparative
+    proteomic profiling is to match corresponding peptidefeatures from different
+    experiments to ensure that the same proteinintensities are correctly identified.
+    Multi-dimensional data acquisitionfrom liquid-chromatography mass spectrometry
+    (LC-MS) makes the alignmentproblem harder. We propose a general paradigm
+    for aligning peptidefeatures using a bounded error model. Our method is
+    tolerant of imperfectmeasurements, missing peaks, and extraneous peaks.
+    It can handlean arbitrary number of dimensions of separation, and is very
+    fastin practice even for large data sets. Finally, its parameters areintuitive
+    and we describe a heuristic for estimating them automatically.We demonstrate
     results on single- and multi-dimensional data."
   status_changed: '2009-03-11 11:26:55'
   title: Alignment of Mass Spectrometry Data by Clique Finding and Optimization
@@ -2731,25 +2731,25 @@
   rev_number: 3
   type: article
   userid: 1
-  abstract: "Motivation: The Dictionary of Interfaces in Proteins (DIP) is a database\tcollecting
-    the 3D structure of interacting parts of proteins that\r\n\tare called patches.
-    It serves as a repository, in which patches similar\r\n\tto given query patches
-    can be found. The computation of the similarity\r\n\tof two patches is time consuming
-    and traversing the entire DIP requires\r\n\tsome hours. In this work we address
-    the question of how the patches\r\n\tsimilar to a given query can be identified
-    by scanning only a small\r\n\tpart of DIP. The answer to this question requires
-    the investigation\r\n\tof the distribution of the similarity of patches. Results:
-    The score\r\n\tvalues describing the similarity of two patches can roughly be
-    divided\r\n\tinto three ranges that correspond to different levels of spatial\r\n\tsimilarity.
-    Interestingly, the two iso-score lines separating the\r\n\tthree classes can be
-    determined by two different approaches. Applying\r\n\ta concept of the theory
-    of random graphs reveals significant structural\r\n\tproperties of the data in
-    DIP. These can be used to accelerate scanning\r\n\tthe DIP for patches similar
-    to a given query. Searches for very similar\r\n\tpatches could be accelerated
-    by a factor of more than 25. Patches\r\n\twith a medium similarity could be found
-    10 times faster than by brute-force\r\n\tsearch. 10.1093/bioinformatics/btg343"
+  abstract: "Motivation: The Dictionary of Interfaces in Proteins (DIP) is a databasecollecting
+    the 3D structure of interacting parts of proteins thatare called patches.
+    It serves as a repository, in which patches similarto given query patches
+    can be found. The computation of the similarityof two patches is time consuming
+    and traversing the entire DIP requiressome hours. In this work we address
+    the question of how the patchessimilar to a given query can be identified
+    by scanning only a smallpart of DIP. The answer to this question requires
+    the investigationof the distribution of the similarity of patches. Results:
+    The scorevalues describing the similarity of two patches can roughly be
+    dividedinto three ranges that correspond to different levels of spatialsimilarity.
+    Interestingly, the two iso-score lines separating thethree classes can be
+    determined by two different approaches. Applyinga concept of the theory
+    of random graphs reveals significant structuralproperties of the data in
+    DIP. These can be used to accelerate scanningthe DIP for patches similar
+    to a given query. Searches for very similarpatches could be accelerated
+    by a factor of more than 25. Patcheswith a medium similarity could be found
+    10 times faster than by brute-forcesearch. 10.1093/bioinformatics/btg343"
   status_changed: '2009-03-11 11:26:55'
-  title: "Accelerating screening of 3D protein data with a graph theoretical\tapproach"
+  title: "Accelerating screening of 3D protein data with a graph theoreticalapproach"
   publication: Bioinformatics
   datestamp: '2009-04-14 14:35:22'
   creators:
@@ -2822,7 +2822,7 @@
     a comprehensive, easy-to-use, open source C++ library of efficient algorithms
     and data structures for the analysis of biological sequences. Written by the founders
     of this project, Biological Sequence Analysis Using the SeqAn C++ Library covers
-    the SeqAn library, its documentation, and the supporting infrastructure.\r\n\r\n\r\nThe
+    the SeqAn library, its documentation, and the supporting infrastructure.The
     first part of the book describes the general library design. It introduces biological
     sequence analysis problems, discusses the benefit of using software libraries,
     summarizes the design principles and goals of SeqAn, details the main programming
@@ -2831,10 +2831,10 @@
     part explores basic functionality, sequence data structures, alignments, pattern
     and motif searching, string indices, and graphs. The last part illustrates applications
     of SeqAn to genome alignment, consensus sequence in assembly projects, suffix
-    array construction, and more.\r\n\r\n\r\nThis handy book describes a user-friendly
+    array construction, and more.This handy book describes a user-friendly
     library of efficient data types and algorithms for sequence analysis in computational
     biology. SeqAn enables not only the implementation of new algorithms, but also
-    the sound analysis and comparison of existing algorithms.\r\n"
+    the sound analysis and comparison of existing algorithms."
   datestamp: '2010-03-04 12:10:11'
   creators:
   - id: andreas.doering@mdc-berlin.de
@@ -2963,7 +2963,7 @@
       family: Pieper
       lineage:
 - official_url: http://www.dagstuhl.de/05471/
-  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on Computational\tProteomics,
+  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on ComputationalProteomics,
     20.-25. November 2005"
   lastmod: '2009-04-14 14:26:41'
   ispublished: pub
@@ -3021,10 +3021,10 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/348
   ispublished: pub
   lastmod: '2009-04-14 14:36:34'
-  note: "Skript zu meiner Vorlesung im Wintersemester 2002/03 am Institut\tfür Informatik
+  note: "Skript zu meiner Vorlesung im Wintersemester 2002/03 am Institutfür Informatik
     der Humboldt-Universität zu Berlin"
 - official_url: http://dochost.rz.hu-berlin.de/dissertationen/informatik/groepl-clemens
-  keywords: "Binary decision diagram, Boolean function, probabilistic analysis,\tShannon
+  keywords: "Binary decision diagram, Boolean function, probabilistic analysis,Shannon
     effect"
   ispublished: unpub
   lastmod: '2009-04-14 14:41:14'
@@ -3038,41 +3038,41 @@
   datestamp: '2009-04-14 14:41:14'
   thesis_type: phd
   status_changed: '2009-03-11 11:26:57'
-  abstract: "(deutsche Zusammenfassung siehe unten)&lt;p&gt; Binary Decision Diagrams\t(BDDs)
-    are a data structure for Boolean functions which are also\r\n\tknown as branching
-    programs. In ordered binary decision diagrams\r\n\t(OBDDs), the tests have to
-    obey a fixed variable ordering. In free\r\n\tbinary decision diagrams (FBDDs),
-    each variable can be tested at\r\n\tmost once. The efficiency of new variants
-    of the BDD concept is usually\r\n\tdemonstrated with spectacular (worst-case)
-    examples. We pursue another\r\n\tapproach and compare the representation sizes
-    of almost all Boolean\r\n\tfunctions. Whereas I. Wegener proved that for `most'
-    values of n\r\n\tthe expected OBDD size of a random Boolean function of n variables\r\n\tis
-    equal to the worst-case size up to terms of lower order, we show\r\n\tthat this
-    is not the case for n within intervals of constant length\r\n\taround the values
-    n = 2h + h. Furthermore, ranges of n exist for\r\n\twhich minimal FBDDs are almost
-    always at least a constant factor\r\n\tsmaller than minimal OBDDs. Our main theorems
-    have doubly exponentially\r\n\tsmall probability bounds (in n). We also investigate
-    the evolution\r\n\tof random OBDDs and their worst-case size, revealing an oscillating\r\n\tbehaviour
-    that explains why certain results cannot be improved in\r\n\tgeneral. &lt;p&gt;
-    &lt;b&gt;Zusammenfassung:&lt;/b&gt;&lt;p&gt; Binary Decision Diagrams\r\n\t(BDDs)
-    sind eine Datenstruktur für Boolesche Funktionen, die\r\n\tauch unter dem Namen
-    branching program bekannt ist. In ordered binary\r\n\tdecision diagrams (OBDDs)
-    müssen die Tests einer festen Variablenordnung\r\n\tgenügen. In free binary decision
-    diagrams (FBDDs) darf jede Variable\r\n\thöchstens einmal getestet werden. Die
-    Effizienz neuer Varianten\r\n\tdes BDD-Konzepts wird gewöhnlich anhand spektakulärer
-    (worst-case)\r\n\tBeispiele aufgezeigt. Wir verfolgen einen anderen Ansatz und
-    vergleichen\r\n\tdie Darstellungsgrößen für fast alle Booleschen Funktionen.\r\n\tWährend
-    I. Wegener bewiesen hat, daß für die `meisten'\r\n\tn die erwartete OBDD-Größe
-    einer zufälligen Booleschen\r\n\tFunktion von n Variablen gleich der worst-case
-    Größe bis\r\n\tauf Terme kleinerer Ordnung ist, zeigen wir daß dies nicht der\r\n\tFall
-    ist für n innerhalb von Intervallen konstanter Länge\r\n\tum die Werte n = 2h
-    + h. Ferner gibt es Bereiche von n, in denen\r\n\tminimale FBDDs fast immer um
-    mindestens einen konstanten Faktor kleiner\r\n\tsind als minimale OBDDs. Unsere
-    Hauptsätze ha ben doppelt exponentielle\r\n\tWahrschein- lichkeitsschranken (in
-    n). Außerdem untersuchen wir\r\n\tdie Entwicklung zufälliger OBDDs und ihrer worst-case
-    Größe\r\n\tund decken dabei ein oszillierendes Verhalten auf, das erklärt,\r\n\twarum
-    gewisse Aussagen im allgemeinen nicht verstärkt werden\r\n\tkönnen. &lt;p&gt;Schlagwörter:&lt;p&gt;
-    Binäres Entscheidungsdiagramm,\r\n\tBoolesche Funktion,probabilistische Analyse,
+  abstract: "(deutsche Zusammenfassung siehe unten)&lt;p&gt; Binary Decision Diagrams(BDDs)
+    are a data structure for Boolean functions which are alsoknown as branching
+    programs. In ordered binary decision diagrams(OBDDs), the tests have to
+    obey a fixed variable ordering. In freebinary decision diagrams (FBDDs),
+    each variable can be tested atmost once. The efficiency of new variants
+    of the BDD concept is usuallydemonstrated with spectacular (worst-case)
+    examples. We pursue anotherapproach and compare the representation sizes
+    of almost all Booleanfunctions. Whereas I. Wegener proved that for `most'
+    values of nthe expected OBDD size of a random Boolean function of n variablesis
+    equal to the worst-case size up to terms of lower order, we showthat this
+    is not the case for n within intervals of constant lengtharound the values
+    n = 2h + h. Furthermore, ranges of n exist forwhich minimal FBDDs are almost
+    always at least a constant factorsmaller than minimal OBDDs. Our main theorems
+    have doubly exponentiallysmall probability bounds (in n). We also investigate
+    the evolutionof random OBDDs and their worst-case size, revealing an oscillatingbehaviour
+    that explains why certain results cannot be improved ingeneral. &lt;p&gt;
+    &lt;b&gt;Zusammenfassung:&lt;/b&gt;&lt;p&gt; Binary Decision Diagrams(BDDs)
+    sind eine Datenstruktur für Boolesche Funktionen, dieauch unter dem Namen
+    branching program bekannt ist. In ordered binarydecision diagrams (OBDDs)
+    müssen die Tests einer festen Variablenordnunggenügen. In free binary decision
+    diagrams (FBDDs) darf jede Variablehöchstens einmal getestet werden. Die
+    Effizienz neuer Variantendes BDD-Konzepts wird gewöhnlich anhand spektakulärer
+    (worst-case)Beispiele aufgezeigt. Wir verfolgen einen anderen Ansatz und
+    vergleichendie Darstellungsgrößen für fast alle Booleschen Funktionen.Während
+    I. Wegener bewiesen hat, daß für die `meisten'n die erwartete OBDD-Größe
+    einer zufälligen BooleschenFunktion von n Variablen gleich der worst-case
+    Größe bisauf Terme kleinerer Ordnung ist, zeigen wir daß dies nicht derFall
+    ist für n innerhalb von Intervallen konstanter Längeum die Werte n = 2h
+    + h. Ferner gibt es Bereiche von n, in denenminimale FBDDs fast immer um
+    mindestens einen konstanten Faktor kleinersind als minimale OBDDs. Unsere
+    Hauptsätze ha ben doppelt exponentielleWahrschein- lichkeitsschranken (in
+    n). Außerdem untersuchen wirdie Entwicklung zufälliger OBDDs und ihrer worst-case
+    Größeund decken dabei ein oszillierendes Verhalten auf, das erklärt,warum
+    gewisse Aussagen im allgemeinen nicht verstärkt werdenkönnen. &lt;p&gt;Schlagwörter:&lt;p&gt;
+    Binäres Entscheidungsdiagramm,Boolesche Funktion,probabilistische Analyse,
     Shannon Effekt."
   title: Binary Decision Diagrams for Random Boolean Functions
   rev_number: 3
@@ -3106,7 +3106,7 @@
   userid: 1
   rev_number: 3
   type: thesis
-  title: "Über Approximationsalgorithmen zur Färbung k-färbbarer\tGraphen, die vektorchromatische
+  title: "Über Approximationsalgorithmen zur Färbung k-färbbarerGraphen, die vektorchromatische
     Zahl und andere Varianten der vartheta-Funktion"
   status_changed: '2009-03-11 11:26:57'
   refereed: 'TRUE'
@@ -3255,7 +3255,7 @@
   rev_number: 3
   type: book_section
   userid: 1
-  keywords: "Approximation algorithms, Combinatorial optimization, Graph algorithms,\tSteiner
+  keywords: "Approximation algorithms, Combinatorial optimization, Graph algorithms,Steiner
     trees"
   ispublished: pub
   lastmod: '2009-04-14 14:39:16'
@@ -3291,24 +3291,24 @@
   ispublished: pub
   lastmod: '2009-04-14 14:40:07'
   uri: http://publications.imp.fu-berlin.de/id/eprint/355
-  event_title: "Proceedings of the 27th International Workshop on Graph-Theoretic\tConcepts
+  event_title: "Proceedings of the 27th International Workshop on Graph-TheoreticConcepts
     in Computer Science (2001)"
-  keywords: "Steiner trees, Approximation algorithms, Combinatorial optimization,\tGraph
+  keywords: "Steiner trees, Approximation algorithms, Combinatorial optimization,Graph
     algorithms, Hypergraphs, set systems, and designs"
-  title: "Lower bounds for approximation algorithms for the Steiner tree\tproblem"
+  title: "Lower bounds for approximation algorithms for the Steiner treeproblem"
   status_changed: '2009-03-11 11:27:00'
-  abstract: "The Steiner tree problem asks for a shortest subgraph connecting a\tgiven
-    set of terminals in a graph. It is known to be APX-complete,\r\n\twhich means
-    that no polynomial time approximation scheme can exist\r\n\tfor this problem,
-    unless P=NP. Currently, the best approximation\r\n\talgorithm for the Steiner
-    tree problem has a performance ratio of\r\n\t<span class='mathrm'>1.55</span>,
-    whereas the corresponding lower bound is smaller than <span class='mathrm'>1.01</span>.\r\n\tIn
-    this paper, we provide for several Steiner tree approximation\r\n\talgorithms
-    lower bounds on their performance ratio that are much\r\n\tlarger. For two algorithms
-    that solve the Steiner tree problem on\r\n\tquasi-bipartite instances, we even
-    prove lower bounds that match\r\n\tthe upper bounds. Quasi-bipartite instances
-    are of special interest,\r\n\tas currently all known lower bound reductions for
-    the Steiner tree\r\n\tproblem in graphs produce such instances."
+  abstract: "The Steiner tree problem asks for a shortest subgraph connecting agiven
+    set of terminals in a graph. It is known to be APX-complete,which means
+    that no polynomial time approximation scheme can existfor this problem,
+    unless P=NP. Currently, the best approximationalgorithm for the Steiner
+    tree problem has a performance ratio of<span class='mathrm'>1.55</span>,
+    whereas the corresponding lower bound is smaller than <span class='mathrm'>1.01</span>.In
+    this paper, we provide for several Steiner tree approximationalgorithms
+    lower bounds on their performance ratio that are muchlarger. For two algorithms
+    that solve the Steiner tree problem onquasi-bipartite instances, we even
+    prove lower bounds that matchthe upper bounds. Quasi-bipartite instances
+    are of special interest,as currently all known lower bound reductions for
+    the Steiner treeproblem in graphs produce such instances."
   userid: 1
   publisher: Springer Verlag
   type: conference_item
@@ -3367,18 +3367,18 @@
   rev_number: 3
   title: Steiner trees in uniformly quasi-bipartite graphs
   status_changed: '2009-03-11 11:27:00'
-  abstract: "The area of approximation algorithms for the Steiner tree problem\tin
-    graphs has seen continuous progress over the last years. Currently\r\n\tthe best
-    approximation algorithm has a performance ratio of 1.550.\r\n\tThis is still far
-    away from 1.0074, the largest known lower bound\r\n\ton the achievable performance
-    ratio. As all instances resulting from\r\n\tknown lower bound reductions are uniformly
-    quasi-bipartite, it is\r\n\tinteresting whether this special case can be approximated
-    better\r\n\tthan the general case. We present an approximation algorithm with\r\n\tperformance
-    ratio 73/60 &lt; 1.217 for the uniformly quasi-bipartite\r\n\tcase. This improves
-    on the previously known ratio of 1.279 of Robins\r\n\tand Zelikovsky. We use a
-    new method of analysis that combines ideas\r\n\tfrom the greedy algorithm for
-    set cover with a matroid-style exchange\r\n\targument to model the connectivity
-    constraint. As a consequence,\r\n\twe are able to provide a tight instance."
+  abstract: "The area of approximation algorithms for the Steiner tree problemin
+    graphs has seen continuous progress over the last years. Currentlythe best
+    approximation algorithm has a performance ratio of 1.550.This is still far
+    away from 1.0074, the largest known lower boundon the achievable performance
+    ratio. As all instances resulting fromknown lower bound reductions are uniformly
+    quasi-bipartite, it isinteresting whether this special case can be approximated
+    betterthan the general case. We present an approximation algorithm withperformance
+    ratio 73/60 &lt; 1.217 for the uniformly quasi-bipartitecase. This improves
+    on the previously known ratio of 1.279 of Robinsand Zelikovsky. We use a
+    new method of analysis that combines ideasfrom the greedy algorithm for
+    set cover with a matroid-style exchangeargument to model the connectivity
+    constraint. As a consequence,we are able to provide a tight instance."
   refereed: 'TRUE'
   eprintid: 354
   metadata_visibility: show
@@ -3494,25 +3494,25 @@
   rev_number: 3
   userid: 1
   status_changed: '2009-03-11 11:27:02'
-  abstract: "HPLC-ESI-MS is rapidly becoming an established standard method for\tshotgun
-    proteomics. Currently, its major drawbacks are twofold: quantification\r\n\tis
-    mostly limited to relative quantification and the large amount\r\n\tof data produced
-    by every individual experiment can make manual analysis\r\n\tquite difficult.
-    Here we present a new, combined experimental and\r\n\talgorithmic approach to
-    absolutely quantify proteins from samples\r\n\twith unprecedented precision. We
-    apply the method to the analysis\r\n\tof myoglobin in human blood serum, which
-    is an important diagnostic\r\n\tmarker for myocardial infarction. Our approach
-    was able to determine\r\n\tthe absolute amount of myoglobin in a serum sample
-    through a series\r\n\tof standard addition experiments with a relative error of
-    2.5 percent.\r\n\tCompared to a manual analysis of the same dataset we could improve\r\n\tthe
-    precision and conduct it in a fraction of the time needed for\r\n\tthe manual
-    analysis. We anticipate that our automatic quantitation\r\n\tmethod will facilitate
-    further absolute or relative quantitation\r\n\tof even more complex peptide samples.
-    The algorithm was developed\r\n\tusing our publically available software framework
+  abstract: "HPLC-ESI-MS is rapidly becoming an established standard method forshotgun
+    proteomics. Currently, its major drawbacks are twofold: quantificationis
+    mostly limited to relative quantification and the large amountof data produced
+    by every individual experiment can make manual analysisquite difficult.
+    Here we present a new, combined experimental andalgorithmic approach to
+    absolutely quantify proteins from sampleswith unprecedented precision. We
+    apply the method to the analysisof myoglobin in human blood serum, which
+    is an important diagnosticmarker for myocardial infarction. Our approach
+    was able to determinethe absolute amount of myoglobin in a serum sample
+    through a seriesof standard addition experiments with a relative error of
+    2.5 percent.Compared to a manual analysis of the same dataset we could improvethe
+    precision and conduct it in a fraction of the time needed forthe manual
+    analysis. We anticipate that our automatic quantitationmethod will facilitate
+    further absolute or relative quantitationof even more complex peptide samples.
+    The algorithm was developedusing our publically available software framework
     OpenMS (www.openms.de)."
-  title: "Algorithms for the automated absolute quantification of diagnostic\tmarkers
+  title: "Algorithms for the automated absolute quantification of diagnosticmarkers
     in complex proteomics samples"
-  event_title: "Proceedings of the 1st International Symposium on Computational Life\tScience
+  event_title: "Proceedings of the 1st International Symposium on Computational LifeScience
     (CompLife05)"
   uri: http://publications.imp.fu-berlin.de/id/eprint/358
   lastmod: '2009-04-14 14:27:04'
@@ -3540,7 +3540,7 @@
   publication: Information Processing Letters
   datestamp: '2009-04-14 14:40:13'
   title: On the Evolution of the Worst-Case OBDD Size
-  abstract: "We prove matching lower and upper bounds on the worst-case OBDD size\tof
+  abstract: "We prove matching lower and upper bounds on the worst-case OBDD sizeof
     a Boolean function, revealing an interesting ocillating behaviour."
   status_changed: '2009-03-11 11:27:04'
   userid: 1
@@ -3564,16 +3564,16 @@
   rev_number: 3
   type: article
   title: Ordered binary decision diagrams and the Shannon effect
-  abstract: "We investigate the size and structure of ordered binary decision diagrams\t(OBDDs)
-    for random Boolean functions. It was known that for most\r\n\tvalues of n, the
-    expected OBDD size of a random Boolean function\r\n\twith n variables is equal
-    to the worst-case size up to terms of lower\r\n\torder. Such a phenomenon is generally
-    called strong Shannon effect.\r\n\tHere we show that the strong Shannon effect
-    is not valid for all\r\n\tn. Instead it undergoes a certain periodic `phase transition':
-    If\r\n\tn lies within intervals of constant width around the values n = 2h\r\n\t+
-    h, then the strong Shannon effect does not hold, whereas it does\r\n\thold outside
-    these intervals. Our analysis provides doubly exponential\r\n\tprobability bounds
-    and generalises to ordered Kronecker functional\r\n\tdecision diagrams (OKFDDs). "
+  abstract: "We investigate the size and structure of ordered binary decision diagrams(OBDDs)
+    for random Boolean functions. It was known that for mostvalues of n, the
+    expected OBDD size of a random Boolean functionwith n variables is equal
+    to the worst-case size up to terms of lowerorder. Such a phenomenon is generally
+    called strong Shannon effect.Here we show that the strong Shannon effect
+    is not valid for alln. Instead it undergoes a certain periodic `phase transition':
+    Ifn lies within intervals of constant width around the values n = 2h+
+    h, then the strong Shannon effect does not hold, whereas it doeshold outside
+    these intervals. Our analysis provides doubly exponentialprobability bounds
+    and generalises to ordered Kronecker functionaldecision diagrams (OKFDDs). "
   status_changed: '2009-03-11 11:27:03'
   datestamp: '2009-04-14 14:35:30'
   publication: Discrete Applied Mathematics
@@ -3596,9 +3596,9 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/360
   ispublished: pub
   lastmod: '2009-04-14 14:35:30'
-  keywords: "VLSI-Design and layout, Binary Decision Diagrams, Graph theory (other),\tHardware
-    verification, Probability theory, Random graphs, Randomized\r\n\talgorithms and
-    probabilistic analysis, Theoretical computer science\r\n\t(other)"
+  keywords: "VLSI-Design and layout, Binary Decision Diagrams, Graph theory (other),Hardware
+    verification, Probability theory, Random graphs, Randomizedalgorithms and
+    probabilistic analysis, Theoretical computer science(other)"
   subjects:
   - G400
   divisions:
@@ -3647,7 +3647,7 @@
       given: M.
       lineage:
   status_changed: '2009-03-11 11:27:03'
-  title: "Size and Structure of Random Ordered Binary Decision Diagrams (Extended\tAbstract)"
+  title: "Size and Structure of Random Ordered Binary Decision Diagrams (ExtendedAbstract)"
   publisher: Springer Verlag
   type: conference_item
   rev_number: 3
@@ -3722,7 +3722,7 @@
       honourific:
       given: A.
       family: Steger
-  keywords: "Theoretical computer science (other), Approximation algorithms, PCP\tand
+  keywords: "Theoretical computer science (other), Approximation algorithms, PCPand
     non-approximability"
   uri: http://publications.imp.fu-berlin.de/id/eprint/363
   note: The book grow out of a Dagstuhl Seminar, April 21-25, 1997
@@ -3797,9 +3797,9 @@
     this work we present Lambda, our own alternative for BLAST in the context of sequence
     classification. In our tests, Lambda often outperforms the best tools at reproducing
     BLAST's results and is the fastest compared with the current state of the art
-    at comparable levels of sensitivity.\r\nAVAILABILITY AND IMPLEMENTATION:Lambda
+    at comparable levels of sensitivity.AVAILABILITY AND IMPLEMENTATION:Lambda
     was implemented in the SeqAn open-source C++ library for sequence analysis and
-    is publicly available for download at http://www.seqan.de/projects/lambda.\r\nCONTACT:hannes.hauswedell@fu-berlin.de\r\nSUPPLEMENTARY
+    is publicly available for download at http://www.seqan.de/projects/lambda.CONTACT:hannes.hauswedell@fu-berlin.deSUPPLEMENTARY
     INFORMATION:Supplementary data are available at Bioinformatics online."
   title: 'Lambda: the local aligner for massive biological data'
   datestamp: '2014-09-23 18:00:01'
@@ -3829,16 +3829,16 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/1072
   official_url: http://dx.doi.org/10.1186/1471-2105-12-210
   status_changed: '2011-06-27 13:44:14'
-  abstract: "Background\r\nSecond generation sequencing technologies yield DNA sequence
+  abstract: "BackgroundSecond generation sequencing technologies yield DNA sequence
     data at ultra high-throughput. Common to most biological applications is a mapping
     of the reads to an almost identical or highly similar reference genome. The assessment
     of the quality of read mapping results is not straightforward and has not been
     formalized so far. Hence, it has not been easy to compare different read mapping
     approaches in a unified way and to determine which program is the best for what
-    task.\r\n\r\nResults\r\nWe present a new benchmark method, called Rabema (Read
+    task.ResultsWe present a new benchmark method, called Rabema (Read
     Alignment BEnchMArk), for read mappers. It consists of a strict definition of
     the read mapping problem and of tools to evaluate the result of arbitrary read
-    mappers supporting the SAM output format.\r\n\r\nConclusions\r\nWe show the usefulness
+    mappers supporting the SAM output format.ConclusionsWe show the usefulness
     of the benchmark program by performing a comparison of popular read mappers. The
     tools supporting the benchmark are licensed under the GPL and available from http://www.seqan.de/projects/rabema.html."
   title: A Novel And Well-Defined Benchmarking Method For Second Generation Read Mapping
@@ -3898,11 +3898,11 @@
   title: Methods for the Detection and Assembly of Novel Sequence in High-Throughput
     Sequencing Data
   status_changed: '2016-02-25 11:13:53'
-  abstract: "Motivation: \r\nLarge insertions of novel sequence are an important type
+  abstract: "Motivation: Large insertions of novel sequence are an important type
     of structural variants. Previous studies used traditional de novo assemblers for
     assembling non-mapping high-throughput sequencing (HTS) or capillary reads and
-    then tried to anchor them in the reference using paired read information.\r\n\r\nResults:
-    \r\nWe present approaches for detecting insertion breakpoints and targeted assembly
+    then tried to anchor them in the reference using paired read information.Results:
+    We present approaches for detecting insertion breakpoints and targeted assembly
     of large insertions from HTS paired data: BASIL and ANISE. On near identity repeats
     that are hard for assemblers, ANISE employs a repeat resolution step. This results
     in far better reconstructions than obtained by the compared methods. On simulated
@@ -3911,9 +3911,9 @@
     unanchored contigs as from ABYSS/SGA. On real-world data, we detected novel sequence
     in a human individual and thoroughly validated the assembled sequence. ANISE was
     found to be superior to the competing tool MindTheGap on both simulated and real-world
-    data.\r\n\r\nAvailability and implementation: ANISE and BASIL are available for
+    data.Availability and implementation: ANISE and BASIL are available for
     download at http://www.seqan.de/projects/herbarium under a permissive open source
-    license. \r\n\r\nContact: manuel.holtgrewe@fu-berlin.de or knut.reinert@fu-berlin.de"
+    license. Contact: manuel.holtgrewe@fu-berlin.de or knut.reinert@fu-berlin.de"
   userid: 132
   type: article
   rev_number: 14
@@ -4101,7 +4101,7 @@
     across species attracts a lot of attention in computational biology. Network alignments
     provide a systematic way to solve this problem. However, most existing alignment
     tools encounter limitations in tackling this problem. Therefore, the demand for
-    faster and more efficient alignment tools is growing.\r\n\r\nResults: We present
+    faster and more efficient alignment tools is growing.Results: We present
     a fast and accurate algorithm, NetCoffee, which allows to find a global alignment
     of multiple protein–protein interaction networks. NetCoffee searches for a global
     alignment by maximizing a target function using simulated annealing on a set of
@@ -4109,7 +4109,7 @@
     to T-Coffee. To assess its performance, NetCoffee was applied to four real datasets.
     Our results suggest that NetCoffee remedies several limitations of previous algorithms,
     outperforms all existing alignment tools in terms of speed and nevertheless identifies
-    biologically meaningful alignments.\r\n\r\nAvailability: The source code and data
+    biologically meaningful alignments.Availability: The source code and data
     are freely available for download under the GNU GPL v3 license at https://code.google.com/p/netcoffee/. "
   status_changed: '2014-08-19 14:46:18'
   userid: 132
@@ -4167,7 +4167,7 @@
     modules, and understanding the phylogeny from these data. Most of currently existing
     tools, however, encounter their limitations which are mainly concerned with scoring
     scheme, speed and scalability. Therefore, there are growing demands for sophisticated
-    network evolution models and efficient local alignment algorithms.\r\nRESULTS:We
+    network evolution models and efficient local alignment algorithms.RESULTS:We
     developed a fast and scalable local network alignment tool so-called LocalAli
     for the identification of functionally conserved modules in multiple networks.
     In this algorithm, we firstly proposed a new framework to reconstruct the evolution
@@ -4180,9 +4180,9 @@
     and the statistical significance, LocalAli were tested on a total of 26 real datasets
     and 1040 randomly generated datasets. The results suggest that LocalAli outperforms
     all existing algorithms in terms of coverage, consistency and scalability, meanwhile
-    retains a high precision in the identification of functionally coherent subnetworks.\r\n\r\nAVAILABILITY:The
+    retains a high precision in the identification of functionally coherent subnetworks.AVAILABILITY:The
     source code and test datasets are freely available for download under the GNU
-    GPL v3 license at https://code.google.com/p/localali/.\r\n\r\nCONTACT:jialu.hu@fu-berlin.de
+    GPL v3 license at https://code.google.com/p/localali/.CONTACT:jialu.hu@fu-berlin.de
     or knut.reinert@fu-berlin.de."
   status_changed: '2016-11-15 14:02:22'
   refereed: 'TRUE'
@@ -4279,7 +4279,7 @@
       lineage:
       family: Remington
       honourific:
-      given: "K.\tA."
+      given: "K.A."
   - name:
       lineage:
       family: Delcher
@@ -4326,7 +4326,7 @@
   title: Design of a compartmentalized Shotgun Assembler for the Human Genome
   status_changed: '2009-03-11 11:27:07'
   uri: http://publications.imp.fu-berlin.de/id/eprint/366
-  event_title: "Proceedings of the Ninth International Conference on Intelligent\tSystems
+  event_title: "Proceedings of the Ninth International Conference on IntelligentSystems
     for Molecular Biology (ISMB-01)"
   ispublished: pub
   lastmod: '2017-03-03 14:40:14'
@@ -4407,7 +4407,7 @@
       family: Myers
       lineage:
   uri: http://publications.imp.fu-berlin.de/id/eprint/368
-  event_title: "Proceedings of the Fifth Annual International Conference on Computational\tMolecular
+  event_title: "Proceedings of the Fifth Annual International Conference on ComputationalMolecular
     Biology (RECOMB-01)"
   ispublished: pub
   lastmod: '2017-03-03 14:40:14'
@@ -4877,16 +4877,16 @@
   type: article
   title: Alternate-locus aware variant calling in whole genome sequencing
   status_changed: '2017-01-12 09:36:57'
-  abstract: "\r\nBackground\r\n\r\nThe last two human genome assemblies have extended
+  abstract: "BackgroundThe last two human genome assemblies have extended
     the previous linear golden-path paradigm of the human genome to a graph-like model
     to better represent regions with a high degree of structural variability. The
     new model offers opportunities to improve the technical validity of variant calling
-    in whole-genome sequencing (WGS).\r\nMethods\r\n\r\nWe developed an algorithm
+    in whole-genome sequencing (WGS).MethodsWe developed an algorithm
     that analyzes the patterns of variant calls in the 178 structurally variable regions
     of the GRCh38 genome assembly, and infers whether a given sample is most likely
     to contain sequences from the primary assembly, an alternate locus, or their heterozygous
     combination at each of these 178 regions. We investigate 121 in-house WGS datasets
-    that have been aligned to the GRCh37 and GRCh38 assemblies.\r\n\r\nResults\r\n\r\nWe
+    that have been aligned to the GRCh37 and GRCh38 assemblies.ResultsWe
     show that stretches of sequences that are largely but not entirely identical between
     the primary assembly and an alternate locus can result in multiple variant calls
     against regions of the primary assembly. In WGS analysis, this results in characteristic
@@ -4896,7 +4896,7 @@
     than the primary assembly sequence, and filtering these genomes with our algorithm
     led to the identification of 7863 variant calls per genome that colocalized with
     ASDPs. Additionally, we found that 437 of 791 genome-wide association study hits
-    located within one of the regions corresponded to ASDPs.\r\n\r\nConclusions\r\n\r\nOur
+    located within one of the regions corresponded to ASDPs.ConclusionsOur
     algorithm uses the information contained in the 178 structurally variable regions
     of the GRCh38 genome assembly to avoid spurious variant calls in cases where samples
     contain an alternate locus rather than the corresponding segment of the primary
@@ -5010,13 +5010,13 @@
     gain and loss occurs in addition to other types of rearrangement, breakpoints
     of rearrangement can exist that are only detectable by comparison of three or
     more genomes. An arbitrarily large number of these “hidden” breakpoints can exist
-    among genomes that exhibit no rearrangements in pairwise comparisons. \r\n\r\nWe
+    among genomes that exhibit no rearrangements in pairwise comparisons. We
     present an extension of the multichromosomal breakpoint median problem to genomes
     that have undergone gene gain and loss. We then demonstrate that the median distance
     among three genomes can be used to calculate a lower bound on the number of hidden
     breakpoints present. We provide an implementation of this calculation including
     the median distance, along with some practical improvements on the time complexity
-    of the underlying algorithm. \r\n\r\nWe apply our approach to measure the abundance
+    of the underlying algorithm. We apply our approach to measure the abundance
     of hidden breakpoints in simulated data sets under a wide range of evolutionary
     scenarios. We demonstrate that in simulations the hidden breakpoint counts depend
     strongly on relative rates of inversion and gene gain/loss. Finally we apply current
@@ -5055,21 +5055,21 @@
   ispublished: pub
   uri: http://publications.imp.fu-berlin.de/id/eprint/1437
   official_url: http://www.biomedcentral.com/1471-2105/15/99/abstract
-  abstract: "Background\r\n\r\nRecent advances in rapid, low-cost sequencing have
+  abstract: "BackgroundRecent advances in rapid, low-cost sequencing have
     opened up the opportunity to study complete genome sequences. The computational
     approach of multiple genome alignment allows investigation of evolutionarily related
     genomes in an integrated fashion, providing a basis for downstream analyses such
-    as rearrangement studies and phylogenetic inference.\r\n\r\nGraphs have proven
+    as rearrangement studies and phylogenetic inference.Graphs have proven
     to be a powerful tool for coping with the complexity of genome-scale sequence
     alignments. The potential of graphs to intuitively represent all aspects of genome
     alignments led to the development of graph-based approaches for genome alignment.
     These approaches construct a graph from a set of local alignments, and derive
     a genome alignment through identification and removal of graph substructures that
-    indicate errors in the alignment.\r\n\r\nResults\r\n\r\nWe compare the structures
+    indicate errors in the alignment.ResultsWe compare the structures
     of commonly used graphs in terms of their abilities to represent alignment information.
     We describe how the graphs can be transformed into each other, and identify and
     classify graph substructures common to one or more graphs. Based on previous approaches,
-    we compile a list of modifications that remove these substructures.\r\n\r\nConclusion\r\n\r\nWe
+    we compile a list of modifications that remove these substructures.ConclusionWe
     show that crucial pieces of alignment information, associated with inversions
     and duplications, are not visible in the structure of all graphs. If we neglect
     vertex or edge labels, the graphs differ in their information content. Still,
@@ -5114,16 +5114,16 @@
   rev_number: 11
   type: article
   title: 'STELLAR: fast and exact local alignments'
-  abstract: "Background\r\nLarge-scale comparison of genomic sequences requires reliable
+  abstract: "BackgroundLarge-scale comparison of genomic sequences requires reliable
     tools for the search of local alignments. Practical local aligners are in general
-    fast, but heuristic, and hence sometimes miss significant matches.\r\n\r\nResults\r\nWe
+    fast, but heuristic, and hence sometimes miss significant matches.ResultsWe
     present here the local pairwise aligner STELLAR that has full sensitivity for
     ε-alignments, i.e. guarantees to report all local alignments of a given minimal
     length and maximal error rate. The aligner is composed of two steps, filtering
     and verification. We apply the SWIFT algorithm for lossless filtering, and have
     developed a new verification strategy that we prove to be exact. Our results on
     simulated and real genomic data confirm and quantify the conjecture that heuristic
-    tools like BLAST or BLAT miss a large percentage of significant local alignments.\r\n\r\nConclusions\r\nSTELLAR
+    tools like BLAST or BLAT miss a large percentage of significant local alignments.ConclusionsSTELLAR
     is very practical and fast on very long sequences which makes it a suitable new
     tool for finding local alignments between genomic sequences under the edit distance
     model. Binaries are freely available for Linux, Windows, and Mac OS X at http://www.seqan.de/projects/stellar.
@@ -5291,13 +5291,13 @@
       family: Reinert
   type: book_section
   userid: 132
-  abstract: "Motivation: \r\nComprehensive identification of structural variations
+  abstract: "Motivation: Comprehensive identification of structural variations
     (SVs) is a crucial task for studying genetic diversity and diseases. However,
     it remains challenging. There is only a marginal consensus between different methods,
     and our understanding of SVs is substantially limited.In general, integration
     of multiple pieces of evidence including split-read, read-pair, soft-clip, and
     read-depth yields the best result regarding accuracy. However, doing this step
-    by step is usually cumbersome and computationally expensive. \r\nResult: \r\nWe
+    by step is usually cumbersome and computationally expensive. Result: We
     present Vaquita, an accurate and fast tool for the identification of structural
     variations, which leverages all four types of evidence in a single program. After
     merging SVs from split-reads and discordant read-pairs, Vaquita realigns the soft-clipped
@@ -5309,8 +5309,8 @@
     insertion size of the library, and read length, and is comparable or even better
     for the identification of deletions, inversions, duplications, and translocations
     than state-of-the-art tools, using both simulated and real datasets. In addition,
-    Vaquita is more than eight times faster than any other tools in comparison. \r\nAvailability:
-    \r\nVaquita is implemented in C++ using the SeqAn library. The source code is
+    Vaquita is more than eight times faster than any other tools in comparison. Availability:
+    Vaquita is implemented in C++ using the SeqAn library. The source code is
     distributed under the BSD license and can be downloaded at http://github.com/seqan/vaquita"
   title: 'Vaquita: Fast and Accurate Identification of Structural Variation Using
     Combined Evidence'
@@ -5377,7 +5377,7 @@
 - ispublished: pub
   lastmod: '2017-03-03 14:40:14'
   uri: http://publications.imp.fu-berlin.de/id/eprint/372
-  event_title: "Proceedings of the Twelfth International Conference on Intelligent\tSystems
+  event_title: "Proceedings of the Twelfth International Conference on IntelligentSystems
     for Molecular Biology (ISMB-04)"
   creators:
   - name:
@@ -5441,7 +5441,7 @@
   datestamp: '2017-03-03 14:40:14'
   publication: FEBS Journal
   status_changed: '2009-03-11 11:27:11'
-  title: "Reference methods and materials in standardisation and quality assurance\t(abstract)"
+  title: "Reference methods and materials in standardisation and quality assurance(abstract)"
   rev_number: 3
   type: article
   userid: 1
@@ -5477,30 +5477,30 @@
   rev_number: 3
   title: TOPP - The OpenMS Proteomics Pipeline
   status_changed: '2009-03-11 11:27:12'
-  abstract: "Motivation: Experimental techniques in proteomics have seen rapid\tdevelopment
-    over the last few years. Volume and complexity of the\r\n\tdata have both been
-    growing at a similar rate. Accordingly, data\r\n\tmanagement and analysis are
-    one of the major challenges in proteomics.\r\n\tFlexible algorithms are required
-    to handle changing experimental\r\n\tsetups and to assist in developing and validating
-    new methods. In\r\n\torder to facilitate these studies, it would be desirable
-    to have\r\n\ta flexible `toolbox' of versatile and user-friendly applications\r\n\tallowing
-    for rapid construction of computational workflows in proteomics.\r\n\tResults:
-    We describe a set of tools for proteomics data analysis\r\n\t-- TOPP, The OpenMS
-    Proteomics Pipeline. TOPP provides a set of computational\r\n\ttools which can
-    be easily combined into analysis pipelines even by\r\n\tnon-experts and can be
-    used in proteomics workflows. These applications\r\n\trange from useful utilities
-    (file format conversion, peak picking)\r\n\tover wrapper applications for known
-    applications (e.g. Mascot) to\r\n\tcompletely new algorithmic techniques for data
-    reduction and data\r\n\tanalysis. We anticipate that TOPP will greatly facilitate
-    rapid prototyping\r\n\tof proteomics data evaluation pipelines. As such, we describe
-    the\r\n\tbasic concepts and the current abilities of TOPP and illustrate these\r\n\tconcepts
-    in the context of two example applications: the identification\r\n\tof peptides
-    from a raw data set through database search and the complex\r\n\tanalysis of a
-    standard addition experiment for the absolute quantitation\r\n\tof biomarkers.
-    The latter example demonstrates TOPP's ability to\r\n\tconstruct flexible analysis
-    pipelines in support of complex experimental\r\n\tsetups. Availability: The TOPP
-    components are available as open-source\r\n\tsoftware under the lesser GNU public
-    license (LGPL). Source code\r\n\tis available from the project web site at www.OpenMS.de"
+  abstract: "Motivation: Experimental techniques in proteomics have seen rapiddevelopment
+    over the last few years. Volume and complexity of thedata have both been
+    growing at a similar rate. Accordingly, datamanagement and analysis are
+    one of the major challenges in proteomics.Flexible algorithms are required
+    to handle changing experimentalsetups and to assist in developing and validating
+    new methods. Inorder to facilitate these studies, it would be desirable
+    to havea flexible `toolbox' of versatile and user-friendly applicationsallowing
+    for rapid construction of computational workflows in proteomics.Results:
+    We describe a set of tools for proteomics data analysis-- TOPP, The OpenMS
+    Proteomics Pipeline. TOPP provides a set of computationaltools which can
+    be easily combined into analysis pipelines even bynon-experts and can be
+    used in proteomics workflows. These applicationsrange from useful utilities
+    (file format conversion, peak picking)over wrapper applications for known
+    applications (e.g. Mascot) tocompletely new algorithmic techniques for data
+    reduction and dataanalysis. We anticipate that TOPP will greatly facilitate
+    rapid prototypingof proteomics data evaluation pipelines. As such, we describe
+    thebasic concepts and the current abilities of TOPP and illustrate theseconcepts
+    in the context of two example applications: the identificationof peptides
+    from a raw data set through database search and the complexanalysis of a
+    standard addition experiment for the absolute quantitationof biomarkers.
+    The latter example demonstrates TOPP's ability toconstruct flexible analysis
+    pipelines in support of complex experimentalsetups. Availability: The TOPP
+    components are available as open-sourcesoftware under the lesser GNU public
+    license (LGPL). Source codeis available from the project web site at www.OpenMS.de"
   datestamp: '2009-04-14 14:25:23'
   creators:
   - name:
@@ -5539,7 +5539,7 @@
       given: M.
       family: Sturm
   uri: http://publications.imp.fu-berlin.de/id/eprint/375
-  event_title: "Proceedings of the 5th European Conference on Computational Biology\t(ECCB
+  event_title: "Proceedings of the 5th European Conference on Computational Biology(ECCB
     2006)"
   lastmod: '2009-04-14 14:25:23'
   ispublished: pub
@@ -5547,7 +5547,7 @@
   lastmod: '2017-03-03 14:40:14'
   uri: http://publications.imp.fu-berlin.de/id/eprint/374
   status_changed: '2009-03-11 11:27:12'
-  title: "Differenzielle Proteomanalyse -- Experimentelle Methoden, Algorithmische\tHerausforderungen"
+  title: "Differenzielle Proteomanalyse -- Experimentelle Methoden, AlgorithmischeHerausforderungen"
   type: article
   rev_number: 3
   userid: 1
@@ -5643,7 +5643,7 @@
     efficient and unambiguous clonotype assignment to a large number of NGS read sequences,
     including the identification of the incorporated V and J gene segments and the
     CDR3 sequence. Current tools have deficits with respect to performance, accuracy
-    and documentation of their underlying algorithms and usage.\r\n\r\nResults: We
+    and documentation of their underlying algorithms and usage.Results: We
     present IMSEQ, a method to derive clonotype repertoires from next generation sequencing
     data with sophisticated routines for handling errors stemming from PCR and sequencing
     artefacts. The application can handle different kinds of input data originating
@@ -5651,7 +5651,7 @@
     regarding the species and gene of interest. We have carefully evaluated our method
     with simulated and real world data and show that IMSEQ is superior to other tools
     with respect to its clonotyping as well as standalone error correction and runtime
-    performance.\r\n\r\nAvailability: IMSEQ was implemented in C++ using the SeqAn
+    performance.Availability: IMSEQ was implemented in C++ using the SeqAn
     library for efficient sequence analysis. It is freely available under the GPLv2
     open source license and can be downloaded at www.imtools.org. "
   userid: 132
@@ -5673,21 +5673,21 @@
   rev_number: 3
   userid: 1
   status_changed: '2009-03-11 11:26:54'
-  abstract: "High throughput analysis of proteins using mass spectrometry requires\tan
-    efficient signal preprocessing which reduces the amount of data\r\n\twith minimal
-    loss of information. Therefore the peaks that belong\r\n\tto a peptide have to
-    be detected, and important features like their\r\n\tpeak centroid position, the
-    height and the area have to be determined.\r\n\tHere we present a peak picking
-    algorithm which detects peaks in a\r\n\tnoisy mass spectrum using its continuous
-    wavelet transform. By adapting\r\n\tthe wavelet to the theoretical peak shape,
-    each peaks centroid position\r\n\tis precisely identified; thus, overlapping peaks
-    (e.g. caused by\r\n\telectronspray ionization) are well separated. Representing
-    each peak\r\n\tnot only by its centroid position and area but also by the parameters\r\n\tof
-    the best fitting asymmetric lorentzian or hyperbolic secant squared\r\n\tfunctions,
-    yields valuable information about the original peak shape\r\n\tfor further analysis.
-    Given a mass spectrum with 100,000 raw data\r\n\tpoints representing 200 peaks,
-    our algorithm stored 5 parameters\r\n\tper peak, and was able to reduce the memory
-    requirement down to 1\r\n\tpercent."
+  abstract: "High throughput analysis of proteins using mass spectrometry requiresan
+    efficient signal preprocessing which reduces the amount of datawith minimal
+    loss of information. Therefore the peaks that belongto a peptide have to
+    be detected, and important features like theirpeak centroid position, the
+    height and the area have to be determined.Here we present a peak picking
+    algorithm which detects peaks in anoisy mass spectrum using its continuous
+    wavelet transform. By adaptingthe wavelet to the theoretical peak shape,
+    each peaks centroid positionis precisely identified; thus, overlapping peaks
+    (e.g. caused byelectronspray ionization) are well separated. Representing
+    each peaknot only by its centroid position and area but also by the parametersof
+    the best fitting asymmetric lorentzian or hyperbolic secant squaredfunctions,
+    yields valuable information about the original peak shapefor further analysis.
+    Given a mass spectrum with 100,000 raw datapoints representing 200 peaks,
+    our algorithm stored 5 parametersper peak, and was able to reduce the memory
+    requirement down to 1percent."
   title: Peak picking in mass spectra
   uri: http://publications.imp.fu-berlin.de/id/eprint/344
   ispublished: pub
@@ -5793,14 +5793,14 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/377
   lastmod: '2009-04-14 14:33:24'
   ispublished: pub
-  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on Computational\tProteomics,
+  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on ComputationalProteomics,
     20.-25. November 2005"
-- event_title: "Proceedings of the 15th Annual International Conference on Intelligent\tSystems
-    for Molecular Biology (ISMB) &amp; 6th European Conference on \tComputational
+- event_title: "Proceedings of the 15th Annual International Conference on IntelligentSystems
+    for Molecular Biology (ISMB) &amp; 6th European Conference on Computational
     Biology (ECCB)"
   userid: 132
   type: article
-  title: "A Geometric Approach for the Alignment of Liquid Chromatography-Mass\tSpectrometry
+  title: "A Geometric Approach for the Alignment of Liquid Chromatography-MassSpectrometry
     Data"
   abstract: "Motivation: Liquid chromatography coupled to mass spectrometry (LC-MS)
     and combined with tandem mass spectrometry (LC-MS/MS) have become a prominent
@@ -5809,7 +5809,7 @@
     confidence in the obtained measurements or to compare results from different samples.
     To do so, a suitable mapping or alignment between the data sets needs to be estimated.
     The alignment has to correct for variations in mass and elution time which are
-    present in all mass spectrometry experiments. \r\n\r\nResults: We propose a novel
+    present in all mass spectrometry experiments. Results: We propose a novel
     algorithm to align LC-MS samples and to match corresponding ion species across
     samples. Our algorithm matches landmark signals between two data sets using a
     geometric technique based on pose clustering. Variations in mass and retention
@@ -5819,7 +5819,7 @@
     approaches. It is robust in the presence of noise and able to accurately align
     samples with only few common ion species. In addition, we can easily handle different
     kinds of LC-MS data and adopt our algorithm to new mass spectrometry technologies.
-    \r\n\r\nAvailability: This algorithm is implemented as part of the OpenMS software
+    Availability: This algorithm is implemented as part of the OpenMS software
     library for shotgun proteomics and available under the Lesser GNU Public License
     (LGPL) at www.openms.de"
   datestamp: '2012-04-10 14:34:51'
@@ -5911,7 +5911,7 @@
   datestamp: '2009-04-14 14:12:16'
   publication: BMC Bioinformatics
   status_changed: '2009-03-11 11:27:15'
-  title: "Critical assessment of alignment procedures for LC-MS proteomics\tand metabolomic
+  title: "Critical assessment of alignment procedures for LC-MS proteomicsand metabolomic
     measurements"
   rev_number: 3
   type: article
@@ -5952,7 +5952,7 @@
   userid: 1
   type: article
   rev_number: 3
-  title: "An exact solution for the segment-to-segment multiple sequence alignment\tproblem"
+  title: "An exact solution for the segment-to-segment multiple sequence alignmentproblem"
   status_changed: '2009-03-11 11:27:16'
   datestamp: '2017-03-03 14:40:14'
   publication: BIOINFORMATICS
@@ -6038,7 +6038,7 @@
   type: conference_item
   title: A polyhedral approach to RNA sequence structure alignment
   status_changed: '2010-11-02 13:46:56'
-  event_title: "Proceedings of the Second Annual International Conference on Computational\tMolecular
+  event_title: "Proceedings of the Second Annual International Conference on ComputationalMolecular
     Biology (RECOMB-98)"
   uri: http://publications.imp.fu-berlin.de/id/eprint/380
   lastmod: '2010-11-02 13:46:56'
@@ -6082,7 +6082,7 @@
       lineage:
   datestamp: '2017-03-03 14:40:14'
   publication: Journal of Computational Biology
-  title: "The Practical Use of the A* Algorithm for Exact Multiple Sequence\tAlignment"
+  title: "The Practical Use of the A* Algorithm for Exact Multiple SequenceAlignment"
   status_changed: '2009-03-11 11:27:17'
   userid: 1
   type: article
@@ -6204,10 +6204,10 @@
   type: conference_item
   userid: 1
   status_changed: '2009-03-11 11:27:17'
-  title: "Accelerated microRNA Precursor Detection Using the Smith-Waterman\tAlgorithm
+  title: "Accelerated microRNA Precursor Detection Using the Smith-WatermanAlgorithm
     on FPGAs"
-- title: "Absolute Myoglobin Quantitation in Serum by Combining Two-Dimensional\tLiquid
-    Chromatography-Electrospray Ionization Mass Spectrometry and\r\n\tNovel Data Analysis
+- title: "Absolute Myoglobin Quantitation in Serum by Combining Two-DimensionalLiquid
+    Chromatography-Electrospray Ionization Mass Spectrometry andNovel Data Analysis
     Algorithms"
   status_changed: '2009-03-11 11:27:18'
   userid: 1
@@ -6284,8 +6284,8 @@
   rev_number: 3
   userid: 1
   status_changed: '2009-03-11 11:27:18'
-  title: "Bioinformatik: Aktuelle Proteinausstattung erlaubt Aussagen\tüber den Gesundheitszustand.
-    Software hilft Ärzten künftig\n\tbei der Diagnose."
+  title: "Bioinformatik: Aktuelle Proteinausstattung erlaubt Aussagenüber den Gesundheitszustand.
+    Software hilft Ärzten künftigbei der Diagnose."
   datestamp: '2017-03-03 14:40:14'
   creators:
   - name:
@@ -6296,7 +6296,7 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/386
   lastmod: '2017-03-03 14:40:14'
   ispublished: pub
-  note: "Der Artikel eines freien Medienjournalisten beschreibt den Einsatz\tvon OpenMS
+  note: "Der Artikel eines freien Medienjournalisten beschreibt den Einsatzvon OpenMS
     in der Proteomik"
 - date_type: published
   full_text_status: none
@@ -6373,7 +6373,7 @@
     portions of the human genome, 44 are likely paralogous to these genes, and 164
     genes have homologs elsewhere in the human genome; there are 14 genes for which
     we could find no human counterpart.
-  title: "A Comparison of Whole-Genome Shotgun-Derived Mouse Chromosome 16\tand the
+  title: "A Comparison of Whole-Genome Shotgun-Derived Mouse Chromosome 16and the
     Human Genome"
   datestamp: '2009-11-24 15:48:00'
   publication: Science
@@ -6768,20 +6768,20 @@
   title: Ultrahigh-performance liquid chromatography-ultraviolet absorbance detection-high-resolution-mass
     spectrometry combined with automated data processing for studying the kinetics
     of oxidative thermal degradation of thyroxine in the solid state
-  abstract: "Received 29 June 2014\r\nReceived in revised form\r\n29 September 2014\r\nAccepted
-    24 October 2014 Available online 30 October 2014\r\nKeywords:\r\nThyroxine\r\nUltrahigh-performance
-    liquid chromatography\r\nElectrospray ionization Orbitrap mass spectrometry\r\nKinetics\r\nDrug
-    degradation\r\nBioinformatics\r\n1. Introduction\r\nLevothyroxine (T4) is a well-known
+  abstract: "Received 29 June 2014Received in revised form29 September 2014Accepted
+    24 October 2014 Available online 30 October 2014Keywords:ThyroxineUltrahigh-performance
+    liquid chromatographyElectrospray ionization Orbitrap mass spectrometryKineticsDrug
+    degradationBioinformatics1. IntroductionLevothyroxine (T4) is a well-known
     and widely used drug for the treatment of hypothyroidism. The therapy is usually
     based on substitution of the natural hormone by a long-term treatment with synthetic
     levothyroxine [1]. It is a narrow therapeutic index drug, for which individual
     dosage levels of patients need to be established over several weeks. Consequently,
     products differing in content of levothyroxine due to compound instability or
     problems in formu- lation can lead to wrong medication and potentially cause severe
-    health problems [2,3].\r\n∗ Corresponding author. Tel.:+43 0 662 8044 5704; fax:
+    health problems [2,3].∗ Corresponding author. Tel.:+43 0 662 8044 5704; fax:
     +43 0 662 8044 5751. E-mail addresses: volker.a.neu@basf.com (V. Neu), chris.bielow@fu-berlin.de
-    (C. Bielow), reinert@inf.fu-berlin.de (K. Reinert), c.huber@sbg.ac.at (C.G. Huber).\r\nhttp://dx.doi.org/10.1016/j.chroma.2014.10.071\r\n0021-9673/©
-    2014 Elsevier B.V. All rights reserved.\r\nabstract\r\nLevothyroxine as active
+    (C. Bielow), reinert@inf.fu-berlin.de (K. Reinert), c.huber@sbg.ac.at (C.G. Huber).http://dx.doi.org/10.1016/j.chroma.2014.10.0710021-9673/©
+    2014 Elsevier B.V. All rights reserved.abstractLevothyroxine as active
     pharmaceutical ingredient of formulations used for the treatment of hypothy- roidism
     is distributed worldwide and taken by millions of people. An important issue in
     terms of compound stability is its capability to react with ambient oxygen, especially
@@ -6946,7 +6946,7 @@
   type: article
   rev_number: 5
   userid: 132
-  abstract: "Background\r\n\r\nIn recent years, several mass spectrometry-based omics
+  abstract: "BackgroundIn recent years, several mass spectrometry-based omics
     technologies emerged to investigate qualitative and quantitative changes within
     thousands of biologically active components such as proteins, lipids and metabolites.
     The research enabled through these methods potentially contributes to the diagnosis
@@ -6954,14 +6954,14 @@
     and interactions between biomolecules. Simultaneously, technological advances
     in the field of mass spectrometry leading to an ever increasing amount of data,
     demand high standards in efficiency, accuracy and reproducibility of potential
-    analysis software.\r\n\r\nResults\r\n\r\nThis article presents the current state
+    analysis software.ResultsThis article presents the current state
     and ongoing developments in OpenMS, a versatile open-source framework aimed at
     enabling reproducible analyses of high-throughput mass spectrometry data. It provides
     implementations of frequently occurring processing operations on MS data through
     a clean application programming interface in C++ and Python. A collection of 185
     tools and ready-made workflows for typical MS-based experiments enable convenient
     analyses for non-developers and facilitate reproducible research without losing
-    flexibility.\r\n\r\nConclusions\r\n\r\nOpenMS will continue to increase its ease
+    flexibility.ConclusionsOpenMS will continue to increase its ease
     of use for developers as well as users with improved continuous integration/deployment
     strategies, regular trainings with updated training materials and multiple sources
     of support. The active developer community ensures the incorporation of new features
@@ -7140,11 +7140,11 @@
     step in time O(σ) while needing space O(σ⋅n) using constant time rank queries
     on bit vectors. Schnattinger and colleagues improved this time to O(logσ) while
     using O(logσ⋅n) bits of space for both, the FM and 2FM index. This is achieved
-    by the use of binary wavelet trees.\r\n\r\nIn this paper we introduce a new, practical
+    by the use of binary wavelet trees.In this paper we introduce a new, practical
     method for conducting an exact search in a uni- and bidirectional FM index in
-    O(1) time per step while using O(logσ⋅n)+o(logσ⋅σ⋅n) \r\nbits of space. This is
+    O(1) time per step while using O(logσ⋅n)+o(logσ⋅σ⋅n) bits of space. This is
     done by replacing the binary wavelet tree by a new data structure, the Enhanced
-    Prefixsum Rank dictionary (EPR-dictionary).\r\n\r\nWe implemented this method
+    Prefixsum Rank dictionary (EPR-dictionary).We implemented this method
     in the SeqAn C++ library and experimentally validated our theoretical results.
     In addition we compared our implementation with other freely available implementations
     of bidirectional indices and show that we are between ≈2.2−4.2 times faster. This
@@ -7199,13 +7199,13 @@
     that stem from closely related species or are indeed individuals of the same species.
     Hence, the analyzed sequences are similar. For analyses where local changes in
     the examined sequence induce only local changes in the results, it is obviously
-    desirable to examine identical or similar regions not repeatedly.\r\n\r\nResults:
+    desirable to examine identical or similar regions not repeatedly.Results:
     In this work, we provide a datatype that exploits data parallelism inherent in
     a set of similar sequences by analyzing shared regions only once. In real-world
     experiments, we show that algorithms that otherwise would scan each reference
-    sequentially can be speeded up by a factor of 115.\r\n\r\nAvailability: The data
+    sequentially can be speeded up by a factor of 115.Availability: The data
     structure and associated tools are publicly available at http://www.seqan.de/projects/jst
-    and are part of SeqAn, the C++ template library for sequence analysis.\r\n\r\nContact:
+    and are part of SeqAn, the C++ template library for sequence analysis.Contact:
     rene.rahn@fu-berlin.de"
   status_changed: '2014-08-25 18:46:21'
   title: Journaled string tree--a scalable data structure for analyzing thousands
@@ -7267,7 +7267,7 @@
   datestamp: '2018-05-31 11:28:35'
   publication: Bioinformatics
   title: Generic accelerated sequence alignment in SeqAn using vectorization and multi-threading
-  abstract: "Motivation\r\n\r\nPairwise sequence alignment is undoubtedly a central
+  abstract: "MotivationPairwise sequence alignment is undoubtedly a central
     tool in many bioinformatics analyses. In this paper, we present a generically
     accelerated module for pairwise sequence lignments applicable for a broad range
     of applications. In our module, we unified the standard dynamic programming kernel
@@ -7277,14 +7277,14 @@
     We then extended the module by adding two layers of thread-level parallelization,
     where we a) distribute many independent alignments on multiple threads and b)
     inherently parallelize a single alignment computation using a work stealing approach
-    producing a dynamic wavefront progressing along the minor diagonal.\r\n\r\nResults\r\n\r\nWe
+    producing a dynamic wavefront progressing along the minor diagonal.ResultsWe
     evaluated our alignment vectorization and parallelization on different processors,
     including the newest Intel® Xeon® (Skylake) and Intel® Xeon Phi™ (KNL) processors,
     and use cases. The instruction set AVX512-BW (Byte and Word), available on Skylake
     processors, can genuinely improve the performance of vectorized alignments. We
     could run single alignments 1600 times faster on the Xeon Phi™ and 1400 times
     faster on the Xeon® than executing them with our previous sequential alignment
-    module.\r\n\r\nAvailability\r\n\r\nThe module is programmed in C++ using the SeqAn
+    module.AvailabilityThe module is programmed in C++ using the SeqAn
     (Reinert et al., 2017) library and distributed with version 2.4. under the BSD
     license. We support SSE4, AVX2, AVX512 instructions and included UME::SIMD, a
     SIMD-instruction wrapper library, to extend our module for further instruction
@@ -7421,7 +7421,7 @@
   - G400
   divisions:
   - group_algbioinf
-  institution: "Hasso-Plattner-Institut für Softwaresystemtechnik GmbH, Universität\tPotsdam"
+  institution: "Hasso-Plattner-Institut für Softwaresystemtechnik GmbH, UniversitätPotsdam"
   refereed: 'TRUE'
   eprintid: 389
   item_issues_count: 0
@@ -7457,27 +7457,27 @@
   metadata_visibility: show
   eprintid: 394
   refereed: 'TRUE'
-  abstract: "This paper describes a novel algorithm to analyze genetic linkage\tdata
-    using pattern recognition techniques and genetic algorithms\n\t(GA). The method
-    allows a search for regions of the chromosome that\n\tmay contain genetic variations
-    that jointly predispose individuals\n\tfor a particular disease. The method uses
-    correlation analysis, filtering\n\ttheory and genetic algorithms to achieve this
-    goal. Because current\n\tgenome scans use from hundreds to hundreds of thousands
-    of markers,\n\ttwo versions of the method have been implemented. The first is
-    an\n\texhaustive analysis version that can be used to visualize, explore,\n\tand
-    analyze small genetic data sets for two marker correlations;\n\tthe second is
-    a GA version, which uses a parallel implementation\n\tallowing searches of higher-order
-    correlations in large data sets.\n\tResults on simulated data sets indicate that
-    the method can be informative\n\tin the identification of major disease loci and
-    geneâ\x80\x93gene interactions\n\tin genome-wide linkage data and that further
-    exploration of these\n\ttechniques is justified. The results presented for both
-    variants\n\tof the method show that it can help genetic epidemiologists to identify\n\tpromising
-    combinations of genetic factors that might predispose to\n\tcomplex disorders.
-    In particular, the correlation analysis of IBD\n\texpression patterns might hint
-    to possible geneâ\x80\x93gene interactions\n\tand the filtering might be a fruitful
-    approach to distinguish true\n\tcorrelation signals from noise."
+  abstract: "This paper describes a novel algorithm to analyze genetic linkagedata
+    using pattern recognition techniques and genetic algorithms(GA). The method
+    allows a search for regions of the chromosome thatmay contain genetic variations
+    that jointly predispose individualsfor a particular disease. The method uses
+    correlation analysis, filteringtheory and genetic algorithms to achieve this
+    goal. Because currentgenome scans use from hundreds to hundreds of thousands
+    of markers,two versions of the method have been implemented. The first is
+    anexhaustive analysis version that can be used to visualize, explore,and
+    analyze small genetic data sets for two marker correlations;the second is
+    a GA version, which uses a parallel implementationallowing searches of higher-order
+    correlations in large data sets.Results on simulated data sets indicate that
+    the method can be informativein the identification of major disease loci and
+    geneâ\x80\x93gene interactionsin genome-wide linkage data and that further
+    exploration of thesetechniques is justified. The results presented for both
+    variantsof the method show that it can help genetic epidemiologists to identifypromising
+    combinations of genetic factors that might predispose tocomplex disorders.
+    In particular, the correlation analysis of IBDexpression patterns might hint
+    to possible geneâ\x80\x93gene interactionsand the filtering might be a fruitful
+    approach to distinguish truecorrelation signals from noise."
   status_changed: '2009-03-11 11:27:23'
-  title: "A parallel genetic algorithm to discover patterns in genetic markers\tthat
+  title: "A parallel genetic algorithm to discover patterns in genetic markersthat
     indicate predisposition to multifactorial disease"
   type: article
   rev_number: 3
@@ -7511,22 +7511,22 @@
   official_url: http://www.ncbi.nlm.nih.gov/pubmed/18547558
 - title: Segment-based multiple sequence alignment
   status_changed: '2009-03-11 11:27:21'
-  abstract: "Motivation: Many multiple sequence alignment tools have been developed\tin
-    the past, progressing either in speed or alignment accuracy. Given\r\n\tthe importance
-    and wide-spread use of alignment tools, progress in\r\n\tboth categories is a
-    contribution to the community and has driven\r\n\tresearch in the field so far.
-    Results: We introduce a graph-based\r\n\textension to the consistency-based, progressive
-    alignment strategy.\r\n\tWe apply the consistency notion to segments instead of
-    single characters.\r\n\tThe main problem we solve in this context is to define
-    segments of\r\n\tthe sequences in such a way that a graph-based alignment is possible.\r\n\tWe
-    implemented the algorithm using the SeqAn library and report results\r\n\ton amino
-    acid and DNA sequences. The benefit of our approach is threefold:\r\n\t(1) sequences
-    with conserved blocks can be rapidly aligned, (2) the\r\n\timplementation is conceptually
-    easy, generic and fast and (3) the\r\n\tconsistency idea can be extended to align
-    multiple genomic sequences.\r\n\tAvailability: The segment-based multiple sequence
-    alignment tool\r\n\tcan be downloaded from http://www.seqan.de/projects/msa.html.
-    A novel\r\n\tversion of T-Coffee interfaced with the tool is available from http://www.tcoffee.org.\r\n\tThe
-    usage of the tool is described in both documentations. Contact:\r\n\trausch@inf.fu-berlin.de"
+  abstract: "Motivation: Many multiple sequence alignment tools have been developedin
+    the past, progressing either in speed or alignment accuracy. Giventhe importance
+    and wide-spread use of alignment tools, progress inboth categories is a
+    contribution to the community and has drivenresearch in the field so far.
+    Results: We introduce a graph-basedextension to the consistency-based, progressive
+    alignment strategy.We apply the consistency notion to segments instead of
+    single characters.The main problem we solve in this context is to define
+    segments ofthe sequences in such a way that a graph-based alignment is possible.We
+    implemented the algorithm using the SeqAn library and report resultson amino
+    acid and DNA sequences. The benefit of our approach is threefold:(1) sequences
+    with conserved blocks can be rapidly aligned, (2) theimplementation is conceptually
+    easy, generic and fast and (3) theconsistency idea can be extended to align
+    multiple genomic sequences.Availability: The segment-based multiple sequence
+    alignment toolcan be downloaded from http://www.seqan.de/projects/msa.html.
+    A novelversion of T-Coffee interfaced with the tool is available from http://www.tcoffee.org.The
+    usage of the tool is described in both documentations. Contact:rausch@inf.fu-berlin.de"
   userid: 1
   rev_number: 7
   type: article
@@ -7624,7 +7624,7 @@
     scenarios as well as the usage of the tool are described in the documentation.
     Contact: rausch@inf.fu-berlin.de'
   status_changed: '2010-02-04 14:00:19'
-  title: "A consistency-based consensus algorithm for de novo and reference-guided\tsequence
+  title: "A consistency-based consensus algorithm for de novo and reference-guidedsequence
     assembly of short reads"
   publication: Bioinformatics
   datestamp: '2009-04-14 13:41:05'
@@ -7716,7 +7716,7 @@
   type: conference_item
   userid: 1
   status_changed: '2009-03-11 11:27:24'
-  title: "A general paradigm for fast and adaptive clustering of biological\tsequences"
+  title: "A general paradigm for fast and adaptive clustering of biologicalsequences"
   datestamp: '2009-04-14 13:45:54'
   creators:
   - name:
@@ -7775,9 +7775,9 @@
   ispublished: pub
   lastmod: '2009-04-14 14:22:33'
   note: "<span class='mathrm'>&lt;</span>http://drops.dagstuhl.de/opus/volltexte/2006/546<span
-    class='mathrm'>&gt;</span> [date of citation:\t2006-01-01]"
+    class='mathrm'>&gt;</span> [date of citation:2006-01-01]"
   rev_number: 3
-  publisher: "Internationales Begegnungs- und Forschungszentrum fÃ¼r Informatik\t(IBFI),
+  publisher: "Internationales Begegnungs- und Forschungszentrum fÃ¼r Informatik(IBFI),
     Schloss Dagstuhl, Germany"
   type: conference_item
   userid: 1
@@ -7892,7 +7892,7 @@
   type: conference_item
   rev_number: 3
   official_url: http://www.dagstuhl.de/05471/
-  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on Computational\tProteomics,
+  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on ComputationalProteomics,
     20.-25. November 2005"
   ispublished: pub
   lastmod: '2009-04-14 14:33:46'
@@ -7928,7 +7928,7 @@
   abstract: "High-throughput DNA sequencing has considerably changed the possibilities
     for conducting biomedical research by measuring billions of short DNA or RNA fragments.
     A central computational problem, and for many applications a first step, consists
-    of determining where the fragments came from\r\nin the original genome. In this
+    of determining where the fragments came fromin the original genome. In this
     article, we review the main techniques for generating the fragments, the main
     applications, and the main algorithmic ideas for computing a solution to the read
     alignment problem. In addition, we describe pitfalls and difficulties connected
@@ -8034,7 +8034,7 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/396
   ispublished: pub
   lastmod: '2017-03-03 14:40:15'
-- event_title: "Proceedings of the First Annual International Conference on Computational\tMolecular
+- event_title: "Proceedings of the First Annual International Conference on ComputationalMolecular
     Biology (RECOMB-97)"
   uri: http://publications.imp.fu-berlin.de/id/eprint/399
   lastmod: '2017-03-03 14:40:15'
@@ -8159,7 +8159,7 @@
   datestamp: '2017-09-12 14:16:48'
   publication: Journal of Biotechnology
   status_changed: '2017-09-12 14:16:48'
-  abstract: "Background\r\n\r\nThe use of novel algorithmic techniques is pivotal
+  abstract: "BackgroundThe use of novel algorithmic techniques is pivotal
     to many important problems in life science. For example the sequencing of the
     human genome (Venter et al., 2001) would not have been possible without advanced
     assembly algorithms and the development of practical BWT based read mappers have
@@ -8168,12 +8168,12 @@
     between state-of-the-art algorithmic techniques and the actual algorithmic components
     of tools that are in widespread use. We previously addressed this by introducing
     the SeqAn library of efficient data types and algorithms in 2008 (Döring et al.,
-    2008).\r\n\r\nResults\r\n\r\nThe SeqAn library has matured considerably since
+    2008).ResultsThe SeqAn library has matured considerably since
     its first publication 9 years ago. In this article we review its status as an
     established resource for programmers in the field of sequence analysis and its
-    contributions to many analysis tools.\r\n\r\nConclusions\r\n\r\nWe anticipate
+    contributions to many analysis tools.ConclusionsWe anticipate
     that SeqAn will continue to be a valuable resource, especially since it started
-    to actively support various hardware acceleration techniques in a systematic manner.\r\n\r\nKeywords\r\n\r\nNGS
+    to actively support various hardware acceleration techniques in a systematic manner.KeywordsNGS
     analysis; Software libraries; C++; Data structures"
   title: 'The SeqAn C++ template library for efficient sequence analysis: A resource
     for programmers'
@@ -8207,22 +8207,22 @@
   type: article
   rev_number: 5
   title: Flexbar 3.0 – SIMD and multicore parallelization
-  abstract: "Motivation: \r\nHigh-throughput sequencing machines can process many
+  abstract: "Motivation: High-throughput sequencing machines can process many
     samples in a single run. For Illumina systems, sequencing reads are barcoded with
     an additional DNA tag that is contained in the respective sequencing adapters.
     The recognition of barcode and adapter sequences is hence commonly needed for
     the analysis of next-generation sequencing data. Flexbar performs demultiplexing
     based on barcodes and adapter trimming for such data. The massive amounts of data
     generated on modern sequencing machines demand that this preprocessing is done
-    as efficiently as possible.\r\n\r\nResults: \r\nWe present Flexbar 3.0, the successor
+    as efficiently as possible.Results: We present Flexbar 3.0, the successor
     of the popular program Flexbar. It employs now twofold parallelism: multi-threading
     and additionally SIMD vectorization. Both types of parallelism are used to speed-up
     the computation of pair-wise sequence alignments, which are used for the detection
     of barcodes and adapters. Furthermore, new features were included to cover a wide
     range of applications. We evaluated the performance of Flexbar based on a simulated
     sequencing dataset. Our program outcompetes other tools in terms of speed and
-    is among the best tools in the presented quality benchmark.\r\n\r\nAvailability
-    and implementation:\r\nhttps://github.com/seqan/flexbar\r\n\r\nContact:\r\njohannes.roehr@fu-berlin.de
+    is among the best tools in the presented quality benchmark.Availability
+    and implementation:https://github.com/seqan/flexbarContact:johannes.roehr@fu-berlin.de
     or knut.reinert@fu-berlin.de"
   status_changed: '2017-10-12 12:16:48'
   datestamp: '2017-10-12 12:16:48'
@@ -8550,21 +8550,21 @@
     and neuro-toxicological responses. Furthermore, four drugs (diazepam, cyclosporine
     A, chlorpromazine and amiodarone) were tested more in depth as representatives
     of different classes of neurotoxicants, inducing toxicity through different pathways
-    of toxicity.\r\n\r\nThe developed in vitro BBB model allowed detection of toxic
+    of toxicity.The developed in vitro BBB model allowed detection of toxic
     effects at the level of BBB and evaluation of drug transport through the barrier
     for predicting free brain concentrations of the studied drugs. The measurement
     of neuronal electrical activity was found to be a sensitive tool to predict the
     neuroactivity and neurotoxicity of drugs after acute exposure. The histotypic
     3D re-aggregating brain cell cultures, containing all brain cell types, were found
-    to be well suited for OMICs analyses after both acute and long term treatment.\r\n\r\nThe
+    to be well suited for OMICs analyses after both acute and long term treatment.The
     obtained data suggest that an in vitro ITS based on the information obtained from
     BBB studies and combined with metabolomics, proteomics and neuronal electrical
     activity measurements performed in stable in vitro neuronal cell culture systems,
-    has high potential to improve current in vitro drug-induced neurotoxicity evaluation.\r\n\r\nAbbreviations:\r\nBBB,
+    has high potential to improve current in vitro drug-induced neurotoxicity evaluation.Abbreviations:BBB,
     blood brain barrier; DMSO, dimethylsulfoxide; EC, endothelial cells; DIV, day
     in vitro; IPA, Ingenuity Pathway Analysis; ITS, integrated testing strategy; LY,
     Lucifer Yellow; MEA, micro-electrode array; RH, Ringer HEPES medium; SPSS, Statistical
-    Package for the Social Sciences\r\n"
+    Package for the Social Sciences"
   title: Evaluation of drug-induced neurotoxicity based on metabolomics, proteomics
     and electrical activity measurements in complementary CNS in vitro models
   type: article
@@ -8598,7 +8598,7 @@
   date_type: published
   metadata_visibility: show
   id_number: doi:10.1016/j.tiv.2015.05.016
-- event_title: "Proceedings of the 8th International Workshop in Algorithms in Bioinformatics\t(WABI'08)"
+- event_title: "Proceedings of the 8th International Workshop in Algorithms in Bioinformatics(WABI'08)"
   uri: http://publications.imp.fu-berlin.de/id/eprint/401
   lastmod: '2009-04-15 07:16:23'
   ispublished: pub
@@ -8640,18 +8640,18 @@
   type: conference_item
   title: Fast and Adaptive Variable Order Markov Chain Construction
   status_changed: '2009-03-11 11:27:27'
-  abstract: " Variable order Markov chains (VOMCs) are a flexible class of models\tthat
-    extend the well-known Markov chains. They have been applied\r\n\tto a variety
-    of problems in computational biology, e.g. protein family\r\n\tclassification.
-    A linear time and space construction algorithm has\r\n\tbeen published in 2000
-    by Apostolico and Bejerano. However, neither\r\n\ta report of the actual running
-    time nor an implementation of it have\r\n\tever been published since. Using their
-    theoretical results, we implement\r\n\tgeneral and problem oriented algorithms
-    considering recent advances\r\n\tin string matching. We introduce a new software
-    which is orders of\r\n\tmagnitudes faster than current tools for building VOMCs,
-    and is suitable\r\n\tfor large scale analysis. Along the way we show that the
-    lazy suffix\r\n\ttree algorithm by Giegerich and others can compete with state-of-the-art\r\n\tsuffix
-    array methods in terms of time and space under the type of\r\n\tconstraints we
+  abstract: " Variable order Markov chains (VOMCs) are a flexible class of modelsthat
+    extend the well-known Markov chains. They have been appliedto a variety
+    of problems in computational biology, e.g. protein familyclassification.
+    A linear time and space construction algorithm hasbeen published in 2000
+    by Apostolico and Bejerano. However, neithera report of the actual running
+    time nor an implementation of it haveever been published since. Using their
+    theoretical results, we implementgeneral and problem oriented algorithms
+    considering recent advancesin string matching. We introduce a new software
+    which is orders ofmagnitudes faster than current tools for building VOMCs,
+    and is suitablefor large scale analysis. Along the way we show that the
+    lazy suffixtree algorithm by Giegerich and others can compete with state-of-the-artsuffix
+    array methods in terms of time and space under the type ofconstraints we
     have analyzed in this work. "
   eprintid: 401
   refereed: 'TRUE'
@@ -8810,23 +8810,23 @@
   - group_algbioinf
   volume: 30
 - status_changed: '2009-04-14 14:56:57'
-  abstract: "Liquid chromatography coupled to mass spectrometry (LC-MS) has become\ta
-    major tool for the study of biological processes. High-throughput\r\n\tLC-MS experimentsare
-    frequently conducted in modern laboratories,\r\n\tgenerating an enormous amountof
-    data per day. A manual inspection\r\n\tis therefore no longer a feasible task.
-    Consequently, there is a\r\n\tneed for computational tools that can rapidly provide
-    informationabout\r\n\tmass, elution time, and abundance of the compounds in a
-    LC-MS sample.\r\n\tWepresent an algorithm for the detection and quantification
-    of peptides\r\n\tin LC-MS data. Our approach is flexible and independent of the
-    MS\r\n\ttechnology in use. It is basedon a combination of the sweep line\r\n\tparadigm
-    with a novel wavelet function tailoredto detect isotopic\r\n\tpatterns of peptides.
-    We propose a simple voting schema to usethe\r\n\tredundant information in consecutive
-    scans for an accurate determination\r\n\tofmonoisotopic masses and charge states.
-    By explicitly modeling the\r\n\tinstrument inaccuracy, we are also able to cope
-    with data sets of\r\n\tdifferent quality and resolution.We evaluate our technique
-    on data\r\n\tfrom different instruments and show that we canrapidly estimate mass,\r\n\tcentroid
-    of retention time and abundance of peptides in a sound algorithmic\r\n\tframework.
-    Finally, we compare the performance of our method to several\r\n\tother techniques
+  abstract: "Liquid chromatography coupled to mass spectrometry (LC-MS) has becomea
+    major tool for the study of biological processes. High-throughputLC-MS experimentsare
+    frequently conducted in modern laboratories,generating an enormous amountof
+    data per day. A manual inspectionis therefore no longer a feasible task.
+    Consequently, there is aneed for computational tools that can rapidly provide
+    informationaboutmass, elution time, and abundance of the compounds in a
+    LC-MS sample.Wepresent an algorithm for the detection and quantification
+    of peptidesin LC-MS data. Our approach is flexible and independent of the
+    MStechnology in use. It is basedon a combination of the sweep lineparadigm
+    with a novel wavelet function tailoredto detect isotopicpatterns of peptides.
+    We propose a simple voting schema to usetheredundant information in consecutive
+    scans for an accurate determinationofmonoisotopic masses and charge states.
+    By explicitly modeling theinstrument inaccuracy, we are also able to cope
+    with data sets ofdifferent quality and resolution.We evaluate our technique
+    on datafrom different instruments and show that we canrapidly estimate mass,centroid
+    of retention time and abundance of peptides in a sound algorithmicframework.
+    Finally, we compare the performance of our method to severalother techniques
     on three data sets of varying complexity."
   title: Computational Quantification of Peptides from LC-MS data
   type: article
@@ -8874,7 +8874,7 @@
   ispublished: pub
   uri: http://publications.imp.fu-berlin.de/id/eprint/406
   official_url: http://dx.doi.org/10.1089/cmb.2007.0117
-  keywords: "computational mass spectrometry, liquid chromatography - massspectrometry,\tquantification,
+  keywords: "computational mass spectrometry, liquid chromatography - massspectrometry,quantification,
     wavelets"
   date: 2008
   pagerange: 685-704
@@ -8931,7 +8931,7 @@
       honourific:
       lineage:
   datestamp: '2009-04-14 14:18:25'
-  title: "A Fast and Accurate Algorithm for the Quantification of Peptides\tfrom Mass
+  title: "A Fast and Accurate Algorithm for the Quantification of Peptidesfrom Mass
     Spectrometry data"
   status_changed: '2009-03-11 11:27:31'
   userid: 1
@@ -8940,7 +8940,7 @@
   lastmod: '2009-04-14 14:18:25'
   ispublished: pub
   uri: http://publications.imp.fu-berlin.de/id/eprint/407
-  event_title: "Proceedings of the Eleventh Annual International Conference on Research\tin
+  event_title: "Proceedings of the Eleventh Annual International Conference on Researchin
     Computational Molecular Biology (RECOMB 2007)"
 - uri: http://publications.imp.fu-berlin.de/id/eprint/408
   ispublished: pub
@@ -8951,35 +8951,35 @@
   type: article
   userid: 1
   status_changed: '2009-03-11 11:27:31'
-  abstract: "BACKGROUND: Mass Spectrometry coupled to Liquid Chromatography (LC-MS)\tis
-    commonly used to analyze the protein content of biological samples\r\n\tin large
-    scale studies. The data resulting from an LC-MS experiment\r\n\tis huge, highly
-    complex and noisy. Accordingly, it has sparked new\r\n\tdevelopments in Bioinformatics,
-    especially in the fields of algorithm\r\n\tdevelopment, statistics and software
-    engineering. In a quantitative\r\n\tlabel-free mass spectrometry experiment, crucial
-    steps are the detection\r\n\tof peptide features in the mass spectra and the alignment
-    of samples\r\n\tby correcting for shifts in retention time. At the moment, it
-    is\r\n\tdifficult to compare the plethora of algorithms for these tasks.\r\n\tSo
-    far, curated benchmark data exists only for peptide identification\r\n\talgorithms
-    but no data that represents a ground truth for the evaluation\r\n\tof feature
-    detection, alignment and filtering algorithms. RESULTS:\r\n\tWe present LC-MSsim,
-    a simulation software for LC-ESI-MS experiments.\r\n\tIt simulates ESI spectra
-    on the MS level. It reads a list of proteins\r\n\tfrom a FASTA file and digests
-    the protein mixture using a user-defined\r\n\tenzyme. The software creates an
-    LC-MS data set using a predictor\r\n\tfor the retention time of the peptides and
-    a model for peak shapes\r\n\tand elution profiles of the mass spectral peaks.
-    Our software also\r\n\toffers the possibility to add contaminants, to change the
-    background\r\n\tnoise level and includes a model for the detectability of peptides\r\n\tin
-    mass spectra. After the simulation, LC-MSsim writes the simulated\r\n\tdata to
-    public XML formats (mzXML or mzData). The software also stores\r\n\tthe positions
-    (monoisotopic m/z and retention time) and ion counts\r\n\tof the simulated ions
-    in separate files. CONCLUSIONS: LC-MSsim generates\r\n\tsimulated LC-MS data sets
-    and incorporates models for peak shapes\r\n\tand contaminations. Algorithm developers
-    can match the results of\r\n\tfeature detection and alignment algorithms against
-    the simulated\r\n\tion lists and meaningful error rates can be computed. We anticipate\r\n\tthat
-    LC-MSsim will be useful to the wider community to perform benchmark\r\n\tstudies
+  abstract: "BACKGROUND: Mass Spectrometry coupled to Liquid Chromatography (LC-MS)is
+    commonly used to analyze the protein content of biological samplesin large
+    scale studies. The data resulting from an LC-MS experimentis huge, highly
+    complex and noisy. Accordingly, it has sparked newdevelopments in Bioinformatics,
+    especially in the fields of algorithmdevelopment, statistics and software
+    engineering. In a quantitativelabel-free mass spectrometry experiment, crucial
+    steps are the detectionof peptide features in the mass spectra and the alignment
+    of samplesby correcting for shifts in retention time. At the moment, it
+    isdifficult to compare the plethora of algorithms for these tasks.So
+    far, curated benchmark data exists only for peptide identificationalgorithms
+    but no data that represents a ground truth for the evaluationof feature
+    detection, alignment and filtering algorithms. RESULTS:We present LC-MSsim,
+    a simulation software for LC-ESI-MS experiments.It simulates ESI spectra
+    on the MS level. It reads a list of proteinsfrom a FASTA file and digests
+    the protein mixture using a user-definedenzyme. The software creates an
+    LC-MS data set using a predictorfor the retention time of the peptides and
+    a model for peak shapesand elution profiles of the mass spectral peaks.
+    Our software alsooffers the possibility to add contaminants, to change the
+    backgroundnoise level and includes a model for the detectability of peptidesin
+    mass spectra. After the simulation, LC-MSsim writes the simulateddata to
+    public XML formats (mzXML or mzData). The software also storesthe positions
+    (monoisotopic m/z and retention time) and ion countsof the simulated ions
+    in separate files. CONCLUSIONS: LC-MSsim generatessimulated LC-MS data sets
+    and incorporates models for peak shapesand contaminations. Algorithm developers
+    can match the results offeature detection and alignment algorithms against
+    the simulatedion lists and meaningful error rates can be computed. We anticipatethat
+    LC-MSsim will be useful to the wider community to perform benchmarkstudies
     and comparisons between computational tools."
-  title: "LC-MSsim - a simulation software for liquid chromatography mass\tspectrometry
+  title: "LC-MSsim - a simulation software for liquid chromatography massspectrometry
     data"
   publication: BMC Bioinformatics
   datestamp: '2009-04-14 14:14:37'
@@ -9065,7 +9065,7 @@
   dir: disk0/00/00/04/03
   lastmod: '2017-03-03 14:40:15'
   ispublished: pub
-  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on Computational\tProteomics,
+  note: "Extended abstract for talk given at Dagstuhl Seminar 05471 on ComputationalProteomics,
     20.-25. November 2005"
   event_title: Computational Proteomics
   uri: http://publications.imp.fu-berlin.de/id/eprint/403
@@ -9109,7 +9109,7 @@
     can then be further evaluated by tools like Daisy to establish HGT regions. We
     successfully validated our approach on both simulated and real data, and show
     its benefits in an investigation of an outbreak involving Methicillin-resistant
-    Staphylococcus aureus data.\r\n\r\nAuthor summary\r\n\r\nEvolution is traditionally
+    Staphylococcus aureus data.Author summaryEvolution is traditionally
     viewed as a process where changes are only vertically inherited from parent to
     offspring across generations. Many principles such as phylogenetic trees and even
     the “tree of life” are based on that doctrine. The concept of horizontal gene
@@ -9425,21 +9425,21 @@
   type: article
   rev_number: 3
   title: OpenMS - An open-source software framework for mass spectrometry
-  abstract: "BACKGROUND: Mass spectrometry is an essential analytical technique\tfor
-    high-throughput analysis in proteomics and metabolomics. The\r\n\tdevelopment
-    of new separation techniques, precise mass analyzers\r\n\tand experimental protocols
-    is a very active field of research. This\r\n\tleads to more complex experimental
-    setups yielding ever increasing\r\n\tamounts of data. Consequently, analysis of
-    the data is currently\r\n\toften the bottleneck for experimental studies. Although
-    software\r\n\ttools for many data analysis tasks are available today, they are\r\n\toften
-    hard to combine with each other or not flexible enough to allow\r\n\tfor rapid
-    prototyping of a new analysis workflow. RESULTS: We present\r\n\tOpenMS, a software
-    framework for rapid application development in\r\n\tmass spectrometry. OpenMS
-    has been designed to be portable, easy-to-use\r\n\tand robust while offering a
-    rich functionality ranging from basic\r\n\tdata structures to sophisticated algorithms
-    for data analysis. This\r\n\thas already been demonstrated in several studies.
-    CONCLUSIONS: OpenMS\r\n\tis available under the Lesser GNU Public License (LGPL)
-    from the\r\n\tproject website at http://www.openms.de."
+  abstract: "BACKGROUND: Mass spectrometry is an essential analytical techniquefor
+    high-throughput analysis in proteomics and metabolomics. Thedevelopment
+    of new separation techniques, precise mass analyzersand experimental protocols
+    is a very active field of research. Thisleads to more complex experimental
+    setups yielding ever increasingamounts of data. Consequently, analysis of
+    the data is currentlyoften the bottleneck for experimental studies. Although
+    softwaretools for many data analysis tasks are available today, they areoften
+    hard to combine with each other or not flexible enough to allowfor rapid
+    prototyping of a new analysis workflow. RESULTS: We presentOpenMS, a software
+    framework for rapid application development inmass spectrometry. OpenMS
+    has been designed to be portable, easy-to-useand robust while offering a
+    rich functionality ranging from basicdata structures to sophisticated algorithms
+    for data analysis. Thishas already been demonstrated in several studies.
+    CONCLUSIONS: OpenMSis available under the Lesser GNU Public License (LGPL)
+    from theproject website at http://www.openms.de."
   status_changed: '2009-03-11 11:27:32'
   datestamp: '2009-04-14 14:16:52'
   publication: BMC Bioinformatics
@@ -9512,10 +9512,10 @@
   ispublished: pub
   uri: http://publications.imp.fu-berlin.de/id/eprint/1455
   official_url: http://bioinformatics.oxfordjournals.org/content/early/2014/07/29/bioinformatics.btu431.full
-  abstract: "MOTIVATION:\r\nThe landscape of structural variation (SV) including complex
+  abstract: "MOTIVATION:The landscape of structural variation (SV) including complex
     duplication and translocation patterns is far from resolved. SV detection tools
     usually exhibit low agreement, are often geared toward certain types or size ranges
-    of variation and struggle to correctly classify the type and exact size of SVs.\r\n\r\nRESULTS:\r\nWe
+    of variation and struggle to correctly classify the type and exact size of SVs.RESULTS:We
     present Gustaf (Generic mUlti-SpliT Alignment Finder), a sound generic multi-split
     SV detection tool that detects and classifies deletions, inversions, dispersed
     duplications and translocations of <span class='mathrm'>ge</span>30 bp. Our approach
@@ -9527,7 +9527,7 @@
     size and location of dispersed duplications and translocations, which otherwise
     might be wrongly classified, for example, as large deletions. Availability and
     implementation: Project information, paper benchmark and source code are available
-    via http://www.seqan.de/projects/gustaf/.\r\n\r\nCONTACT:kathrin.trappe@fu-berlin.de."
+    via http://www.seqan.de/projects/gustaf/.CONTACT:kathrin.trappe@fu-berlin.de."
   status_changed: '2014-12-10 15:11:43'
   title: 'Gustaf: Detecting and correctly classifying SVs in the NGS twilight zone'
   type: article
@@ -9592,7 +9592,7 @@
   date: 2001
   dir: disk0/00/00/04/10
   eprint_status: archive
-  event_title: "IEEE 2001 Symposium on Parallel and Large-Data Visualization and\tGraphics"
+  event_title: "IEEE 2001 Symposium on Parallel and Large-Data Visualization andGraphics"
   uri: http://publications.imp.fu-berlin.de/id/eprint/410
   lastmod: '2017-03-03 14:40:15'
   ispublished: pub
@@ -9850,15 +9850,15 @@
 - rev_number: 7
   type: article
   userid: 132
-  abstract: "Quality control is increasingly recognized as a crucial\r\naspect of
-    mass spectrometry based proteomics. Several\r\nrecent papers discuss relevant
-    parameters for quality\r\ncontrol and present applications to extract these from
-    the\r\ninstrumental raw data. What has been missing, however,\r\nis a standard
-    data exchange format for reporting these\r\nperformance metrics. We therefore
-    developed the qcML\r\nformat, an XML-based standard that follows the design\r\nprinciples
-    of the related mzML, mzIdentML, mzQuantML,\r\nand TraML standards from the HUPO-PSI
-    (Proteomics\r\nStandards Initiative). In addition to the XML format, we\r\nalso
-    provide tools for the calculation of a wide range of\r\nquality metrics as well
+  abstract: "Quality control is increasingly recognized as a crucialaspect of
+    mass spectrometry based proteomics. Severalrecent papers discuss relevant
+    parameters for qualitycontrol and present applications to extract these from
+    theinstrumental raw data. What has been missing, however,is a standard
+    data exchange format for reporting theseperformance metrics. We therefore
+    developed the qcMLformat, an XML-based standard that follows the designprinciples
+    of the related mzML, mzIdentML, mzQuantML,and TraML standards from the HUPO-PSI
+    (ProteomicsStandards Initiative). In addition to the XML format, wealso
+    provide tools for the calculation of a wide range ofquality metrics as well
     as a database format and interconversion tools, so that existing LIMS systems
     can easily add relational storage of the quality control data to their existing
     schema. We here describe the qcML specification, along with possible use cases
@@ -10152,15 +10152,15 @@
       honourific:
       given: P.
       lineage:
-  abstract: " We propose a general approach for frequency based string mining,\twhich
-    has many applications, e.g. in contrast data mining. Our contribution\n\tis a
-    novel algorithm based on a deferred data structure. Despite\n\tits simplicity,
-    our approach is up to 4 times faster and uses about\n\thalf the memory compared
-    to the best-known algorithm of Fischer et\n\tal. Applications in various string
-    domains, e.g. natural language,\n\tDNA or protein sequences, demonstrate the improvement
+  abstract: " We propose a general approach for frequency based string mining,which
+    has many applications, e.g. in contrast data mining. Our contributionis a
+    novel algorithm based on a deferred data structure. Despiteits simplicity,
+    our approach is up to 4 times faster and uses abouthalf the memory compared
+    to the best-known algorithm of Fischer etal. Applications in various string
+    domains, e.g. natural language,DNA or protein sequences, demonstrate the improvement
     of our algorithm."
   status_changed: '2009-03-11 11:27:34'
-  title: "Efficient String Mining under Constraints via the Deferred Frequency\tIndex"
+  title: "Efficient String Mining under Constraints via the Deferred FrequencyIndex"
   publisher: Springer Verlag
   type: conference_item
   rev_number: 3
@@ -10336,12 +10336,12 @@
     developments promise the personal $1,000 genome in a couple of years. The analysis
     of these unprecedented amounts of data demands for efficient data structures and
     algorithms. One such data structures is the substring index, that represents all
-    substrings or substrings up to a certain length contained in a given text.\r\nIn
+    substrings or substrings up to a certain length contained in a given text.In
     this thesis we propose 3 substring indices, which we extend to be applicable to
     millions of sequences. We devise internal and external memory construction algorithms
     and a uniform framework for accessing the generalized suffix tree. Additionally
     we propose different index-based applications, e.g. exact and approximate pattern
-    matching and different repeat search algorithms.\r\nSecond, we present the read
+    matching and different repeat search algorithms.Second, we present the read
     mapping tool RazerS, which aligns millions of single or paired-end reads of arbitrary
     lengths to their potential genomic origin using either Hamming or edit distance.
     Our tool can work either lossless or with a user-defined loss rate at higher speeds.
@@ -10349,7 +10349,7 @@
     reads than specified. This enables the user to adapt to the problem at hand and
     provides a seamless tradeoff between sensitivity and running time. We compare
     RazerS with other state-of-the-art read mappers and show that it has the highest
-    sensitivity and a comparable performance on various real-world datasets.\r\nAt
+    sensitivity and a comparable performance on various real-world datasets.At
     last, we propose a general approach for frequency based string mining, which has
     many applications, e.g. in contrast data mining. Our contribution is a novel and
     lightweight algorithm that is faster and uses less memory than the best available
@@ -10543,7 +10543,7 @@
     and new protocols provide longer reads than currently available. In almost all
     applications, read mapping is a first step. Hence, it is crucial to have algorithms
     and implementations that perform fast, with high sensitivity, and are able to
-    deal with long reads and a large absolute number of indels.\r\n\r\nResults: RazerS
+    deal with long reads and a large absolute number of indels.Results: RazerS
     is a read mapping program with adjustable sensitivity based on counting q-grams.
     In this work we propose the successor RazerS 3 which now supports shared-memory
     parallelism, an additional seed-based filter with adjustable sensitivity, a much
@@ -10553,7 +10553,7 @@
     compare RazerS 3 with other popular read mappers and show that its results are
     often superior to them in terms of sensitivity while exhibiting practical and
     often competetive run times. In addition, RazerS 3 works without a precomputed
-    index.\r\n\r\nAvailability and Implementation: Source code and binaries are freely
+    index.Availability and Implementation: Source code and binaries are freely
     available for download at http://www.seqan.de/projects/razers. RazerS 3 is implemented
     in C++ and OpenMP under a GPL license using the SeqAn library and supports Linux,
     Mac OS X, and Windows."
@@ -10717,17 +10717,17 @@
   title: 'VARSCOT: variant-aware detection and scoring enables sensitive and personalized
     off-target detection for CRISPR-Cas9'
   status_changed: '2020-04-02 11:57:40'
-  abstract: "Background\r\n\r\nNatural variations in a genome can drastically alter
+  abstract: "BackgroundNatural variations in a genome can drastically alter
     the CRISPR-Cas9 off-target landscape by creating or removing sites. Despite the
     resulting potential side-effects from such unaccounted for sites, current off-target
     detection pipelines are not equipped to include variant information. To address
-    this, we developed VARiant-aware detection and SCoring of Off-Targets (VARSCOT).\r\n\r\nResults\r\n\r\nVARSCOT
+    this, we developed VARiant-aware detection and SCoring of Off-Targets (VARSCOT).ResultsVARSCOT
     identifies only 0.6% of off-targets to be common between 4 individual genomes
     and the reference, with an average of 82% of off-targets unique to an individual.
     VARSCOT is the most sensitive detection method for off-targets, finding 40 to
     70% more experimentally verified off-targets compared to other popular software
     tools and its machine learning model allows for CRISPR-Cas9 concentration aware
-    off-target activity scoring.\r\n\r\nConclusions\r\n\r\nVARSCOT allows researchers
+    off-target activity scoring.ConclusionsVARSCOT allows researchers
     to take genomic variation into account when designing individual or population-wide
     targeting strategies. VARSCOT is available from https://github.com/BauerLab/VARSCOT."
   publication: BMC Biotechnology
@@ -10790,7 +10790,7 @@
   userid: 1
   type: article
   rev_number: 3
-  title: "Transformation and other factors of the peptide mass spectormetry\tpairwise
+  title: "Transformation and other factors of the peptide mass spectormetrypairwise
     peaklist comparison process"
   status_changed: '2009-03-11 11:27:35'
   publication: BMC Bioinformatics
@@ -10880,7 +10880,7 @@
       family: Reinert
   publication: BMC Bioinformatics
   datestamp: '2017-03-03 14:40:15'
-  title: "Calibration of mass spectrometric peptide mass fingerprint data without\tspecific
+  title: "Calibration of mass spectrometric peptide mass fingerprint data withoutspecific
     external or internal calibrants"
   status_changed: '2009-03-11 11:27:34'
   userid: 1
@@ -10970,12 +10970,12 @@
   rev_number: 9
   type: article
   title: Optimal precursor ion selection for LC-MALDI MS/MS
-  abstract: "Background\r\nLiquid chromatography mass spectrometry (LC-MS) maps in
+  abstract: "BackgroundLiquid chromatography mass spectrometry (LC-MS) maps in
     shotgun proteomics are often too complex to select every detected peptide signal
     for fragmentation by tandem mass spectrometry (MS/MS). Standard methods for precursor
     ion selection, commonly based on data dependent acquisition, select highly abundant
     peptide signals in each spectrum. However, these approaches produce redundant
-    information and are biased towards high-abundance proteins.\r\n\r\nResults\r\nWe
+    information and are biased towards high-abundance proteins.ResultsWe
     present two algorithms for inclusion list creation that formulate precursor ion
     selection as an optimization problem. Given an LC-MS map, the first approach maximizes
     the number of selected precursors given constraints such as a limited number of
@@ -10987,11 +10987,11 @@
     risk of erroneous assignments by including methods for retention time and proteotypicity
     predictions. We show that our method identifies a set of proteins requiring fewer
     precursors than standard approaches. Thus, it is well suited for precursor ion
-    selection in experiments with limited sample amount or analysis time.\r\n\r\nConclusions\r\nWe
+    selection in experiments with limited sample amount or analysis time.ConclusionsWe
     present three approaches to precursor ion selection with LC-MALDI MS/MS. Using
     a well-defined protein standard and a complex human cell lysate, we demonstrate
     that our methods outperform standard approaches. Our algorithms are implemented
-    as part of OpenMS and are available under http://www.openms.de.\r\n"
+    as part of OpenMS and are available under http://www.openms.de."
   status_changed: '2014-03-18 16:04:51'
   datestamp: '2014-03-18 15:56:36'
   publication: BMC Bioinformatics
@@ -11222,7 +11222,7 @@
   rev_number: 17
   type: conference_item
   title: 'From the Desktop to the Grid: conversion of KNIME Workflows to gUSE'
-  abstract: "The Konstanz Information Miner is a user-friendly\r\ngraphical workflow
+  abstract: "The Konstanz Information Miner is a user-friendlygraphical workflow
     designer with a broad user base in industry and academia. Its broad range of embedded
     tools and its powerful data mining and visualization tools render it ideal for
     scientific workflows. It is thus used more and more in a broad range of applications.
@@ -11230,14 +11230,14 @@
     if they want to tap into computing power. The grid and cloud User Support Environment
     is a free and open source project created for parallelized and distributed systems,
     but the creation of workflows with the included components has a steeper learning
-    curve.\r\nIn this work we suggest an easy to implement solution\r\ncombining the
-    ease-of-use of the Konstanz Information Miner\r\nwith the computational power
+    curve.In this work we suggest an easy to implement solutioncombining the
+    ease-of-use of the Konstanz Information Minerwith the computational power
     of distributed computing infrastructures. We present a solution permitting the
     conversion of workflows between the two platforms. This enables a convenient development,
     debugging, and maintenance of scientific workflows on the desktop. These workflows
-    can then be deployed on a cloud or grid, thus permitting large-scale computation.\r\nTo
-    achieve our goals, we relied on a Common Tool Description\r\nXML file format which
-    describes the execution of arbitrary\r\nprograms in a structured and easily readable
+    can then be deployed on a cloud or grid, thus permitting large-scale computation.To
+    achieve our goals, we relied on a Common Tool DescriptionXML file format which
+    describes the execution of arbitraryprograms in a structured and easily readable
     and parseable way. In order to integrate external programs into we employed the
     Generic KNIME Nodes extension."
   status_changed: '2014-08-19 14:26:35'
@@ -11312,7 +11312,7 @@
   rev_number: 5
   title: 'From the desktop to the grid: scalable bioinformatics via workflow conversion'
   status_changed: '2017-11-22 13:42:20'
-  abstract: "Background\r\n\r\nReproducibility is one of the tenets of the scientific
+  abstract: "BackgroundReproducibility is one of the tenets of the scientific
     method. Scientific experiments often comprise complex data flows, selection of
     adequate parameters, and analysis and visualization of intermediate and end results.
     Breaking down the complexity of such experiments into the joint collaboration
@@ -11320,11 +11320,11 @@
     and outputs, offers the immediate benefit of identifying bottlenecks, pinpoint
     sections which could benefit from parallelization, among others. Workflows rest
     upon the notion of splitting complex work into the joint effort of several manageable
-    tasks.\r\n\r\nThere are several engines that give users the ability to design
+    tasks.There are several engines that give users the ability to design
     and execute workflows. Each engine was created to address certain problems of
     a specific community, therefore each one has its advantages and shortcomings.
     Furthermore, not all features of all workflow engines are royalty-free —an aspect
-    that could potentially drive away members of the scientific community.\r\n\r\nResults\r\n\r\nWe
+    that could potentially drive away members of the scientific community.ResultsWe
     have developed a set of tools that enables the scientific community to benefit
     from workflow interoperability. We developed a platform-free structured representation
     of parameters, inputs, outputs of command-line tools in so-called Common Tool
@@ -11334,7 +11334,7 @@
     editor, and the Grid and User Support Environment, a web-based framework able
     to interact with several high-performance computing resources. We have thus created
     a free and highly accessible way to design workflows on a desktop computer and
-    execute them on high-performance computing resources.\r\n\r\nConclusions\r\n\r\nOur
+    execute them on high-performance computing resources.ConclusionsOur
     work will not only reduce time spent on designing scientific workflows, but also
     make executing workflows on remote high-performance computing resources more accessible
     to technically inexperienced users. We strongly believe that our efforts not only

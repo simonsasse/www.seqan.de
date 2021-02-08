@@ -8,7 +8,7 @@
     {% endfor %}
 
     {%- if cite.official_url -%}
-     <a href="https://doi.org/{{ cite.official_url }}">“{{ cite.title }}”</a>
+     <a href="{{ cite.official_url }}">“{{ cite.title }}”</a>
     {%- else -%}
     , “{{ cite.title }}”
     {%- endif -%}
@@ -33,6 +33,73 @@
     , {{ cite.date }}
     {%- endif -%}
     .
+    <details class="citation-details">
+        <summary class="citation">cite this publication</summary>
+        {%- if cite.type == "article" -%}
+        @article{ {{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.type == "book" -%}
+        @book{ {{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.type == "book_section" -%}
+        @incollection{ {{{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.monograph_type == "documentation" -%}
+        @manual{ {{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.monograph_type == "technical_report" -%}
+        @techreport{ {{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.thesis_type == "phd" -%}
+        @phdthesis{ {{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- elsif cite.ispublished == "unpub" -%}
+        @unpublished{ {{{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+
+        {%- else -%}
+        @misc{ {{{cite.uri | slice: 46, 60 | remove: "/"}}-Fu-Berlin
+        {%- endif -%}
+
+        {%- if cite.title -%}
+        ,<br>title = { {{cite.title}} }
+        {%- endif -%}
+        ,<br>year = { {{cite.date | truncate: 4, ''}} }
+        {%- assign string_date = cite.date | upcase -%}
+        {%- if string_date.size > 4 -%}
+        ,<br>month = { {{cite.date | slice: 5, 2 }} }
+        {%- endif -%}
+        {%- if cite.book_title -%}
+        ,<br>booktitle = { {{cite.book_title}} }
+        {%- endif -%}
+        {%- if cite.volume -%}
+        ,<br>volume = { {{cite.volume}} }
+        {%- endif -%}
+        {%- if cite.publisher -%}
+        ,<br>publisher = { {{cite.publisher}} }
+        {%- endif -%}
+        {%- if cite.publication -%}
+        ,<br>journal = { {{cite.publication}} }
+        {%- endif -%}
+        {%- if cite.pagerange -%}
+        ,<br>page = { {{cite.pagerange}} }
+        {%- elsif cite.pages -%}
+        ,<br>page = { {{cite.pages}} }
+        {%- endif -%}
+        {%- if cite.creators -%}
+        ,<br>author = { {%- for creator in cite.creators -%}
+                        {{creator.name.given}} {{creator.name.family}} and
+                    {% endfor %} }
+        {%- endif -%}
+        {%- if cite.editors -%}
+        ,<br>editor = { {%- for editor in cite.editors -%}
+                        {{editor.name.given}} {{editor.name.family}} and
+                    {% endfor %} }
+        {%- endif -%}
+        {%- if cite.abstract -%}
+        ,<br>abstract = { {{cite.abstract }} }
+        {%- endif -%}
+        }
+    </details>
 {%- else -%}
 ERROR: no citation found
 {%- endif -%}
