@@ -2,17 +2,31 @@
 layout: page
 title: People
 permalink: /people/
+categories: [Team, Contributor, User, Alumni]
 ---
 
-# Team
-
+{% for category in page.categories %}
+{% if category == "Team" %}
+<details markdown="1" open>
+{% else%}
+<details markdown="1">
+{% endif %}
+<summary class="category">
+{{category}}
+</summary>
 {% for person in site.people %}
-## {{ person.name }} - <small>{{ person.position }}</small>
+{% if person.category == category %}
+<details markdown="1">
+<summary class="person">
+{{ person.name }} - <small>{{ person.position }}</small>
+</summary>
 
+<div class="person-div" markdown="1">
 {% if person.avatar %}
-![{{ person.name }} Picture]({{ person.avatar | relative_url }})
+<img class="avatar" src="{{person.avatar  | relative_url}}">
 {% endif %}
 
+<div class="bio" markdown="1">
 ### Biography:
 {{ person.content | markdownify }}
 
@@ -23,8 +37,13 @@ Get in touch:
   {%- include social.html social=person.social_links -%}
 </span>
 </h3>
-{% endif -%}
-
+</div>
+</div>
+{% endif %}
+</details>
+{% endif %}
+{% endfor %}
+</details>
 {% endfor %}
 
 ----

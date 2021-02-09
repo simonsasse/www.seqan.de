@@ -1,2 +1,26 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+
+.avatar{
+    position: absolute;
+    width: 10%;
+    border-radius: 50%;
+}
+.person-div{
+    width: 100%;
+    margin-left: 5%;
+}
+.bio{
+    position: relative;
+    left: 20%;
+    width: 75%
+}
+.category{
+    @include relative-font-size(2);
+}
+.person{
+    position: relativ;
+    margin-left: 5%;
+    @include relative-font-size(1.5);
+}
