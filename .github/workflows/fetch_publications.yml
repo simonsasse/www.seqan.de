@@ -1,0 +1,48 @@
+# This is a basic workflow to help you get started with Actions
+
+name: fetch_publications
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: "0 2 * * 0-7"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  fetch_publications:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: install_dependencies
+        run: pip install pyyaml, bibtexparser
+        
+      # Runs a single command using the runners shell
+      - name: download bibtex
+        run: wget -O $GITHUB_WORKSPACE/_data/publications.bib .html http://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/BibTeX/group=5Falgbioinf.bib
+
+      # Runs a single command using the runners shell
+      - name: download json
+        run: wget -O $GITHUB_WORKSPACE/_data/publications.json http://publications.imp.fu-berlin.de/cgi/exportview/divisions/group=5Falgbioinf/JSON/group=5Falgbioinf.js
+
+      # Runs a set of commands using the runners shell
+      - name: Process_publications
+        run: python3 $GITHUB_WORKSPACE/process_publications.py
+      
+       # Runs a set of commands using the runners shell
+      - name: delete_json_and_bib
+        run: rm $GITHUB_WORKSPACE/_data/publications.json $GITHUB_WORKSPACE/_data/publications.bib
