@@ -3,24 +3,33 @@
 
 
 .avatar{
-    position: absolute;
-    width: 10%;
+    object-fit: cover;
+    height: 3.5vw;
+    width: 3.5vw;
+    margin-right: 2vw;
     border-radius: 50%;
 }
 .person-div{
     width: 100%;
-    margin-left: 5%;
+    margin-left: 6.5vw;
 }
 .bio{
     position: relative;
-    left: 20%;
-    width: 75%
+    width: 80%
 }
 .category{
     @include relative-font-size(2);
 }
 .person{
     position: relativ;
-    margin-left: 5%;
+    padding: 1%;
     @include relative-font-size(1.5);
+    border-radius: 25px;
+}
+.person::-webkit-details-marker {
+    display: none;
+  }
+.person:hover{
+    background-color: #fede09;
+    transition: 0.2s;
 }
