@@ -6,44 +6,33 @@ categories: [Team, Contributor, User, Alumni]
 ---
 
 {% for category in page.categories %}
-{% if category == "Team" %}
-<details markdown="1" open>
-{% else%}
-<details markdown="1">
-{% endif %}
-<summary class="category">
-{{category}}
-</summary>
+## {{category}}
 {% for person in site.people %}
 {% if person.category == category %}
 <details markdown="1">
 <summary class="person">
-{{ person.name }} - <small>{{ person.position }}</small>
-</summary>
-
-<div class="person-div" markdown="1">
 {% if person.avatar %}
 <img class="avatar" src="{{person.avatar  | relative_url}}">
+{% else %}
+<img class="avatar" src="/assets/images/people/avatar-dummy.png">
 {% endif %}
-
+{{ person.name }} - <small>{{ person.position }}</small>
+</summary>
+<div class="person-div" markdown="1">
 <div class="bio" markdown="1">
-### Biography:
+{% if person.content.size > 1 %}
+#### Biography:
 {{ person.content | markdownify }}
-
-{%- if person.social_links %}
-<h3>
-Get in touch:
-<span class="social-links">
-  {%- include social.html social=person.social_links -%}
-</span>
-</h3>
-</div>
-</div>
 {% endif %}
+{%- if person.social_links %}
+#### Get in touch:
+  {%- include social.html social=person.social_links -%}
+{% endif %}
+</div>
+</div>
 </details>
 {% endif %}
 {% endfor %}
-</details>
 {% endfor %}
 
 ----
