@@ -12,19 +12,18 @@ SeqAn.
 
 If you use SeqAn in any of your academic works, please cite the latest SeqAn paper:
 
-* {% include cite.html cite='2017-09-12 14:16:48' %}
+* {% include cite.html cite="fu_mi_publications2103" %}
 
 ## Publication by year
 
-{%- assign publications_by_year = site.data.publications |group_by_exp: "item",
-"item.date | truncate: 4, ''" | sort: "name" | reverse -%}
+{%- assign publications_by_year = site.data.publications | group_by_exp: "item", "item.date | truncate: 4, ''" | sort: "name" | reverse -%}
 
 {% for year in publications_by_year %}
 
 ### {{ year.name }}
 
 {% for publication in year.items %}
-* {% include cite.html cite=publication.datestamp %}
+* {% include cite.html cite = publication.key %}
 {% endfor %}
 
 {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: Fiona, A parallel and automatic strategy for read error correction
 layout: app
-cite: '2014-08-26 14:02:44'
+cite: fu_mi_publications1451
 contact: Marcel Schulz
 categories: official
 links:
