@@ -10,7 +10,7 @@
     {%- if cite.official_url -%}
      <a href="{{ cite.official_url }}">“{{ cite.title }}”</a>
     {%- else -%}
-    , “{{ cite.title }}”
+    “{{ cite.title }}”
     {%- endif -%}
 
     {%- if cite.journal -%}
@@ -33,7 +33,7 @@
     , {{ cite.date }}
     {%- endif -%}
     .
-    <details markdown="0">
+    <details>
         <summary class="citation">cite this publication</summary>
         {% highlight bibtex -%}
         {{ cite.bibtex | strip }}
