@@ -12,7 +12,9 @@ SeqAn.
 
 If you use SeqAn in any of your academic works, please cite the latest SeqAn paper:
 
-* {% include cite.html cite="fu_mi_publications2103" %}
+<ul>
+<li>{% include cite.html cite="fu_mi_publications2103" %}</li>
+</ul>
 
 ## Publication by year
 
@@ -22,8 +24,10 @@ If you use SeqAn in any of your academic works, please cite the latest SeqAn pap
 
 ### {{ year.name }}
 
+<ul>
 {% for publication in year.items %}
-* {% include cite.html cite = publication.key %}
+<li>{% include cite.html cite = publication.key %}</li>
 {% endfor %}
+</ul>
 
 {% endfor %}

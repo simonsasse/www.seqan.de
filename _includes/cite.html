@@ -33,10 +33,10 @@
     , {{ cite.date }}
     {%- endif -%}
     .
-    <details>
+    <details markdown="0">
         <summary class="citation">cite this publication</summary>
         {% highlight bibtex -%}
-        {{cite.bibtex | strip }}
+        {{ cite.bibtex | strip }}
         {%- endhighlight %}
     </details>
 {%- else -%}
