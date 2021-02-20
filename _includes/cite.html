@@ -35,9 +35,9 @@
     .
     <details>
         <summary class="citation">cite this publication</summary>
-        ```bibtex
+        {% highlight bibtex -%}
         {{cite.bibtex | strip }}
-        ```
+        {%- endhighlight %}
     </details>
 {%- else -%}
 ERROR: no citation found
