@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 header:
-  overlay_image: http://www.seqan.de/wp-content/uploads/2016/02/apps.png
+  overlay_image: /assets/images/overlay/publications.png
 ---
 
 On the bottom you have access to the archive of SeqAn-related publications. Please see [Google

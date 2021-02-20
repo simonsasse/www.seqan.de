@@ -3,7 +3,7 @@ layout: page
 title: Getting Started
 permalink: /getting-started/
 header:
-  overlay_image: http://www.seqan.de/wp-content/uploads/2015/12/getting_started.jpg
+  overlay_image: /assets/images/overlay/getting_started.jpg
 headings:
   - url: "https://docs.seqan.de/seqan/3-master-user/usergroup1.html"
     title: New to SeqAn?
