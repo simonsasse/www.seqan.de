@@ -1,10 +1,16 @@
-{%- assign cite = site.data.publications | where: "id", include.cite | first -%}
+{%- assign cite = site.data.publications | where: "key", include.cite | first -%}
 {%- if cite -%}
-    {{ cite.author }}
-    {%- if cite.doi -%}
-    , <a href="https://doi.org/{{ cite.doi }}">“{{ cite.title }}”</a>
+    {%- for creator in cite.creators -%}
+        {{creator.name.given}} {{creator.name.family}},
+    {% endfor %}
+    {%- for editor in cite.editors -%}
+        {{editor.name.given}} {{editor.name.family}},
+    {% endfor %}
+
+    {%- if cite.official_url -%}
+     <a href="{{ cite.official_url }}">“{{ cite.title }}”</a>
     {%- else -%}
-    , “{{ cite.title }}”
+    “{{ cite.title }}”
     {%- endif -%}
 
     {%- if cite.journal -%}
@@ -23,10 +29,16 @@
     , p. {{ cite.pages }}
     {%- endif -%}
 
-    {%- if cite.year -%}
-    , {{ cite.year }}
+    {%- if cite.date -%}
+    , {{ cite.date }}
     {%- endif -%}
     .
+    <details>
+        <summary class="citation">cite this publication</summary>
+        {% highlight bibtex -%}
+        {{ cite.bibtex | strip }}
+        {%- endhighlight %}
+    </details>
 {%- else -%}
 ERROR: no citation found
 {%- endif -%}

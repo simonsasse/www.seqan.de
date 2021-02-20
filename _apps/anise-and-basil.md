@@ -1,7 +1,7 @@
 ---
 title: ANISE and BASIL
 layout: app
-cite: Holtgrewe:2015bna
+cite: fu_mi_publications1506
 contact: Manuel Holtgrewe
 categories: official
 links:
