@@ -1,0 +1,20 @@
+https://www.vectorizer.io/images/4DFI2IZ2i68bWO/02-ico-parallelization-invert.html
+
+clipart
+filled layers: overlap
+
+input options:
+  colors: 4 (all)
+  
+color groups:
+  color: 50%
+  manually sorted groups: all grey colors in one
+  color group 1: white removed
+  color group 2: kept as is
+                 fill-color: black
+
+anit-aliasing: off
+noise reduction: off
+upscaling: 200%
+roundness: max
+minimum area: 5px^2
