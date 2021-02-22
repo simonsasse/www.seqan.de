@@ -7,15 +7,15 @@ header:
 headings:
   - url: "https://docs.seqan.de/seqan/3-master-user/usergroup1.html"
     title: New to SeqAn?
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/new-user.svg
     excerpt: Step by step introduction to SeqAn
   - url: "https://docs.seqan.de/seqan3.html"
     title: Already using SeqAn?
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/user-documentation.svg
     excerpt: See the latest API Documentation
   - url: "https://github.com/seqan"
     title: Find us on Github
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/github.svg
     excerpt: Our code is all open source
 ---
 

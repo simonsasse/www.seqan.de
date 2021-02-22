@@ -1,0 +1,5 @@
+Open 01-ico-structures.png in gimp
+
+1. Color -> Hue-Saturation
+   Set Lightness to -100% (slider all to the left)
+2. Layers-View -> Right-Click Layer 01-ico-structures.png -> Remove Alpha Channel

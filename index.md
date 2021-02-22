@@ -12,36 +12,36 @@ header:
 headings:
   - url: "./#data_structures"
     title: Data Structures
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/data-structures.svg
     excerpt: >
       SeqAn offers many data structures for sequence analysis. For example a unified interface for searching in string
       indices or succinct data structures for pangenomics.
   - url: "./#algorithms"
     title: Algorithms
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/algorithms.svg
     excerpt: >
       SeqAn offer many core algorithms for sequence analysis. For example, pairwise and multiple alignments, approximate
       string searches and filter algorithms.
   - url: "./#parallelization"
     title: Parallelization
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/parallelization.svg
     excerpt: >
       SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core
       algorithmic components.
   - url: "./#input_and_output"
     title: Input and Output
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/input-output.svg
     excerpt: >
       In times of large sequencing data fast I/O is crucial. Learn about SeqAn I/O modules and supported data formats.
   - url: "./#apps"
     title: Apps
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/applications.svg
     excerpt: >
       Many efficient applications by different scientific groups and companies are based on SeqAn. Official applications
       by SeqAn project members are presented here and also some third party apps.
   - url: "./#workflows"
     title: Workflows
-    image: /assets/images/icons/ico-structures.svg
+    image: /assets/images/icons/workflows.svg
     excerpt: >
       Often several applications are connected in involved scientific workflows. SeqAn supports easy integration of its
       applications into workflows.

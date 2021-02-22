@@ -1,0 +1,20 @@
+https://www.vectorizer.io/images/1LosyyWjN7R6j0/ico-structures-invert.html
+
+sketch (grayscale)
+filled layers: overlap
+
+input options:
+  colors: 32 (all)
+  
+color groups:
+  color: 50%
+  color group 1: removed
+  color group 2: moved all colors to group3
+  color group 3: kept as is
+                 fill-color: black
+
+anit-aliasing: off
+noise reduction: off
+upscaling: 200%
+roundness: max
+minimum area: 0px^2
