@@ -33,7 +33,7 @@ headings:
     image: /assets/images/icons/input-output.svg
     excerpt: >
       In times of large sequencing data fast I/O is crucial. Learn about SeqAn I/O modules and supported data formats.
-  - url: "./#apps"
+  - url: "./apps"
     title: Apps
     image: /assets/images/icons/applications.svg
     excerpt: >
