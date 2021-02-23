@@ -9,27 +9,28 @@ categories: [Team, Contributor, User, Alumni]
 ## {{category}}
 {% for person in site.people %}
 {% if person.category == category %}
-<details markdown="1">
-<summary class="person">
-{% if person.avatar %}
-<img class="avatar" src="{{person.avatar  | relative_url}}">
-{% else %}
-<img class="avatar" src="/assets/images/people/avatar-dummy.png">
-{% endif %}
-{{ person.name }} - <small>{{ person.position }}</small>
-</summary>
-<div class="person-div" markdown="1">
-<div class="bio" markdown="1">
-{% if person.content.size > 1 %}
-#### Biography:
-{{ person.content | markdownify }}
-{% endif %}
-{%- if person.social_links %}
-#### Get in touch:
-  {%- include social.html social=person.social_links -%}
-{% endif %}
-</div>
-</div>
+<details class="person">
+    <summary class="person-summary">
+        {% if person.avatar %}
+        <img class="person-avatar" src="{{person.avatar | relative_url}}">
+        {% else %}
+        <img class="person-avatar" src="/assets/images/people/avatar-dummy.png">
+        {% endif %}
+        <span class="person-name-position">
+            <span class="person-name">{{ person.name }}</span>
+            <small class="person-position">{{ person.position }}</small>
+        </span>
+    </summary>
+    <div class="person-bio">
+    {% if person.content.size > 1 %}
+        <h4>Biography:</h4>
+        {{ person.content | markdownify }}
+    {% endif %}
+    {%- if person.social_links %}
+        <h4 class="person-social">Get in touch:</h4>
+        {%- include social.html social=person.social_links -%}
+    {% endif %}
+    </div>
 </details>
 {% endif %}
 {% endfor %}

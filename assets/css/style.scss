@@ -216,7 +216,7 @@ main {
   line-height: 100px;
 
   margin: #{$spacing-unit / 2} auto;
-  border-radius: 100px;
+  border-radius: 50%;
   background: $seqan-color;
   transition: background-color .3s, color .3s;
 }
@@ -299,7 +299,7 @@ main {
   content: "";
   width: 2.5em;
   height: 2.5em;
-  border-radius: 2.5em;
+  border-radius: 50%;
   background: rgb(254, 222, 9);
   position: absolute;
   z-index: -1;
@@ -315,4 +315,54 @@ main {
 }
 .news-text {
   min-height: 150px;
+}
+
+// ====== People Style ======
+
+.person-summary {
+    padding: 0.5em;
+    @include relative-font-size(1.5);
+    border-radius: 6px;
+
+    &:hover {
+        background-color: $seqan-color;
+        transition: 0.2s;
+    }
+}
+
+.person-avatar {
+    object-fit: cover;
+    height: 3.5em;
+    width: 3.5em;
+    margin-right: $spacing-unit / 2;
+    border-radius: 50%;
+}
+
+.person-bio {
+    margin-left: $spacing-unit;
+}
+
+.person-name-position {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.person-name, .person-position {
+    display: block;
+}
+
+.person-social {
+    margin-right: $spacing-unit / 2;
+}
+.person-social, .person .social-media-list {
+    display: inline-block;
+}
+.person .social-media-list {
+    vertical-align: middle;
+}
+
+// ====== Publications Style ======
+
+.citation {
+    color: grey;
 }
