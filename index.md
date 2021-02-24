@@ -6,7 +6,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: null
+title: "What is SeqAn?"
 header:
   overlay_image: /assets/images/overlay/front_page.jpg
 headings:
@@ -46,8 +46,6 @@ headings:
       Often several applications are connected in involved scientific workflows. SeqAn supports easy integration of its
       applications into workflows.
 ---
-
-# What is SeqAn?
 
 SeqAn is an open source C++ library of efficient algorithms and data structures for the analysis of sequences with the
 focus on biological data. Our library applies a unique generic design that guarantees high performance, generality,
