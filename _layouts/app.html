@@ -24,9 +24,11 @@ layout: default
     </ul>
 
     <h2>Please Cite</h2>
+      <ul>
       {% for citation in page.cite %}
-        <ul><li>{%- include cite.html cite=citation -%}</li></ul>
+        <li>{%- include cite.html cite=citation -%}</li>
       {% endfor %}
+    </ul>
     <h2>Contact</h2>
 
     <p>For questions, comments, or suggestions please contact:</p>
