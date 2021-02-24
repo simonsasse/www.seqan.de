@@ -16,7 +16,7 @@ headings:
   - url: "https://github.com/seqan"
     title: Find us on Github
     image: /assets/images/icons/github.svg
-    excerpt: Our code is all open source
+    excerpt: All our code is open source
 ---
 
 # Welcome to the SeqAn Library
