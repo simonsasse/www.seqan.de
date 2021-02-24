@@ -60,6 +60,16 @@ $news-entry-sep: 1.5em !default;
   max-height: 434px;
 }
 
+.app-image {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 434px;
+  height: 50vw;
+  min-height: 200px;
+  max-height: 434px;
+}
+
 // ====== Sticky back-to-top ======
 
 /* https://moderncss.dev/pure-css-smooth-scroll-back-to-top/ by Stephanie Eckles */
