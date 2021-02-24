@@ -14,7 +14,7 @@ categories: [Team, Contributor, User, Alumni]
         {% if person.avatar %}
         <img class="person-avatar" src="{{person.avatar | relative_url}}">
         {% else %}
-        <img class="person-avatar" src="/assets/images/people/avatar-dummy.png">
+        <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
         {% endif %}
         <span class="person-name-position">
             <span class="person-name">{{ person.name }}</span>
