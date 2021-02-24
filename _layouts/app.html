@@ -21,9 +21,9 @@ layout: default
     </ul>
 
     <h2>Please Cite</h2>
-
-    <p>{%- include cite.html cite=page.cite -%}</p>
-
+      {% for citation in page.cite %}
+        <p>{%- include cite.html cite=citation -%}</p>
+      {% endfor %}
     <h2>Contact</h2>
 
     <p>For questions, comments, or suggestions please contact:</p>
