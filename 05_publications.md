@@ -16,7 +16,7 @@ If you use SeqAn in any of your academic works, please cite the latest SeqAn pap
 <li>{% include cite.html cite="fu_mi_publications2103" %}</li>
 </ul>
 
-## Publication by year
+## Publications by year
 
 {%- assign publications_by_year = site.data.publications | group_by_exp: "item", "item.date | truncate: 4, ''" | sort: "name" | reverse -%}
 
