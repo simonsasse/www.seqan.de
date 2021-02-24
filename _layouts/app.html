@@ -23,20 +23,36 @@ layout: default
       <li>View the source code and README on <a href="{{page.links.source}}">GitHub</a></li>
     </ul>
 
+    <!-- if no citation is given, the whole Block is skipped. -->
+    <!-- if given citation is not found, cite.html will show an error message. -->
+    {% if page.cite %}
     <h2>Please Cite</h2>
     <ul>
       {% for citation in page.cite %}
         <li>{%- include cite.html cite=citation -%}</li>
       {% endfor %}
     </ul>
+    {% endif %}
     <h2>Contact</h2>
 
     <p>For questions, comments, or suggestions please contact:</p>
-
     {% assign author = site.people | where:"name", page.contact | first %}
-
-    {{ author.name }}
-    <a href="mailto:{{author.social_links.email}}">{{author.social_links.email}}</a>
+    {% if author %}
+      {% if author.avatar %}
+        <img class="person-avatar" src="{{author.avatar | relative_url}}">
+      {% else %}
+        <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
+      {% endif %}
+      <span class="person-name-position">
+          <span class="person-name">{{ author.name }}</span>
+          <small class="person-position"><a href="mailto:{{author.social_links.email}}">{{author.social_links.email}}</a></small>
+      </span>
+    {% else %} <!-- if author is not present, just print the name and the dummy avatar. -->
+      <img class="person-avatar" src="/assets/images/people/avatar_dummy.svg">
+      <span class="person-name-position">
+        <span class="person-name">{{ page.contact }}</span>
+      </span>
+    {% endif %}
   </div>
 
 </article>
