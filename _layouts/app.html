@@ -4,6 +4,9 @@ layout: default
 <article class="app">
 
   <header class="app-header">
+    {% if page.header.app_image %}
+    <div class="app-image" style="background-image: url({{ page.header.app_image | relative_url }})"></div>
+    {% endif %}
     <h1 class="app-title">{{ page.title | escape }}</h1>
   </header>
 
