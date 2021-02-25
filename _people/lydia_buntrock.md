@@ -7,7 +7,7 @@ social_links:
   email: lydia.buntrock@fu-berlin.de
   github: irallia
 ---
-I am working on algorithms to find and classify structural variations of DNA. Funded by the BMBF, I am is doing my PhD
+I am working on algorithms to find and classify structural variations of DNA. Funded by the BMBF, I am persuing my PhD
 at Freie Universität Berlin.
 I hold two Bachelor of Science degrees in Mathematics and Informatics and a Master of Science degree in Bioinformatics
 from Freie Universität Berlin.
