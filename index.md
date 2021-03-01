@@ -10,7 +10,7 @@ title: "What is SeqAn?"
 header:
   overlay_image: /assets/images/overlay/front_page.jpg
 headings:
-  - url: "./#data_structures"
+  - url: "./data_structures"
     title: Data Structures
     image: /assets/images/icons/data-structures.svg
     excerpt: >
