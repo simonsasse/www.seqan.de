@@ -22,7 +22,7 @@ headings:
     excerpt: >
       SeqAn offer many core algorithms for sequence analysis. For example, pairwise and multiple alignments, approximate
       string searches and filter algorithms.
-  - url: "./#parallelization"
+  - url: "./parallelization"
     title: Parallelization
     image: /assets/images/icons/parallelization.svg
     excerpt: >
