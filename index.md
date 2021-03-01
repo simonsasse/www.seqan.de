@@ -28,7 +28,7 @@ headings:
     excerpt: >
       SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core
       algorithmic components.
-  - url: "./#input_and_output"
+  - url: "./input_and_output"
     title: Input and Output
     image: /assets/images/icons/input-output.svg
     excerpt: >
