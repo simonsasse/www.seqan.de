@@ -39,7 +39,7 @@ headings:
     excerpt: >
       Many efficient applications by different scientific groups and companies are based on SeqAn. Official applications
       by SeqAn project members are presented here and also some third party apps.
-  - url: "./#workflows"
+  - url: "./workflows"
     title: Workflows
     image: /assets/images/icons/workflows.svg
     excerpt: >
