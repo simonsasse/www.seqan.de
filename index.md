@@ -16,7 +16,7 @@ headings:
     excerpt: >
       SeqAn offers many data structures for sequence analysis. For example a unified interface for searching in string
       indices or succinct data structures for pangenomics.
-  - url: "./#algorithms"
+  - url: "./algorithms"
     title: Algorithms
     image: /assets/images/icons/algorithms.svg
     excerpt: >
