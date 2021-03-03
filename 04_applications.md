@@ -4,6 +4,7 @@ title: Applications
 permalink: /apps/
 header:
   overlay_image: /assets/images/overlay/applications.png
+categories: [official, wip]
 ---
 
 SeqAn is the foundation of many modern bioinformatics applications. Some of them are developed by the SeqAn team, mostly
@@ -19,8 +20,16 @@ The permissive open source BSD-license of the library enables you to integrate S
 attribution being the only legal requirement. But, please also cite our most recent SeqAn publication when you use SeqAn
 in your academic work.
 
-### Official
 
+{% for category in page.categories %}
+{%- if category == "official" -%}
+### Official
+{% else %}
+### Comming Soon
+{%- endif -%}
 {% for app in site.apps %}
+{%- if app.category == category %}
 * [{{ app.title }}]({{ app.url | relative_url }})
+{%- endif %}
+{% endfor %}
 {% endfor %}

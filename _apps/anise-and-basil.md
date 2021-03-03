@@ -3,7 +3,7 @@ title: ANISE and BASIL
 layout: app
 cite: fu_mi_publications1506
 contact: Manuel Holtgrewe
-categories: official
+category: official
 links:
   website: https://seqan.github.io/anise_basil/
   download: https://github.com/seqan/anise_basil/releases

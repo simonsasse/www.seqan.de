@@ -3,7 +3,7 @@ title: Fiona, A parallel and automatic strategy for read error correction
 layout: app
 cite: fu_mi_publications1451
 contact: Marcel Schulz
-categories: official
+category: official
 links:
   download: http://packages.seqan.de/fiona/
   source: https://github.com/seqan/seqan/tree/master/apps/fiona
