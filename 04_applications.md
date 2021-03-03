@@ -25,7 +25,7 @@ in your academic work.
 {%- if category == "official" -%}
 ### Official
 {% else %}
-### Comming Soon
+### Coming Soon
 {%- endif -%}
 {% for app in site.apps %}
 {%- if app.category == category %}
