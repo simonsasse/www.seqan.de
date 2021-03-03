@@ -2,7 +2,7 @@
 title: LaRA 2, efficient sequence-structure alignments of ncRNA
 layout: app
 contact: Jörg Winkler
-categories: official
+category: official
 links:
   website: https://seqan.github.io/lara
   download: https://github.com/seqan/lara/tarball/master
