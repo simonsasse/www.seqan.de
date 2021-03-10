@@ -379,19 +379,13 @@ main {
 
 // ====== Subpages Style ======
 
-.floating-figure{
-  float: left;
-  max-width: 400px;
-  width: 100%;
-  margin: 10px 10px;
-}
-
-.wide-figure{
-  float: left;
-  width: 100%;
-  margin: 10px 10px;
-}
-
 .fig-caption{
   color: grey;
+}
+
+.figures {
+  display: flex; // all figures will be on the same row
+  @include media-query($on-palm) { // ... except on smartphones
+    flex-wrap: wrap;
+  }
 }

@@ -6,7 +6,7 @@ permalink: /workflows/
 SeqAn is part of the CIBI, the Center for Integrative BIoinformatics, which is itself a center
 in the Gemran network for Bioinformatics infrastructure. In the CIBI SeqAn, OpenMS and KNIME are supported.
 
-<figure class="wide-figure">
+<figure>
     <img src="/assets/images/overlay/applications.png">
     <figcaption class="fig-caption">Example workflow using the applications Yara and SLIMM</figcaption>
 </figure>

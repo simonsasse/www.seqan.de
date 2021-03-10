@@ -5,12 +5,12 @@ permalink: /algorithms/
 ---
 
 SeqAn contains many efficient implementations of core bioinformatics algorithms. This starts with the standard dynamic programming based alignment algorithms with all its subtypes.
-<div style="flex-direction: row;">
-  <figure class="floating-figure">
+<div class="figures">
+  <figure>
     <img src="/assets/images/overlay/algorithms_stellar.png">
     <figcaption class="fig-caption">A depiction of the extension phase of the Stellar algorithm.</figcaption>
   </figure>
-  <figure class="floating-figure">
+  <figure>
     <img src="/assets/images/overlay/algorithms_fiona.png">
     <figcaption class="fig-caption">A depiction of the error correcting algorithm in the Fiona algorithm.</figcaption>
   </figure>

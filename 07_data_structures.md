@@ -10,7 +10,7 @@ to collection of strings or compressed strings.
 
 The Journaled string tree, for example allows the user to traverse all sequence contexts,
 given a window of a certain size, that are present in a set of sequences.
-<figure class="wide-figure">
+<figure>
   <img src="/assets/images/overlay/datastructures.png">
   <figcaption class="fig-caption">A traversal of a JST for a given set of sequences.</figcaption>
 </figure>
