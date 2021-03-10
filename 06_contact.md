@@ -9,8 +9,6 @@ header:
     marker: 52.45597506899463,13.29709678888321
 ---
 
-# Contact Info
-
 SeqAn
 
 Freie Universität Berlin \\
@@ -21,4 +19,4 @@ Algorithmische Bioinformatik
 
 * Phone: +49 (0)30 838-75237
 * Email: [seqan-dev@lists.fu-berlin.de](mailto:seqan-dev@lists.fu-berlin.de)
-* Web: [www.seqan.de](www.seqan.de)
+* Web: [www.seqan.de](https://www.seqan.de)
