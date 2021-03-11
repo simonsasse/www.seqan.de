@@ -136,13 +136,13 @@
 }
 
 .contact-list,
-.social-media-list {
+.various-media-list {
   list-style: none;
   margin-left: 0;
 }
 
 .footer-col-wrapper,
-.social-links {
+.various-links {
   @include relative-font-size(0.9375);
   color: $brand-color;
 }
@@ -287,7 +287,7 @@
 }
 
 
-.social-media-list {
+.various-media-list {
   display: table;
   margin: 0 auto;
   li {
@@ -310,7 +310,7 @@
  */
 .pagination {
   margin-bottom: $spacing-unit;
-  @extend .social-media-list;
+  @extend .various-media-list;
   li {
     a, div {
       min-width: 41px;
