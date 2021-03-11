@@ -7343,6 +7343,107 @@
   uri: http://publications.imp.fu-berlin.de/id/eprint/2434
   userid: 132
   volume: 15
+- abstract: "Over the past years, high-throughput sequencing (HTS) has become an invaluable\
+    \ method of investigation in molecular and medical biology. HTS technologies allow\
+    \ to sequence cheaply and rapidly an individual\u2019s DNA sample under the form\
+    \ of billions of short DNA reads. The ability to assess the content of a DNA sample\
+    \ at base-level resolution opens the way to a myriad of applications, including\
+    \ individual genotyping and assessment of large structural variations, measurement\
+    \ of gene expression levels and characterization of epigenetic features. Nonetheless,\
+    \ the quantity and quality of data produced by HTS instruments call for computationally\
+    \ efficient and accurate analysis methods. In this thesis, I present novel methods\
+    \ for the mapping of high-throughput sequencing DNA reads, based on state of the\
+    \ art approximate string matching algorithms and data structures. Read mapping\
+    \ is a fundamental step of any HTS data analysis pipeline in resequencing projects,\
+    \ where DNA reads are reassembled by aligning them back to a previously known\
+    \ reference genome. The ingenuity of approximate string matching methods is crucial\
+    \ to design efficient and accurate read mapping tools. In the first part of this\
+    \ thesis, I cover practical indexing and filtering methods for exact and approximate\
+    \ string matching. I present state of the art algorithms and data structures,\
+    \ give their pseudocode and discuss their implementation. Furthermore, I provide\
+    \ all implementations within SeqAn, the generic C++ template library for sequence\
+    \ analysis, which is freely available under http://www.seqan.de/. Subsequently,\
+    \ I experimentally evaluate all implemented methods, with the aim of guiding the\
+    \ engineering of new sequence alignment software. To the best of my knowledge,\
+    \ this is the first study providing a comprehensive exposition, implementation\
+    \ and evaluation of such methods. In the second part of this thesis, I turn to\
+    \ the engineering and evaluation of read mapping tools. First, I present a novel\
+    \ method to find all mapping locations per read within a user- defined error rate;\
+    \ this method is published in the peer-reviewed journal Nucleic Acids Research\
+    \ and packaged in a open source tool nicknamed Masai. Afterwards, I generalize\
+    \ this method to quickly report all co-optimal or suboptimal mapping locations\
+    \ per read within a user-defined error rate; this method, packaged in a tool called\
+    \ Yara, provides a more practical, yet sound solution to the read mapping problem.\
+    \ Extensive evaluations, both on simulated and real datasets, show that Yara has\
+    \ better speed and accuracy than de-facto standard read mapping tools."
+  bibtex: "@phdthesis{fu_mi_publications2507,\n abstract = {Over the past years, high-throughput\
+    \ sequencing (HTS) has become an invaluable method of investigation in molecular\
+    \ and medical biology. HTS technologies allow to sequence cheaply and rapidly\
+    \ an individual?s DNA sample under the form of billions of short DNA reads. The\
+    \ ability to assess the content of a DNA sample at base-level resolution opens\
+    \ the way to a myriad of applications, including individual genotyping and assessment\
+    \ of large structural variations, measurement of gene expression levels and characterization\
+    \ of epigenetic features. Nonetheless, the quantity and quality of data produced\
+    \ by HTS instruments call for computationally efficient and accurate analysis\
+    \ methods. In this thesis, I present novel methods for the mapping of high-throughput\
+    \ sequencing DNA reads, based on state of the art approximate string matching\
+    \ algorithms and data structures. Read mapping is a fundamental step of any HTS\
+    \ data analysis pipeline in resequencing projects, where DNA reads are reassembled\
+    \ by aligning them back to a previously known reference genome. The ingenuity\
+    \ of approximate string matching methods is crucial to design efficient and accurate\
+    \ read mapping tools. In the first part of this thesis, I cover practical indexing\
+    \ and filtering methods for exact and approximate string matching. I present state\
+    \ of the art algorithms and data structures, give their pseudocode and discuss\
+    \ their implementation. Furthermore, I provide all implementations within SeqAn,\
+    \ the generic C++ template library for sequence analysis, which is freely available\
+    \ under http://www.seqan.de/. Subsequently, I experimentally evaluate all implemented\
+    \ methods, with the aim of guiding the engineering of new sequence alignment software.\
+    \ To the best of my knowledge, this is the first study providing a comprehensive\
+    \ exposition, implementation and evaluation of such methods. In the second part\
+    \ of this thesis, I turn to the engineering and evaluation of read mapping tools.\
+    \ First, I present a novel method to find all mapping locations per read within\
+    \ a user- defined error rate; this method is published in the peer-reviewed journal\
+    \ Nucleic Acids Research and packaged in a open source tool nicknamed Masai. Afterwards,\
+    \ I generalize this method to quickly report all co-optimal or suboptimal mapping\
+    \ locations per read within a user-defined error rate; this method, packaged in\
+    \ a tool called Yara, provides a more practical, yet sound solution to the read\
+    \ mapping problem. Extensive evaluations, both on simulated and real datasets,\
+    \ show that Yara has better speed and accuracy than de-facto standard read mapping\
+    \ tools.},\n author = {Enrico Siragusa},\n month = {July},\n school = {Freie Universit{\\\
+    \"a}t Berlin},\n title = {Approximate string matching for high-throughput sequencing},\n\
+    \ url = {http://publications.imp.fu-berlin.de/2507/},\n year = {2015}\n}\n\n"
+  creators:
+  - name:
+      family: Siragusa
+      given: Enrico
+      honourific: null
+      lineage: null
+  date: '2015-07-23'
+  date_type: published
+  datestamp: '2021-03-04 14:34:17'
+  department: "Institut f\xFCr Informatik"
+  dir: disk0/00/00/25/07
+  divisions:
+  - group_algbioinf
+  eprint_status: archive
+  eprintid: 2507
+  full_text_status: none
+  institution: "Freie Universit\xE4t Berlin"
+  ispublished: pub
+  key: fu_mi_publications2507
+  lastmod: '2021-03-04 14:34:17'
+  metadata_visibility: show
+  official_url: https://refubium.fu-berlin.de/handle/fub188/11364
+  pages: 127
+  rev_number: 6
+  status_changed: '2021-03-04 14:34:17'
+  subjects:
+  - G400
+  thesis_type: phd
+  title: Approximate string matching for high-throughput sequencing
+  type: thesis
+  uri: http://publications.imp.fu-berlin.de/id/eprint/2507
+  userid: 132
 - bibtex: "@article{fu_mi_publications324,\n journal = {Science},\n keywords = {ASSEMBLY},\n\
     \ number = {5461},\n pages = {2185--2195},\n title = {The Genome Sequence of Drosophila\
     \ melanogaster},\n url = {http://publications.imp.fu-berlin.de/324/},\n volume\
