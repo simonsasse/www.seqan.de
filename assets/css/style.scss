@@ -376,3 +376,16 @@ main {
 .citation {
     color: grey;
 }
+
+// ====== Subpages Style ======
+
+.fig-caption{
+  color: grey;
+}
+
+.figures {
+  display: flex; // all figures will be on the same row
+  @include media-query($on-palm) { // ... except on smartphones
+    flex-wrap: wrap;
+  }
+}

@@ -10,25 +10,25 @@ title: "What is SeqAn?"
 header:
   overlay_image: /assets/images/overlay/front_page.jpg
 headings:
-  - url: "./#data_structures"
+  - url: "./data_structures"
     title: Data Structures
     image: /assets/images/icons/data-structures.svg
     excerpt: >
       SeqAn offers many data structures for sequence analysis. For example a unified interface for searching in string
       indices or succinct data structures for pangenomics.
-  - url: "./#algorithms"
+  - url: "./algorithms"
     title: Algorithms
     image: /assets/images/icons/algorithms.svg
     excerpt: >
       SeqAn offer many core algorithms for sequence analysis. For example, pairwise and multiple alignments, approximate
       string searches and filter algorithms.
-  - url: "./#parallelization"
+  - url: "./parallelization"
     title: Parallelization
     image: /assets/images/icons/parallelization.svg
     excerpt: >
       SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core
       algorithmic components.
-  - url: "./#input_and_output"
+  - url: "./input_and_output"
     title: Input and Output
     image: /assets/images/icons/input-output.svg
     excerpt: >
@@ -39,7 +39,7 @@ headings:
     excerpt: >
       Many efficient applications by different scientific groups and companies are based on SeqAn. Official applications
       by SeqAn project members are presented here and also some third party apps.
-  - url: "./#workflows"
+  - url: "./workflows"
     title: Workflows
     image: /assets/images/icons/workflows.svg
     excerpt: >
