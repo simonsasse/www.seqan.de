@@ -68,7 +68,8 @@ int main()
 }
 ```
 
-This feature was also added to the `seqan3::search` algorithm, i.e. both algorithms can be customised using a user callback.
+This feature was also added to the `seqan3::search` algorithm, i.e. both algorithms can be customised using a user
+callback.
 
 ### Lazy search result range
 
@@ -95,8 +96,9 @@ int main()
                                           "GGCCAGACAACCCGGCGCTAATGCACTCA"_dna4};
     seqan3::dna4_vector query{"GCT"_dna4};
 
-    seqan3::configuration const search_config = seqan3::search_cfg::max_error_total{seqan3::search_cfg::error_count{1}} |
-                                                seqan3::search_cfg::hit_all_best{};
+    seqan3::configuration const search_config = seqan3::search_cfg::max_error_total{
+                                                                        seqan3::search_cfg::error_count{1}} |
+                                                                        seqan3::search_cfg::hit_all_best{};
 
     // Always provide a unified interface over the found hits independent of the index its text layout.
     seqan3::debug_stream << "Search in text collection:\n";
@@ -159,10 +161,12 @@ search algorithm. This involves some structural changes, which break the current
 stable and easier to use.
 
 SeqAn now offers a data structure called interleaved Bloom filter, which can answer set-membership queries efficiently.
-The argument parser supports now advanced options, which are solely displayed on an extended help page of an application.
+The argument parser supports now advanced options, which are solely displayed on an extended help page of an
+application.
 A special minimiser-hash view was added to transform a sequence into a minimiser sequence of the hashes.
 
-For more details and changes please review our [changelog document](https://docs.seqan.de/seqan/3.0.2/about_changelog.html).
+For more details and changes please review our
+[changelog document](https://docs.seqan.de/seqan/3.0.2/about_changelog.html).
 Thank you very much for subscribing and enjoy the new version SeqAn 3.0.2!
 
 Your SeqAn Team
