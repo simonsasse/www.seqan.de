@@ -8,6 +8,8 @@ links:
   website: https://seqan.github.io/anise_basil/
   download: https://github.com/seqan/anise_basil/releases
   source: https://github.com/seqan/anise_basil/
+redirect_from:
+  - /projects/herbarium/
 ---
 
 **Motivation**: Large insertions of novel sequence are an important type of structural variants. Previous studies used
