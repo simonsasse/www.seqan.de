@@ -5,6 +5,8 @@ permalink: /apps/
 header:
   overlay_image: /assets/images/overlay/applications.png
 categories: [official, wip]
+redirect_from: 
+  - /applications/
 ---
 
 SeqAn is the foundation of many modern bioinformatics applications. Some of them are developed by the SeqAn team, mostly

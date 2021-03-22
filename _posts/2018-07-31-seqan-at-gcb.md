@@ -3,6 +3,8 @@ layout: post
 title: "SeqAn3 @GCB 2018"
 categories: event
 excerpt_separator: <!--more-->
+redirect_from:
+  - /seqan_3_tutorial_at_the_gcb_2018/
 ---
 
 We are happy to announce our tutorial, **SeqAn3 – a modern C++ library for efficient sequence analysis**, in a full day

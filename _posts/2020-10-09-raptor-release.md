@@ -3,6 +3,8 @@ layout: post
 title: "Raptor released"
 categories: release
 excerpt_separator: <!--more-->
+redirect_from:
+  - /raptor-released/
 ---
 
 The SeqAn team just finished working on their new tool **Raptor**, a new approach for distributing approximate searches.

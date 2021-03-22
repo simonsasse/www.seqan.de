@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Input and Output
-permalink: /input_and_output/
+permalink: /input-and-output/
+redirect_from:
+  - /inputoutput/
 ---
 SeqAn supports many standard file formats for sequence analysis and additional provides directives
 to write new I/O modules. Among the sequence file formats are:
