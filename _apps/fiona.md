@@ -7,6 +7,8 @@ category: official
 links:
   download: http://packages.seqan.de/fiona/
   source: https://github.com/seqan/seqan/tree/master/apps/fiona
+redirect_from:
+  - /projects/fiona/
 ---
 
 **Motivation**: Fiona is a tool for the automatic correction of sequencing errors in reads produced by high throughput sequencing experiments. It uses an efficient implementation of suffix arrays to detect read overlaps with different seed lengths in parallel. Fiona was compared on several real datasets to state-of-the-art methods and  showed overall superior correction accuracy. It was also among the fastest. Additionaly, Fiona embarks unique characteristics which makes it a good choice over existing programs:

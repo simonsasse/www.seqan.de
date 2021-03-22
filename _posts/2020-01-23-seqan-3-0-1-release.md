@@ -3,6 +3,8 @@ layout: post
 title: "SeqAn 3.0.1 released"
 categories: release
 excerpt_separator: <!--more-->
+redirect_from:
+  - /seqan-3-0-1-release/
 ---
 
 We are excited to present a new update of our SeqAn library. This release has been in the making for roughly half a

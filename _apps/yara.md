@@ -7,6 +7,8 @@ category: official
 links:
   download: http://packages.seqan.de/yara/
   source: https://github.com/seqan/seqan/tree/master/apps/yara
+redirect_from:
+  - /projects/yara/
 ---
 
 Yara is an exact tool for aligning DNA sequencing reads to reference genomes.

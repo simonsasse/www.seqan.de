@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Data structures
-permalink: /data_structures/
+permalink: /data-structures/
 ---
 
 SeqAn has numerous data structures that are helpful for analyzing biological sequences.

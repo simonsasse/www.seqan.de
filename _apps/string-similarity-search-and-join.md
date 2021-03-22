@@ -9,6 +9,8 @@ header:
 links:
   download: http://packages.seqan.de/searchjoin/
   source: https://github.com/seqan/seqan/tree/master/apps/searchjoin
+redirect_from:
+  - /projects/edbt2013/
 ---
 
 **Abstract:**

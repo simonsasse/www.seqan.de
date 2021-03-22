@@ -3,6 +3,9 @@ layout: page
 title: People
 permalink: /people/
 categories: [Team, Contributor, User, Alumni]
+redirect_from:
+  - /contributors/
+  - /seqan-users/
 ---
 
 {% for category in page.categories %}

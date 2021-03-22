@@ -3,6 +3,8 @@ layout: post
 title: "Announcing SeqAn3"
 categories: release
 excerpt_separator: <!--more-->
+redirect_from:
+  - /seqan-3-0-0-release/
 ---
 
 We are excited to announce version 3 of the SeqAn library. It has been many years in the making and is the largest
