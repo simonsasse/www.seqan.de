@@ -10,7 +10,7 @@ title: "What is SeqAn?"
 header:
   overlay_image: /assets/images/overlay/front_page.jpg
 headings:
-  - url: "./data_structures"
+  - url: "./data-structures"
     title: Data Structures
     image: /assets/images/icons/data-structures.svg
     excerpt: >
@@ -28,7 +28,7 @@ headings:
     excerpt: >
       SeqAn support modern Hardware. SIMD vectorization and multicore processing are being incorporated in core
       algorithmic components.
-  - url: "./input_and_output"
+  - url: "./input-and-output"
     title: Input and Output
     image: /assets/images/icons/input-output.svg
     excerpt: >
