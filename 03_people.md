@@ -29,6 +29,18 @@ redirect_from:
         <h4>Biography:</h4>
         {{ person.content | markdownify }}
     {% endif %}
+    <!-- Show all apps, that a person developed -->
+    {%- assign apps = site.apps | where: "contact", person.name -%}
+    {% if  apps != empty %}
+        <h4>Developed Application(s): </h4>
+        {% for app in site.apps %}
+            <ul>
+            {% if app.contact == person.name %}
+                <li><a href="{{ app.url }}">{{ app.title }}</a></li>
+            {% endif %}
+            </ul>
+        {% endfor %}
+    {% endif %}
     {%- if person.social_links %}
         <h4 class="person-social">Get in touch:</h4>
         {%- include social.html social=person.social_links -%}
