@@ -333,7 +333,8 @@ main {
     padding: 0.5em;
     @include relative-font-size(1.5);
     border-radius: 6px;
-
+    margin-bottom: $spacing-unit;
+    outline: none;
     &:hover {
         background-color: $seqan-color;
         transition: 0.2s;
@@ -350,6 +351,19 @@ main {
 
 .person-bio {
     margin-left: $spacing-unit;
+    margin-right: $spacing-unit;
+}
+
+details.person[open]{
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: $seqan-color;
+    margin-bottom: $spacing-unit;
+    // locks the background color of the summary to yellow, if person is unfolded.
+    .person-summary {
+        background-color: $seqan-color;
+    }
 }
 
 .person-name-position {
