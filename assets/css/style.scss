@@ -335,7 +335,8 @@ main {
     border-radius: 6px;
     margin-bottom: $spacing-unit;
     outline: none;
-    &:hover {
+    // highlight the summary of a person when hovering, or if the person is unfolded
+    &:hover, details.person[open] & {
         background-color: $seqan-color;
         transition: 0.2s;
     }
@@ -360,10 +361,6 @@ details.person[open]{
     border-bottom-width: 1px;
     border-color: $seqan-color;
     margin-bottom: $spacing-unit;
-    // locks the background color of the summary to yellow, if person is unfolded.
-    .person-summary {
-        background-color: $seqan-color;
-    }
 }
 
 .person-name-position {
