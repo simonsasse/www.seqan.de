@@ -335,6 +335,7 @@ main {
     border-radius: 6px;
     margin-bottom: $spacing-unit;
     outline: none;
+
     // highlight the summary of a person when hovering, or if the person is unfolded
     &:hover, details.person[open] & {
         background-color: $seqan-color;
