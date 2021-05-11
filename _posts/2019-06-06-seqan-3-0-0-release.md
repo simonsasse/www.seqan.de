@@ -5,6 +5,7 @@ categories: release
 excerpt_separator: <!--more-->
 redirect_from:
   - /seqan-3-0-0-release/
+  - /announcing-seqan3/
 ---
 
 We are excited to announce version 3 of the SeqAn library. It has been many years in the making and is the largest
@@ -58,8 +59,8 @@ the results that are generated while you iterate over them.
 ```c++
 std::vector vec{"ACGTACGTACGTA"_dna5};
 // pipe the vector through two view adaptors:
-auto v = vec | view::complement | view::translate_single; 
-// v is a view of length 4, accessing the elements on-demand will return 
+auto v = vec | view::complement | view::translate_single;
+// v is a view of length 4, accessing the elements on-demand will return
 [C,M,H,A]
 ```
 **Read a FastA file and print the entries:**
