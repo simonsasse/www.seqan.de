@@ -5,7 +5,7 @@ cite: fu_mi_publications962
 contact: Manuel Holtgrewe
 category: official
 links:
-  download: http://packages.seqan.de/mason/
+  download: http://packages.seqan.de/mason2/
   source: https://github.com/seqan/seqan/tree/master/apps/mason2
 redirect_from:
   - /projects/mason/
