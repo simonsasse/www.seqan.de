@@ -1,6 +1,5 @@
 ---
-title: >
-    SeqAn :: T-Coffee
+title: SeqAn::T-Coffee
 layout: app
 cite: fu_mi_publications391
 contact: Tobias Rausch
