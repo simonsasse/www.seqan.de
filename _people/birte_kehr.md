@@ -8,4 +8,4 @@ social_links:
   github: kehrlab
 ---
 
-Dr. Birte Kehr works at the Berlin Institute of Health leading the Junior Research Group Genome Informatics.
+Dr. Birte Kehr works at the Berlin Institute of Health leading the [Junior Research Group Genome Informatics](https://kehrlab.github.io/).
