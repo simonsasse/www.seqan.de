@@ -4,7 +4,7 @@ title: Applications
 permalink: /apps/
 header:
   overlay_image: /assets/images/overlay/applications.png
-categories: [official, wip]
+categories: [official, wip, third_party]
 redirect_from: 
   - /applications/
   - /projects/
@@ -30,8 +30,10 @@ in your academic work.
 {% for category in page.categories %}
 {%- if category == "official" -%}
 ### Official
-{% else %}
+{% elsif category == "wip" %}
 ### Coming Soon
+{% elsif category == "third_party" %}
+### Third-party
 {%- endif -%}
 {% for app in site.apps %}
 {%- if app.category == category %}
