@@ -1,5 +1,5 @@
 ---
-title: Tophat - A spliced read mapper for RNA-Seq
+title: <b>Tophat</b> - A spliced read mapper for RNA-Seq
 layout: app
 category: third_party
 redirect_to:
