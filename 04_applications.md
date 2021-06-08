@@ -38,6 +38,9 @@ in your academic work.
 {% for app in site.apps %}
 {%- if app.category == category %}
 * [{{ app.title }}]({{ app.url | relative_url }})
+{%- if app.seqan_version %}
+  <sup><span class="seqan-version-badge-{{app.seqan_version}}">SeqAn{{app.seqan_version}}</span></sup>
+{%- endif %}
 {%- endif %}
 {% endfor %}
 {% endfor %}

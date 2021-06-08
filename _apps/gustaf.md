@@ -1,6 +1,7 @@
 ---
 title: Gustaf
 layout: app
+seqan_version: 2
 cite: fu_mi_publications1455
 contact: Kathrin Trappe
 category: official

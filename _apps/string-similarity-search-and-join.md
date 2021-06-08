@@ -1,6 +1,7 @@
 ---
 title: String Similarity Search/Join
 layout: app
+seqan_version: 2
 cite: fu_mi_publications1225
 contact: Enrico Siragusa
 category: official

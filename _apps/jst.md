@@ -1,6 +1,7 @@
 ---
 title: Journal String Tree (JST)
 layout: app
+seqan_version: 2
 cite: fu_mi_publications1448
 contact: René Rahn
 category: official

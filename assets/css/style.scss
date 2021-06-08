@@ -398,3 +398,18 @@ details.person[open] {
     flex-wrap: wrap;
   }
 }
+// ====== App-page Style ======
+
+.seqan-version-badge-2, .seqan-version-badge-3{
+  color: black;
+  border-radius: 6px;
+  font-size: 80%;
+  padding: 4px;
+}
+.seqan-version-badge-2 {
+  background-color: $seqan-color;
+  opacity: 70%;
+}
+.seqan-version-badge-3 {
+  background-color: $seqan-color;
+}
