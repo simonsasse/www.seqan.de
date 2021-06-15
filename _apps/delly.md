@@ -1,5 +1,6 @@
 ---
-title: <b>Delly</b> - Integrated Structural Variant Discovery
+title: Delly
+subtitle: Integrated Structural Variant Discovery
 layout: app
 category: third_party
 redirect_to:

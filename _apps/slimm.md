@@ -1,5 +1,6 @@
 ---
-title: SLIMM - Species Level Identification of Microbes from Metagenomes
+title: SLIMM
+subtitle: Species Level Identification of Microbes from Metagenomes
 layout: app
 seqan_version: 2
 cite: fu_mi_publications2119
