@@ -1,6 +1,7 @@
 ---
 title: Raptor - A fast and space-efficient pre-filter for querying very large collections of nucleotide sequences
 layout: app
+seqan_version: 3
 contact: Enrico Seiler
 category: wip
 links:

@@ -402,14 +402,15 @@ details.person[open] {
 
 .seqan-version-badge-2, .seqan-version-badge-3{
   color: black;
-  border-radius: 6px;
+  border-radius: 2px;
   font-size: 80%;
-  padding: 4px;
+  padding: 2px;
 }
 .seqan-version-badge-2 {
-  background-color: $seqan-color;
-  opacity: 70%;
+  background-color: #FDFD96; // pastel yellow
+  border: 1px solid darken(#FDFD96, 20%); // 20% darker color
 }
 .seqan-version-badge-3 {
-  background-color: $seqan-color;
+  background-color: greenyellow;
+  border: 1px solid darken(#C1E1C1, 20%); // 20% darker color
 }
