@@ -1,6 +1,6 @@
 ---
 title: Vaquita
-subtitle: Fast and Accurate Identification of Structural Variation Using Combined Evidence
+subtitle: Fast and accurate identification of structural variation using combined evidence
 layout: app
 seqan_version: 2
 cite: fu_mi_publications2133

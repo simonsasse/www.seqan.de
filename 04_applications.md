@@ -37,13 +37,13 @@ in your academic work.
 {%- endif -%}
 {% for app in site.apps %}
 {%- if app.category == category %}
-{% if app.subtitle %}
-* [**{{ app.title }}** - {{app.subtitle}}]({{ app.url | relative_url }})
-{% else %}
-* [**{{ app.title }}**]({{ app.url | relative_url }})
-{% endif %}
+{%- if app.subtitle %}
+* [**{{ app.title }}** - {{app.subtitle}} ]({{ app.url | relative_url }})
+{%- else %}
+* [**{{ app.title }}** ]({{ app.url | relative_url }})
+{%- endif %}
 {%- if app.seqan_version %}
-  <sup><span class="seqan-version-badge-{{app.seqan_version}}">SeqAn{{app.seqan_version}}</span></sup>
+<sup><span class="seqan-version-badge-{{app.seqan_version}}">SeqAn{{app.seqan_version}}</span></sup>
 {%- endif %}
 {%- endif %}
 {% endfor %}
