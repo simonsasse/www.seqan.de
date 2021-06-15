@@ -1,6 +1,7 @@
 ---
 title: RazerS 3
 layout: app
+seqan_version: 2
 cite: [fu_mi_publications1159,fu_mi_publications453]
 contact: David Weese
 category: official

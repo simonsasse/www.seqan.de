@@ -1,6 +1,7 @@
 ---
 title: Stellar
 layout: app
+seqan_version: 2
 cite: fu_mi_publications1092
 contact: Birte Kehr
 category: official

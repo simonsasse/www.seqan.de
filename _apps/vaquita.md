@@ -3,6 +3,7 @@ header:
   app_image: /assets/images/apps/vaquita_logo.png
 title: Vaquita, fast and Accurate Identification of Structural Variation Using Combined Evidence
 layout: app
+seqan_version: 2
 cite: fu_mi_publications2133
 contact: Jongkyu Kim
 category: official

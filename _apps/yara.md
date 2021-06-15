@@ -1,6 +1,7 @@
 ---
 title: Yara – Yet another read aligner
 layout: app
+seqan_version: 2
 cite: [fu_mi_publications1161, fu_mi_publications2507]
 contact: Enrico Siragusa
 category: official

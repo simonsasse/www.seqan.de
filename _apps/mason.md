@@ -1,6 +1,7 @@
 ---
 title: Mason
 layout: app
+seqan_version: 2
 cite: fu_mi_publications962
 contact: Manuel Holtgrewe
 category: official
